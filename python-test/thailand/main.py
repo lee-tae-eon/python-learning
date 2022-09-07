@@ -43,12 +43,11 @@ def get_page():
 
       for code in tr_list:
         hs_code = code.find("a").string if code.find("a") != None else " "
-        t_desc = code.select("td:nth-last-child(2)")
-        e_desc = code.select("td:last-child")
-        # t_desc = code.find("td:nth-child(1)").string if code.find("td:nth-child(1)") != None else " "
-        # e_desc = code.find("td:nth-child(2)").string if code.find("td:nth-child(2)") != None else " "
+        t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True)
+        e_desc = code.select_one("td:last-child").get_text(strip=True)
+
         print(hs_code, t_desc, e_desc)
-        # print(hs_code ,t_desc, e_desc)
+
         print("///\n///")
 
 
