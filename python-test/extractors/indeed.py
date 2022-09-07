@@ -68,17 +68,14 @@ def extract_indeed_jobs(keyword):
 
         job_data = {
           "link": f"https://kr.indeed.com{link}",
-          "company": company.string,
-          "location": location.string,
-          "position": title,
+          "company": company.string.replace(",", " "),
+          "location": location.string.replace(",", " "),
+          "position": title.replace(",", " "),
         }
         results.append(job_data)
   return results
 
 
 
-jobs = extract_indeed_jobs("react")
 
-print(jobs)
-print("\n\n")
-print(len(jobs))
+
