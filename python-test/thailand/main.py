@@ -41,7 +41,8 @@ def get_page():
       hs_code = code.find("a").string if code.find("a") != None else " "
       t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
       e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
-      indent = 1
+      indent = t_desc.count("-")
+      print(indent)
 
       code_dict = {"hs_code": hs_code, "origin": t_desc, "english": e_desc, "indent": indent}
       results.append(code_dict)
