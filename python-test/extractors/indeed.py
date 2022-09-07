@@ -18,6 +18,8 @@ def get_page_count(keyword):
   base_url = "https://kr.indeed.com/jobs?q="
 
   browser.get(f"{base_url}{keyword}")
+  sleep(1)
+
   soup = BeautifulSoup(browser.page_source, "html.parser")
 
   paginationSoup =  soup.find("ul", class_="pagination-list")
@@ -36,7 +38,6 @@ def get_page_count(keyword):
 
 
 def extract_indeed_jobs(keyword):
-  sleep(1)
 
   pages = get_page_count(keyword)
   print(pages, "pages")
@@ -49,6 +50,7 @@ def extract_indeed_jobs(keyword):
     final_url = f"{base_url}?q={keyword}&start={page - 1}"
 
     browser.get(final_url)
+    sleep(1)
     soup = BeautifulSoup(browser.page_source, "html.parser")
 
     job_list = soup.find("ul", class_="jobsearch-ResultsList")
