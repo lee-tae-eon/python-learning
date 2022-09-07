@@ -42,10 +42,13 @@ def get_page():
       tr_list = t_body.find_all("tr")
 
       for code in tr_list:
-        anchor = code.find("a").text if code.find("a") != None else " "
-
-
-        print(anchor)
+        hs_code = code.find("a").string if code.find("a") != None else " "
+        t_desc = code.select("td:nth-last-child(2)")
+        e_desc = code.select("td:last-child")
+        # t_desc = code.find("td:nth-child(1)").string if code.find("td:nth-child(1)") != None else " "
+        # e_desc = code.find("td:nth-child(2)").string if code.find("td:nth-child(2)") != None else " "
+        print(hs_code, t_desc, e_desc)
+        # print(hs_code ,t_desc, e_desc)
         print("///\n///")
 
 
