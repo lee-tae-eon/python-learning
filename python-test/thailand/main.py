@@ -20,25 +20,35 @@ import  requests
 
 
 
-hs_code_list = []
+search_list = []
 
 for i in range(97):
   current_code = f"0{i + 1}" if i + 1 < 10  else str(i + 1)
-  hs_code_list.append(current_code)
+  search_list.append(current_code)
 
-base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
 
 def get_page():
-  for code in hs_code_list:
-    params = {"lang": "t", "taffCode": {code}, "docBegnDate": "07/09/2565", "param": "search"}
+  base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
+  for code in search_list:
+    params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
     sleep(3)
     response = requests.post(base_url, params=params)
     if response.status_code != 200:
       print(f"status {response.status_code}")
     else:
       soup = bs(response.text, "html.parser")
+      t_body = soup.find("tbody")
 
-      print(soup)
+      tr_list = t_body.find_all("tr")
+
+      for code in tr_list:
+        anchor = code.find("a").text if code.find("a") != None else " "
+
+
+        print(anchor)
+        print("///\n///")
+
+
 
 get_page()
 
