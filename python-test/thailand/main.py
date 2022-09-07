@@ -11,6 +11,31 @@ import  requests
 # ! 아니면 우측의 드롭다운을 선택하여 ALL로 선택하여 검색버튼을 누르면 다음 페이지와 같이 화면이 나옴
 
 
+
+
+def get_final_hs_code_detil(keyword):
+  print(keyword)
+
+  base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
+  params ={
+    "param": "display1",
+    "lang": "t",
+    "key2": f"{keyword}",
+    "key": "z",
+    "keyName": "All",
+    "docBegnDate": "07/09/2022",
+    "piveName": "z"
+  }
+
+  response = requests.post(base_url, params=params)
+  if response.status_code != 200:
+    print(f"status {response.status_code}")
+  else:
+    soup = bs(response.text, "html.parser")
+    print(response.status_code)
+
+# ! ------------------------------------------------------------------------------
+
 search_list = []
 
 for i in range(97):
@@ -18,11 +43,11 @@ for i in range(97):
   search_list.append(current_code)
 
 
-def get_page():
-  base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
+def get_hs_code():
   results = []
+  base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
   # for code in search_list:
-    #params = {"lang": "t", "taffCode": f"{code}", "docBegnDate": "07/09/2565", "param": "search"}
+  #   params = {"lang": "t", "taffCode": f"{code}", "docBegnDate": "07/09/2565", "param": "search"}
   params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
   print("//////////")
   print(results, "test")
@@ -39,6 +64,10 @@ def get_page():
 
     for code in tr_list:
       hs_code = code.find("a").string if code.find("a") != None else " "
+
+      if len(hs_code.replace(".","")) >= 8:
+        get_final_hs_code_detil(hs_code.replace(".",""))
+
       t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
       e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
       indent = t_desc.count("-")
@@ -47,17 +76,17 @@ def get_page():
       code_dict = {"hs_code": hs_code, "origin": t_desc, "english": e_desc, "indent": indent}
       results.append(code_dict)
 
-  file = open(f"thiland.csv", "w")
+    file = open(f"thiland.csv", "w")
 
-  file.write("hscode, origin, english, indent\n")
+    file.write("hscode, indent, origin, english\n")
 
-  for result in results:
-    file.write(f"{result['hs_code']},{result['origin']},{result['english']},{result['indent']}\n")
+    for result in results:
+      file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
 
-  file.close()
+    file.close()
 
 
-get_page()
+get_hs_code()
 
 
 
