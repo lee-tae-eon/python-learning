@@ -9,15 +9,6 @@ import  requests
 
 # ! HS 0101.21.00의 최종 관세율을 확인하려면 첫번째 빨간 박스인 HS CODE를 클릭하거나,
 # ! 아니면 우측의 드롭다운을 선택하여 ALL로 선택하여 검색버튼을 누르면 다음 페이지와 같이 화면이 나옴
-# options = Options()
-# user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
-
-# options.add_argument('user-agent=' + user_agent)
-# options.add_argument('headless')
-# options.add_argument('--blink-settings=imagesEnabled=false')
-
-# driver = webdriver.Chrome(options=options)
-
 
 
 search_list = []
