@@ -20,27 +20,40 @@ for i in range(97):
 
 def get_page():
   base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
-  for code in search_list:
-    params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
-    sleep(3)
-    response = requests.post(base_url, params=params)
-    if response.status_code != 200:
-      print(f"status {response.status_code}")
-    else:
-      soup = bs(response.text, "html.parser")
-      t_body = soup.find("tbody")
+  results = []
+  # for code in search_list:
+    #params = {"lang": "t", "taffCode": f"{code}", "docBegnDate": "07/09/2565", "param": "search"}
+  params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
+  print("//////////")
+  print(results, "test")
+  print("//////////")
+  sleep(3)
+  response = requests.post(base_url, params=params)
+  if response.status_code != 200:
+    print(f"status {response.status_code}")
+  else:
+    soup = bs(response.text, "html.parser")
+    t_body = soup.find("tbody")
 
-      tr_list = t_body.find_all("tr")
+    tr_list = t_body.find_all("tr")
 
-      for code in tr_list:
-        hs_code = code.find("a").string if code.find("a") != None else " "
-        t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True)
-        e_desc = code.select_one("td:last-child").get_text(strip=True)
+    for code in tr_list:
+      hs_code = code.find("a").string if code.find("a") != None else " "
+      t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
+      e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
+      indent = 1
 
-        print(hs_code, t_desc, e_desc)
+      code_dict = {"hs_code": hs_code, "origin": t_desc, "english": e_desc, "indent": indent}
+      results.append(code_dict)
 
-        print("///\n///")
+  file = open(f"thiland.csv", "w")
 
+  file.write("hscode, origin, english, indent\n")
+
+  for result in results:
+    file.write(f"{result['hs_code']},{result['origin']},{result['english']},{result['indent']}\n")
+
+  file.close()
 
 
 get_page()
