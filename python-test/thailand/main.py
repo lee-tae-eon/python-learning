@@ -15,9 +15,6 @@ base_url= "http://itd.customs.go.th/igtf/viewerImportTariff.do"
 
 
 def get_final_hs_code_detil_english(keyword):
-  print(keyword)
-
-
   params ={
     "param": "display1",
     "lang": "e",
@@ -34,12 +31,32 @@ def get_final_hs_code_detil_english(keyword):
   else:
     soup = bs(response.text, "html.parser")
     main_div = soup.find(id="divprint")
+    main_table = main_div.find_all("div", class_="table-responsive")
+    # ! tag없는 text추출
+    # if main_table.previous_silbing ==
+    list_custom_detail = []
+    for index, table in enumerate(main_table, 0) :
+      # ! tag가 없는 요소인 협정세율 네이밍 가져오기 br태그 기준
+      _br = table.find_previous_sibling("br")
 
-    _font_list = main_div.find_all("font", recursive=False)
-    for font in _font_list:
-      print(font.previous_sibling.strip())
+      if _br == None:
+        rate_title = table.previous_sibling
+      else:
+        rate_title = _br.next_sibling
 
 
+      # if  _font == None:
+      #   print(table.previous_sibling, "prev not font")
+      # else:
+      #   print(_font.previous_sibling)
+
+    # _font_list = main_div.find_all("font", recursive=False)
+    # text_list = []
+    # for font in _font_list:
+    #   imp_tariff_code = font.previous_sibling.strip().replace("\r", "").replace("\n","")
+    #   text_list.append(imp_tariff_code)
+
+    # print(text_list)
 
 
 # ! ------------------------------------------------------------------------------
@@ -88,7 +105,7 @@ def get_hs_code():
               break
       indent = f'{count}'
 
-      print(indent)
+
 
       code_dict = {"hs_code": hs_code,"indent": indent, "origin": t_desc, "english": e_desc, "ceiling_rate": "",  "general_Rate": "", }
       results.append(code_dict)
