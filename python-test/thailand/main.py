@@ -33,11 +33,13 @@ def get_final_hs_code_detil_english(keyword):
     print(f"status {response.status_code}")
   else:
     soup = bs(response.text, "html.parser")
-    main_div = soup.find_all(id="divprint", recursive=False)
+    main_div = soup.find(id="divprint")
 
-    each_text = main_div.text if main_div != None else print("test")
+    _font_list = main_div.find_all("font", recursive=False)
+    for font in _font_list:
+      print(font.previous_sibling.strip())
 
-    print(each_text)
+
 
 
 # ! ------------------------------------------------------------------------------
