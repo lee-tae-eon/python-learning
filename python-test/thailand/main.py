@@ -38,11 +38,20 @@ def get_final_hs_code_detil_english(keyword):
     for index, table in enumerate(main_table, 0) :
       # ! tag가 없는 요소인 협정세율 네이밍 가져오기 br태그 기준
       _br = table.find_previous_sibling("br")
+      # * 협정세율 네이밍
+      rate_title = table.previous_sibling if _br == None else _br.next_sibling
+      # * 혐정세율 duty rate
+      inside_tbody = table.find_all("td")[0]
+      start_date = table.select_one("td:nth-last-child(3)").get_text(strip=True)
+      end_date = table.select_one("td:nth-last-child(2)").get_text(strip=True)
+      print(rate_title.split(":", 1)[0],start_date, end_date)
 
-      if _br == None:
-        rate_title = table.previous_sibling
-      else:
-        rate_title = _br.next_sibling
+      # if _br == None:
+      #   rate_title =
+      #
+      #   print(inside_tbody)
+      # else:
+      #   rate_title =
 
 
       # if  _font == None:
