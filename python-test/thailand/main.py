@@ -32,40 +32,42 @@ def get_final_hs_code_detil_english(keyword):
     soup = bs(response.text, "html.parser")
     main_div = soup.find(id="divprint")
     main_table = main_div.find_all("div", class_="table-responsive")
-    # ! tag없는 text추출
-    # if main_table.previous_silbing ==
+
     list_custom_detail = []
     for index, table in enumerate(main_table, 0) :
       # ! tag가 없는 요소인 협정세율 네이밍 가져오기 br태그 기준
       _br = table.find_previous_sibling("br")
       # * 협정세율 네이밍
       rate_title = table.previous_sibling if _br == None else _br.next_sibling
-      # * 혐정세율 duty rate
-      inside_tbody = table.find_all("td")[0]
-      start_date = table.select_one("td:nth-last-child(3)").get_text(strip=True)
-      end_date = table.select_one("td:nth-last-child(2)").get_text(strip=True)
-      print(rate_title.split(":", 1)[0],start_date, end_date)
 
-      # if _br == None:
-      #   rate_title =
-      #
-      #   print(inside_tbody)
-      # else:
-      #   rate_title =
+      _tbody = table.find("tbody")
+      _tr_list = _tbody.find_all("tr", reculsive = False)
+
+      for tr in _tr_list:
+        _td_list = tr.find_all("td")
+
+        hs_code = _td_list[1].string.strip()
+        description = _td_list[2].string.strip()
+        ad_valorem_rate = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[3].text.strip()
+        unit = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[4].text.strip()
+        baht = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[5].text.strip()
+        start_date = _td_list[-3].string.strip()
+        end_date = _td_list[-2].string.strip()
+        rate_dict = {
+          "rate_title": rate_title.strip(),
+          "hs_code" : hs_code,
+          "description" : description,
+          "ad_valorem_rate" : ad_valorem_rate,
+          "unit" : unit,
+          "baht" : baht,
+          "start_date" : start_date,
+          "end_date" : end_date,
+        }
+        list_custom_detail.append(rate_dict)
+    return list_custom_detail
 
 
-      # if  _font == None:
-      #   print(table.previous_sibling, "prev not font")
-      # else:
-      #   print(_font.previous_sibling)
 
-    # _font_list = main_div.find_all("font", recursive=False)
-    # text_list = []
-    # for font in _font_list:
-    #   imp_tariff_code = font.previous_sibling.strip().replace("\r", "").replace("\n","")
-    #   text_list.append(imp_tariff_code)
-
-    # print(text_list)
 
 
 # ! ------------------------------------------------------------------------------
@@ -82,9 +84,9 @@ def get_hs_code():
 
   # for code in search_list:
   #   params = {"lang": "t", "taffCode": f"{code}", "docBegnDate": "07/09/2565", "param": "search"}
-  params = {"lang": "t", "taffCode": "03", "docBegnDate": "07/09/2565", "param": "search"}
+  params = {"lang": "t", "taffCode": "02", "docBegnDate": "07/09/2565", "param": "search"}
 
-  sleep(3)
+  sleep(2)
 
   response = requests.post(base_url, params=params)
 
@@ -97,12 +99,14 @@ def get_hs_code():
     tr_list = t_body.find_all("tr")
 
     for code in tr_list:
-
+      sleep(1)
       hs_code = code.find("a").string if code.find("a") != None else " "
 
       if len(hs_code.replace(".","")) >= 8:
-        get_final_hs_code_detil_english(hs_code.replace(".",""))
-
+        custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
+        print(custom_rate_dict)
+        if(hs_code == "0203.12.00"):
+          print(custom_rate_dict)
       t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
       e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
 
