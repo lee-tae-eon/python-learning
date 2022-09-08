@@ -10,16 +10,17 @@ import  requests
 # ! HS 0101.21.00의 최종 관세율을 확인하려면 첫번째 빨간 박스인 HS CODE를 클릭하거나,
 # ! 아니면 우측의 드롭다운을 선택하여 ALL로 선택하여 검색버튼을 누르면 다음 페이지와 같이 화면이 나옴
 
+base_url= "http://itd.customs.go.th/igtf/viewerImportTariff.do"
 
 
 
-def get_final_hs_code_detil(keyword):
+def get_final_hs_code_detil_english(keyword):
   print(keyword)
 
-  base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
+
   params ={
     "param": "display1",
-    "lang": "t",
+    "lang": "e",
     "key2": f"{keyword}",
     "key": "z",
     "keyName": "All",
@@ -32,7 +33,12 @@ def get_final_hs_code_detil(keyword):
     print(f"status {response.status_code}")
   else:
     soup = bs(response.text, "html.parser")
-    print(response.status_code)
+    main_div = soup.find_all(id="divprint", recursive=False)
+
+    each_text = main_div.text if main_div != None else print("test")
+
+    print(each_text)
+
 
 # ! ------------------------------------------------------------------------------
 
@@ -45,15 +51,15 @@ for i in range(97):
 
 def get_hs_code():
   results = []
-  base_url = "http://itd.customs.go.th/igtf/viewerImportTariff.do"
+
   # for code in search_list:
   #   params = {"lang": "t", "taffCode": f"{code}", "docBegnDate": "07/09/2565", "param": "search"}
   params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
-  print("//////////")
-  print(results, "test")
-  print("//////////")
+
   sleep(3)
+
   response = requests.post(base_url, params=params)
+
   if response.status_code != 200:
     print(f"status {response.status_code}")
   else:
@@ -63,27 +69,36 @@ def get_hs_code():
     tr_list = t_body.find_all("tr")
 
     for code in tr_list:
+
       hs_code = code.find("a").string if code.find("a") != None else " "
 
       if len(hs_code.replace(".","")) >= 8:
-        get_final_hs_code_detil(hs_code.replace(".",""))
+        get_final_hs_code_detil_english(hs_code.replace(".",""))
 
       t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
       e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
-      indent = t_desc.count("-")
+
+      count = 0
+      for word in t_desc:
+          if word == '-':
+              count = count + 1
+          elif word != ' ':
+              break
+      indent = f'{count}'
+
       print(indent)
 
-      code_dict = {"hs_code": hs_code, "origin": t_desc, "english": e_desc, "indent": indent}
+      code_dict = {"hs_code": hs_code,"indent": indent, "origin": t_desc, "english": e_desc, "ceiling_rate": "",  "general_Rate": "", }
       results.append(code_dict)
 
-    file = open(f"thiland.csv", "w")
+    # file = open(f"thiland.csv", "w")
 
-    file.write("hscode, indent, origin, english\n")
+    # file.write("hscode, indent, origin, english\n")
 
-    for result in results:
-      file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
+    # for result in results:
+    #   file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
 
-    file.close()
+    # file.close()
 
 
 get_hs_code()
