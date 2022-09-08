@@ -82,7 +82,7 @@ def get_hs_code():
 
   # for code in search_list:
   #   params = {"lang": "t", "taffCode": f"{code}", "docBegnDate": "07/09/2565", "param": "search"}
-  params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
+  params = {"lang": "t", "taffCode": "03", "docBegnDate": "07/09/2565", "param": "search"}
 
   sleep(3)
 
