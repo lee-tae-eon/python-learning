@@ -34,7 +34,7 @@ def get_final_hs_code_detil_english(keyword):
     main_table = main_div.find_all("div", class_="table-responsive")
 
     list_custom_detail = []
-    for index, table in enumerate(main_table, 0) :
+    for table in main_table :
       # ! tag가 없는 요소인 협정세율 네이밍 가져오기 br태그 기준
       _br = table.find_previous_sibling("br")
       # * 협정세율 네이밍
