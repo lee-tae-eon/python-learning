@@ -49,9 +49,12 @@ def get_final_hs_code_detil_english(keyword):
 
         hs_code = _td_list[1].string.strip()
         description = _td_list[2].string.strip()
-        ad_valorem_rate = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[3].text.strip()
-        unit = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[4].text.strip()
-        baht = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[5].text.strip()
+        # ad_valorem_rate = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[3].text.strip()
+        # unit = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[4].text.strip()
+        # baht = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[5].text.strip()
+        ad_valorem_rate = "Exempted" if len(_td_list)  == 8 else _td_list[3].text.strip().replace("\r\n","").replace("**","")
+        unit = "Exempted" if len(_td_list)  == 8 else _td_list[4].text.strip().replace("\r\n","").replace("**","")
+        baht = "Exempted" if len(_td_list)  == 8 else _td_list[5].text.strip().replace("\r\n","").replace("**","")
         start_date = _td_list[-3].string.strip()
         end_date = _td_list[-2].string.strip()
         rate_dict = {
