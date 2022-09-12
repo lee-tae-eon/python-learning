@@ -31,10 +31,11 @@ def get_final_hs_code_detil_english(keyword):
   else:
     soup = bs(response.text, "html.parser")
     main_div = soup.find(id="divprint")
-    main_table = main_div.find_all("div", class_="table-responsive")
+    main_table_list = main_div.find_all("div", class_="table-responsive")
 
     list_custom_detail = []
-    for table in main_table :
+
+    for table in main_table_list :
       # ! tag가 없는 요소인 협정세율 네이밍 가져오기 br태그 기준
       _br = table.find_previous_sibling("br")
       # * 협정세율 네이밍
@@ -64,6 +65,8 @@ def get_final_hs_code_detil_english(keyword):
           "end_date" : end_date,
         }
         list_custom_detail.append(rate_dict)
+
+
     return list_custom_detail
 
 
@@ -100,12 +103,13 @@ def get_hs_code():
 
     for code in tr_list:
       sleep(1)
-      hs_code = code.find("a").string if code.find("a") != None else " "
+      hs_code = code.find("a").string.strip() if code.find("a") != None else " "
+      custom_rate_dict = [{}]
 
       if len(hs_code.replace(".","")) >= 8:
         custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
-        print(custom_rate_dict)
-        if(hs_code == "0203.12.00"):
+        if(hs_code.replace(".","") == "02031200"):
+          print(hs_code, "hs-code")
           print(custom_rate_dict)
       t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
       e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
@@ -120,9 +124,9 @@ def get_hs_code():
 
 
 
-      code_dict = {"hs_code": hs_code,"indent": indent, "origin": t_desc, "english": e_desc, "ceiling_rate": "",  "general_Rate": "", }
+      code_dict = {"hs_code": hs_code,"indent": indent, "origin": t_desc, "english": e_desc, "ceiling_rate": "",  "general_Rate": "", "custom_rate": custom_rate_dict }
       results.append(code_dict)
-
+    print(results)
     # file = open(f"thiland.csv", "w")
 
     # file.write("hscode, indent, origin, english\n")
