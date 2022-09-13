@@ -182,6 +182,7 @@ def get_hs_code():
 
         if len(custom_rate_dict["new_hscode_list"]) >= 1:
           for new_code in custom_rate_dict["new_hscode_list"]:
+            print(new_code)
             new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent, "origin": "", "english": new_code["description"], }
             results.append(new_code_dict)
 
