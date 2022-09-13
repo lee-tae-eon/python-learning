@@ -14,7 +14,11 @@ base_url= "http://itd.customs.go.th/igtf/viewerImportTariff.do"
 
 
 
+
 def get_final_hs_code_detil_english(keyword):
+
+  exact_keyword = keyword.replace(".","")
+
   params ={
     "param": "display1",
     "lang": "e",
@@ -34,7 +38,9 @@ def get_final_hs_code_detil_english(keyword):
     main_div = soup.find(id="divprint")
     main_table_list = main_div.find_all("div", class_="table-responsive")
 
-    list_custom_detail = []
+
+    new_hscode_list = []
+    rate_dict_list = []
 
     for table in main_table_list :
       # ! tag가 없는 요소인 협정세율 네이밍 가져오기 br태그 기준
@@ -51,32 +57,43 @@ def get_final_hs_code_detil_english(keyword):
 
         sub_heading = _td_list[1].string.strip()
         description = _td_list[2].string.strip()
-        # ad_valorem_rate = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[3].text.strip()
-        # unit = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[4].text.strip()
-        # baht = _td_list[3].select_one("font").get_text(strip=True) if len(_td_list)  == 8 else _td_list[5].text.strip()
+
         ad_valorem_rate = "Exempted" if len(_td_list)  == 8 else _td_list[3].text.strip().replace("\r\n","").replace("**","").strip()
         unit = "Exempted" if len(_td_list)  == 8 else _td_list[4].text.strip().replace("\r\n","").replace("**","")
         baht = "Exempted" if len(_td_list)  == 8 else _td_list[5].text.strip().replace("\r\n","").replace("**","")
         start_date = _td_list[-3].string.strip()
         end_date = _td_list[-2].string.strip()
 
-        rate_dict = {
-          f"{str_rate_title}": {
-            "sub_heading" : sub_heading,
-            "description" : description,
+        if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
+          print(f"{exact_keyword}00", sub_heading.replace(".", ""))
+          new_hscode = {
+            "hs_code": sub_heading,
+            "description": description,
+            "rate_title": str_rate_title,
             "ad_valorem_rate" : ad_valorem_rate,
             "unit" : unit,
             "baht" : baht,
             "start_date" : start_date,
             "end_date" : end_date,
           }
-        }
-        print(rate_dict)
+          new_hscode_list.append(new_hscode)
+        else:
+          rate_dict = {
+              "rate_title": str_rate_title,
+              "sub_heading" : sub_heading,
+              "description" : description,
+              "ad_valorem_rate" : ad_valorem_rate,
+              "unit" : unit,
+              "baht" : baht,
+              "start_date" : start_date,
+              "end_date" : end_date,
+            }
 
-        list_custom_detail.append(rate_dict)
+          rate_dict_list.append(rate_dict)
 
 
-    return list_custom_detail
+
+    return {"new_hscode_list":new_hscode_list, "rate_dict_list":rate_dict_list}
 
 
 
@@ -113,10 +130,6 @@ def get_hs_code():
     for code in tr_list:
 
       hs_code = code.find("a").string.strip() if code.find("a") != None else " "
-      custom_rate_dict = [{}]
-
-      if len(hs_code.replace(".","")) >= 8:
-        custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
 
       t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
       e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
@@ -130,25 +143,31 @@ def get_hs_code():
       indent = f'{count}'
 
 
+      code_dict = {"hs_code": hs_code,"indent": indent, "origin": t_desc, "english": e_desc,  }
 
-      code_dict = {"hs_code": hs_code,"indent": indent, "origin": t_desc, "english": e_desc, "ceiling_rate": "",  "general_Rate": "", "custom_rate": custom_rate_dict }
       results.append(code_dict)
+
+      if len(hs_code.replace(".","")) >= 8:
+        custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
+
+        if len(custom_rate_dict["new_hscode_list"]) >= 1:
+          for new_code in custom_rate_dict["new_hscode_list"]:
+            new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent, "origin": "", "english": new_code["description"], }
+            results.append(new_code_dict)
+
+
+
     print(results)
     file = open(f"thiland.csv", "w")
 
     file.write("hscode, indent, origin, english, custom_rate\n")
 
     for result in results:
-      file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']},{result['custom_rate']}\n")
+      file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
 
     file.close()
 
 
 get_hs_code()
-
-
-
-
-
 
 
