@@ -10,6 +10,16 @@ import  requests
 # ! HS 0101.21.00의 최종 관세율을 확인하려면 첫번째 빨간 박스인 HS CODE를 클릭하거나,
 # ! 아니면 우측의 드롭다운을 선택하여 ALL로 선택하여 검색버튼을 누르면 다음 페이지와 같이 화면이 나옴
 
+class HsCode:
+  def __init__(self, hs_code,indent, origin, english ):
+    self.hs_code = hs_code
+    self.indent = indent
+    self.origin = origin
+    self.english = english
+
+  def get_hscode(self):
+    return {"hs_code": self.hs_code, "indent": self.indent, "origin": self.origin, "english": self.english}
+
 base_url= "http://itd.customs.go.th/igtf/viewerImportTariff.do"
 
 
@@ -56,6 +66,7 @@ def get_final_hs_code_detil_english(keyword):
         _td_list = tr.find_all("td")
 
         sub_heading = _td_list[1].string.strip()
+
         description = _td_list[2].string.strip()
 
         ad_valorem_rate = "Exempted" if len(_td_list)  == 8 else _td_list[3].text.strip().replace("\r\n","").replace("**","").strip()
@@ -65,18 +76,38 @@ def get_final_hs_code_detil_english(keyword):
         end_date = _td_list[-2].string.strip()
 
         if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
-          print(f"{exact_keyword}00", sub_heading.replace(".", ""))
-          new_hscode = {
-            "hs_code": sub_heading,
-            "description": description,
-            "rate_title": str_rate_title,
-            "ad_valorem_rate" : ad_valorem_rate,
-            "unit" : unit,
-            "baht" : baht,
-            "start_date" : start_date,
-            "end_date" : end_date,
-          }
-          new_hscode_list.append(new_hscode)
+
+          exist_code_list = []
+          for new_hscode_duple in new_hscode_list:
+            exist_code_list.append(new_hscode_duple["hs_code"])
+
+          if sub_heading in exist_code_list:
+            for new_hscode_duple in new_hscode_list:
+              if new_hscode_duple["hs_code"] == sub_heading:
+                new_hscode_duple["custom_rate"].append({
+                "rate_title": str_rate_title,
+                "ad_valorem_rate" : ad_valorem_rate,
+                "unit" : unit,
+                "baht" : baht,
+                "start_date" : start_date,
+                "end_date" : end_date
+                })
+          else:
+            new_hscode = {
+                "hs_code": sub_heading,
+                "description": description,
+                "custom_rate": [
+                  {
+                    "rate_title": str_rate_title,
+                    "ad_valorem_rate" : ad_valorem_rate,
+                    "unit" : unit,
+                    "baht" : baht,
+                    "start_date" : start_date,
+                    "end_date" : end_date
+                    }
+                ]
+              }
+            new_hscode_list.append(new_hscode)
         else:
           rate_dict = {
               "rate_title": str_rate_title,
@@ -142,10 +173,9 @@ def get_hs_code():
               break
       indent = f'{count}'
 
+      hs_code_dict = HsCode(hs_code, indent, t_desc, e_desc).get_hscode()
 
-      code_dict = {"hs_code": hs_code,"indent": indent, "origin": t_desc, "english": e_desc,  }
-
-      results.append(code_dict)
+      results.append(hs_code_dict)
 
       if len(hs_code.replace(".","")) >= 8:
         custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
@@ -157,15 +187,15 @@ def get_hs_code():
 
 
 
-    print(results)
-    file = open(f"thiland.csv", "w")
+  print(results)
+  file = open(f"thiland.csv", "w")
 
-    file.write("hscode, indent, origin, english, custom_rate\n")
+  file.write("hscode, indent, origin, english\n")
 
-    for result in results:
-      file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
+  for result in results:
+    file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
 
-    file.close()
+  file.close()
 
 
 get_hs_code()

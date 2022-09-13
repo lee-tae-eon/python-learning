@@ -1,4 +1,4 @@
-hscode, indent, origin, english, custom_rate
+hscode, indent, origin, english
 08.13,0,ผลไม้แห้ง นอกจากผลไม้ตามประเภท 08.01 ถึง 08.06 รวมทั้งลูกนัตหรือผลไม้แห้งในตอนนี้ผสมกัน,Fruit  dried  other than that of headings 08.01 to 08.06; mixtures of nuts or dried fruits of this Chapter.
 0813.10.00,1,- แอปริคอต,Apricots
 0813.20.00,1,- พรุน,Prunes
@@ -8,11 +8,8 @@ hscode, indent, origin, english, custom_rate
 0813.40.20,2,- - มะขาม,Tamarinds
 0813.40.90,2,- - อื่น ๆ,Other
 0813.409001,2,,- - For Indian beech seeds (velvet tamarind)
-0813.409029,2,,- - Other
 0813.409001,2,,- - For Indian beech seeds (velvet tamarind)
-0813.409029,2,,- - Other
 0813.409001,2,,- - For Indian beech seeds (velvet tamarind)
-0813.409029,2,,- - Other
 0813.50,1,- ลูกนัตหรือผลไม้แห้งในตอนนี้ผสมกัน,Mixtures of nuts or dried fruits of this Chapter :
 0813.50.10,2,- - ที่มีเมล็ดมะม่วงหิมพานต์หรือบราซิลนัต มากกว่า โดยน้ำหนัก,Of which cashew nuts or Brazil nuts predominate by weight
 0813.501050,2,,- -
