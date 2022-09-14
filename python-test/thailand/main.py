@@ -43,12 +43,9 @@ def get_final_hs_code_detail_tw(keyword):
     main_div = soup.find(id="divprint")
     main_table_list = main_div.find_all("div", class_="table-responsive")
     new_hscode_list = []
+
     for table in main_table_list :
       # ! tag가 없는 요소인 협정세율 네이밍 가져오기 br태그 기준
-      _br = table.find_previous_sibling("br")
-      # * 협정세율 네이밍
-      # rate_title = table.previous_sibling.replace("\r\n","") if _br == None else _br.next_sibling.replace("\r\n","")
-      # str_rate_title = rate_title.split(":")[0].strip() + ": " + rate_title.split(":")[1].strip()
 
       _tbody = table.find("tbody")
       _tr_list = _tbody.find_all("tr", reculsive = False)
@@ -59,22 +56,16 @@ def get_final_hs_code_detail_tw(keyword):
         description = _td_list[2].string.strip()
 
         if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
-          # exist_code_list = []
-          # for new_hscode_duple in new_hscode_list:
-          #   exist_code_list.append(new_hscode_duple["hs_code"])
-          # if sub_heading in exist_code_list:
-          #   for new_hscode_duple in new_hscode_list:
-          #     if new_hscode_duple["hs_code"] == sub_heading:
-          #       break
-          # else:
           new_hscode = {
               "hs_code": sub_heading,
               "description": description,
 
             }
           new_hscode_list.append(new_hscode)
-    print(list(set(new_hscode_list)))
-    return list(set(new_hscode_list))
+
+    _exact_hscode_list = list({hscode_list["hs_code"]: hscode_list for hscode_list in new_hscode_list }.values())
+
+    return _exact_hscode_list
 
 
 def get_final_hs_code_detil_english(keyword):
@@ -126,7 +117,7 @@ def get_final_hs_code_detil_english(keyword):
         baht = "Exempted" if len(_td_list)  == 8 else _td_list[5].text.strip().replace("\r\n","").replace("**","")
         start_date = _td_list[-3].string.strip()
         end_date = _td_list[-2].string.strip()
-
+        # 10자리인데 다른경우 리스트에 말아올리는 작업용 코드
         if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
 
           exist_code_list = []
@@ -138,7 +129,7 @@ def get_final_hs_code_detil_english(keyword):
               if new_hscode_duple["hs_code"] == sub_heading:
                 new_hscode_duple["custom_rate"].append({
                 "rate_title": str_rate_title,
-                "ad_valorem_rate" : ad_valorem_rate,
+                "rate" : ad_valorem_rate,
                 "unit" : unit,
                 "baht" : baht,
                 "start_date" : start_date,
@@ -151,7 +142,7 @@ def get_final_hs_code_detil_english(keyword):
                 "custom_rate": [
                   {
                     "rate_title": str_rate_title,
-                    "ad_valorem_rate" : ad_valorem_rate,
+                    "rate" : ad_valorem_rate,
                     "unit" : unit,
                     "baht" : baht,
                     "start_date" : start_date,
@@ -161,11 +152,12 @@ def get_final_hs_code_detil_english(keyword):
               }
             new_hscode_list.append(new_hscode)
         else:
+          # 해당 8자리 keyword에 들어가는 tariff
           rate_dict = {
               "rate_title": str_rate_title,
               "sub_heading" : sub_heading,
               "description" : description,
-              "ad_valorem_rate" : ad_valorem_rate,
+              "rate" : ad_valorem_rate,
               "unit" : unit,
               "baht" : baht,
               "start_date" : start_date,
@@ -194,64 +186,67 @@ for i in range(97):
 def get_hs_code():
   results = []
 
-  # for code in search_list:
-  #   params = {"lang": "t", "taffCode": f"{code}", "docBegnDate": "07/09/2565", "param": "search"}
-  params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
+  for secion_code in search_list:
+    params = {"lang": "t", "taffCode": f"{secion_code}", "docBegnDate": "07/09/2565", "param": "search"}
+  # params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
+    response = requests.post(base_url, params=params)
+    sleep(1.5)
+
+    if response.status_code != 200:
+      print(f"status {response.status_code}")
+    else:
+      soup = bs(response.text, "html.parser")
+      t_body = soup.find("tbody")
+
+      tr_list = t_body.find_all("tr")
+
+      for code in tr_list:
+
+        hs_code = code.find("a").string.strip() if code.find("a") != None else " "
+
+        t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
+        e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
+
+        count = 0
+        for word in t_desc:
+            if word == '-':
+                count = count + 1
+            elif word != ' ':
+                break
+        indent = f'{count}'
+
+        hs_code_dict = HsCode(hs_code, indent, t_desc, e_desc).get_hscode()
+
+        results.append(hs_code_dict)
+
+        if len(hs_code.replace(".","")) >= 8:
+          custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
+          tw_desc_list = get_final_hs_code_detail_tw(hs_code.replace(".",""))
+
+          if len(custom_rate_dict["new_hscode_list"]) >= 1:
+            for new_code in custom_rate_dict["new_hscode_list"]:
+              # 10자리 코드 태국어 원문 삽입
+              tw_desc = list(filter(lambda desc: desc.get("hs_code") == new_code["hs_code"]  , tw_desc_list))[0]["description"]
+              new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent, "origin": tw_desc, "english": new_code["description"].replace(","," "), }
+              results.append(new_code_dict)
+      print("----------------------------")
+      print(secion_code)
+      print("----------------------------")
+
+    file = open(f"thiland_{secion_code}.csv", "w")
+
+    file.write("hscode, indent, origin, english\n")
+
+    for result in results:
+      file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
+
+    file.close()
 
 
-  response = requests.post(base_url, params=params)
-  sleep(1.5)
-
-  if response.status_code != 200:
-    print(f"status {response.status_code}")
-  else:
-    soup = bs(response.text, "html.parser")
-    t_body = soup.find("tbody")
-
-    tr_list = t_body.find_all("tr")
-
-    for code in tr_list:
-
-      hs_code = code.find("a").string.strip() if code.find("a") != None else " "
-
-      t_desc = code.select_one("td:nth-last-child(2)").get_text(strip=True).replace(",", " ")
-      e_desc = code.select_one("td:last-child").get_text(strip=True).replace(",", " ")
-
-      count = 0
-      for word in t_desc:
-          if word == '-':
-              count = count + 1
-          elif word != ' ':
-              break
-      indent = f'{count}'
-
-      hs_code_dict = HsCode(hs_code, indent, t_desc, e_desc).get_hscode()
-
-      results.append(hs_code_dict)
-
-      if len(hs_code.replace(".","")) >= 8:
-        custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
-        new_hscode_tw_desc_list = get_final_hs_code_detail_tw(hs_code.replace(".",""))
-        print(new_hscode_tw_desc_list)
-        if len(custom_rate_dict["new_hscode_list"]) >= 1:
-          for new_code in custom_rate_dict["new_hscode_list"]:
-            print(new_code)
-            new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent, "origin": "", "english": new_code["description"].replace(","," "), }
-            results.append(new_code_dict)
+def main():
+  get_hs_code()
+  # get_final_hs_code_detail_tw()
 
 
-
-  print(results)
-  file = open(f"thiland.csv", "w")
-
-  file.write("hscode, indent, origin, english\n")
-
-  for result in results:
-    file.write(f"{result['hs_code']},{result['indent']},{result['origin']},{result['english']}\n")
-
-  file.close()
-
-
-get_hs_code()
-
-
+if __name__ == "__main__":
+  main()
