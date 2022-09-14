@@ -220,15 +220,19 @@ def get_hs_code():
         results.append(hs_code_dict)
 
         if len(hs_code.replace(".","")) >= 8:
-          custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
-          tw_desc_list = get_final_hs_code_detail_tw(hs_code.replace(".",""))
+          try:
+            custom_rate_dict = get_final_hs_code_detil_english(hs_code.replace(".",""))
+            tw_desc_list = get_final_hs_code_detail_tw(hs_code.replace(".",""))
 
-          if len(custom_rate_dict["new_hscode_list"]) >= 1:
-            for new_code in custom_rate_dict["new_hscode_list"]:
-              # 10자리 코드 태국어 원문 삽입
-              tw_desc = list(filter(lambda desc: desc.get("hs_code") == new_code["hs_code"]  , tw_desc_list))[0]["description"]
-              new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent, "origin": tw_desc, "english": new_code["description"].replace(","," "), }
-              results.append(new_code_dict)
+            if len(custom_rate_dict["new_hscode_list"]) >= 1:
+              for new_code in custom_rate_dict["new_hscode_list"]:
+                # 10자리 코드 태국어 원문 삽입
+                tw_desc = list(filter(lambda desc: desc.get("hs_code") == new_code["hs_code"]  , tw_desc_list))[0]["description"]
+                new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent, "origin": tw_desc, "english": new_code["description"].replace(","," "), }
+                results.append(new_code_dict)
+          except Exception as err:
+            print(err)
+
       print("----------------------------")
       print(secion_code)
       print("----------------------------")
