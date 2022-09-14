@@ -51,17 +51,21 @@ def get_final_hs_code_detail_tw(keyword):
       _tr_list = _tbody.find_all("tr", reculsive = False)
 
       for tr in _tr_list:
-        _td_list = tr.find_all("td")
-        sub_heading = _td_list[1].string.strip()
-        description = _td_list[2].string.strip()
+        try:
+          _td_list = tr.find_all("td")
+          sub_heading = _td_list[1].string.strip()
+          description = _td_list[2].string.strip() if _td_list != None else " "
 
-        if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
-          new_hscode = {
-              "hs_code": sub_heading,
-              "description": description,
+          if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
+            new_hscode = {
+                "hs_code": sub_heading,
+                "description": description,
 
-            }
-          new_hscode_list.append(new_hscode)
+              }
+            new_hscode_list.append(new_hscode)
+        except Exception as err:
+          print(err, description)
+          continue
 
     _exact_hscode_list = list({hscode_list["hs_code"]: hscode_list for hscode_list in new_hscode_list }.values())
 
