@@ -1,6 +1,7 @@
 from time import sleep
 from bs4 import BeautifulSoup as bs
 import  requests
+from requests.adapters import HTTPAdapter, Retry
 
 
 # ! hs code :  "01 ~ 97"
@@ -25,6 +26,13 @@ base_url= "http://itd.customs.go.th/igtf/viewerImportTariff.do"
 
 
 def get_final_hs_code_detail_tw(keyword):
+  session = requests.Session()
+  retry = Retry(connect=3, backoff_factor=0.5)
+  adapter = HTTPAdapter(max_retries=retry)
+  session.mount('http://', adapter)
+  session.mount('https://', adapter)
+
+
   params = {
     "param": "display1",
     "key2": keyword,
@@ -33,7 +41,7 @@ def get_final_hs_code_detail_tw(keyword):
   }
   exact_keyword = keyword.replace(".","")
 
-  response = requests.post(base_url, params=params)
+  response = session.post(base_url, params=params)
   sleep(1.5)
 
   if response.status_code != 200:
@@ -73,6 +81,11 @@ def get_final_hs_code_detail_tw(keyword):
 
 
 def get_final_hs_code_detil_english(keyword):
+  session = requests.Session()
+  retry = Retry(connect=3, backoff_factor=0.5)
+  adapter = HTTPAdapter(max_retries=retry)
+  session.mount('http://', adapter)
+  session.mount('https://', adapter)
 
   exact_keyword = keyword.replace(".","")
 
@@ -86,7 +99,7 @@ def get_final_hs_code_detil_english(keyword):
     "piveName": "z"
   }
 
-  response = requests.post(base_url, params=params)
+  response = session.post(base_url, params=params)
   sleep(1.5)
   if response.status_code != 200:
     print(f"status {response.status_code}")
@@ -188,12 +201,18 @@ for i in range(97):
 
 
 def get_hs_code():
+  session = requests.Session()
+  retry = Retry(connect=3, backoff_factor=0.5)
+  adapter = HTTPAdapter(max_retries=retry)
+  session.mount('http://', adapter)
+  session.mount('https://', adapter)
+
   results = []
 
   for secion_code in search_list:
     params = {"lang": "t", "taffCode": f"{secion_code}", "docBegnDate": "07/09/2565", "param": "search"}
   # params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
-    response = requests.post(base_url, params=params)
+    response = session.post(base_url, params=params)
     sleep(1.5)
 
     if response.status_code != 200:
