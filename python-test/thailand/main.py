@@ -66,7 +66,6 @@ def get_final_hs_code_detail_tw(keyword):
                     ) if _tw_tr_td_list[1] != None else " "
                     _tw_description = _tw_tr_td_list[2].string.strip(
                     ) if _tw_tr_td_list[2] != None else " "
-
                     if f"{exact_keyword}00" != (_tw_sub_heading.replace(".", "") + "00" if len(_tw_sub_heading.replace(".", "")) == 8 else _tw_sub_heading.replace(".", "")):
                         new_hscode = {
                             "hs_code": _tw_sub_heading,
@@ -74,8 +73,8 @@ def get_final_hs_code_detail_tw(keyword):
                         }
                         _tw_new_hscode_list.append(new_hscode)
                 except Exception as err:
-                    print(err, _tw_sub_heading, keyword)
-                    print(err, _tw_description, keyword)
+                    print(err, _tw_tr_td_list[1], keyword, "원문 서브헤딩")
+                    print(err, _tw_tr_td_list[2], keyword, "원문 description")
                     continue
 
         _exact_hscode_list = list(
@@ -265,8 +264,8 @@ def get_hs_code():
                                                  "origin": tw_desc, "english": new_code["description"].replace(",", " "), }
                                 results.append(new_code_dict)
                     except Exception as err:
-                        print(err, "inside tw_desc_list", hs_code)
-                        print(tw_desc_list, hs_code)
+                        print(err, "inside tw_desc_list",
+                              hs_code, "태국 원문 삽입 에러")
                         continue
 
             print("----------------------------")
