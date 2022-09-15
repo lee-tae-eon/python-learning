@@ -1,0 +1,1078 @@
+hscode, indent, origin, english
+01.01,0,ม้า ลา และล่อ มีชีวิต,Live horses  asses  mules and hinnies.
+ ,1,- ม้า,Horses :
+0101.21.00,2,- - สำหรับทำพันธุ์,Pure-bred breeding animals
+0101.29.00,2,- - อื่น ๆ,Other
+0101.30,1,- ลา,Asses :
+0101.30.10,2,- - สำหรับทำพันธุ์,Pure-bred breeding animals
+0101.30.90,2,- - อื่น ๆ,Other
+0101.90.00,1,- อื่น ๆ,Other
+01.02,0,สัตว์จำพวกโคกระบือ มีชีวิต,Live bovine animals.
+ ,1,- โค,Cattle :
+0102.21.00,2,- - สำหรับทำพันธุ์,Pure-bred breeding animals
+0102.29,2,- - อื่น ๆ,Other :
+ ,3,- - - โคตัวผู้,Male cattle :
+0102.29.11,4,- - - - โคตัวผู้ตอน,Oxen
+0102.29.19,4,- - - - อื่น ๆ,Other
+0102.29.90,3,- - - อื่น ๆ,Other
+ ,1,- กระบือ,Buffalo :
+0102.31.00,2,- - สำหรับทำพันธุ์,Pure-bred breeding animals
+0102.39.00,2,- - อื่น ๆ,Other
+0102.90,1,- อื่น ๆ,Other :
+0102.90.10,2,- - สำหรับทำพันธุ์,Pure-bred breeding animals
+0102.90.90,2,- - อื่น ๆ,Other
+01.03,0,สุกรมีชีวิต,Live swine.
+0103.10.00,1,- สำหรับทำพันธุ์,Pure-bred breeding animals
+ ,1,- อื่น ๆ,Other :
+0103.91.00,2,- - น้ำหนักน้อยกว่า 50 กิโลกรัม,Weighing less than 50 kg
+0103.92.00,2,- - น้ำหนักตั้งแต่ 50 กิโลกรัมขึ้นไป,Weighing 50 kg or more
+01.04,0,แกะและแพะ มีชีวิต,Live sheep and goats.
+0104.10,1,- แกะ,Sheep :
+0104.10.10,2,- - สำหรับทำพันธุ์,Pure-bred breeding animals
+0104.10.90,2,- - อื่น ๆ,Other
+0104.20,1,- แพะ,Goats :
+0104.20.10,2,- - สำหรับทำพันธุ์,Pure-bred breeding animals
+0104.20.90,2,- - อื่น ๆ,Other
+01.05,0,สัตว์ปีกเลี้ยงมีชีวิต ได้แก่ ไก่ชนิดแกลลัสโดเมสติกัส เป็ด ห่าน ไก่งวง และไก่ต๊อก,Live poultry  that is to say  fowls of the species Gallus domesticus  ducks  geese  turkeys and guinea fowls.
+ ,1,- น้ำหนักไม่เกิน 185 กรัม,Weighing not more than 185 g :
+0105.11,2,- - ไก่ชนิดแกลลัสโดเมสติกัส,Fowls of the species Gallus domesticus :
+0105.11.10,3,- - - สำหรับทำพันธุ์,Breeding fowls
+0105.11.90,3,- - - อื่น ๆ,Other
+0105.12,2,- - ไก่งวง,Turkeys :
+0105.12.10,3,- - - สำหรับทำพันธุ์,Breeding turkeys
+0105.12.90,3,- - - อื่น ๆ,Other
+0105.13,2,- - เป็ด,Ducks :
+0105.13.10,3,- - - ลูกเป็ดสำหรับทำพันธุ์,Breeding ducklings
+0105.13.90,3,- - - อื่น ๆ,Other
+0105.14,2,- - ห่าน,Geese :
+0105.14.10,3,- - - ลูกห่านสำหรับทำพันธุ์,Breeding goslings
+0105.14.90,3,- - - อื่น ๆ,Other
+0105.15,2,- - ไก่ต๊อก,Guinea fowls :
+0105.15.10,3,- - - ลูกไก่ต๊อกสำหรับทำพันธุ์,Breeding guinea fowls
+0105.15.90,3,- - - อื่น ๆ,Other
+ ,1,- อื่น ๆ,Other :
+0105.94,2,- - ไก่ชนิดแกลลัสโดเมสติกัส,Fowls of the species Gallus domesticus :
+0105.94.10,3,- - - สำหรับทำพันธุ์ นอกจากไก่ชน,Breeding fowls  other than fighting cocks
+ ,3,- - - ไก่ชน,Fighting cocks :
+0105.94.41,4,- - - - น้ำหนักไม่เกิน 2 กิโลกรัม,Weighing not more than 2 kg
+0105.944101,4,- - - - เฉพาะสำหรับทำพันธุ์,- - - - For pure-bred breeding fighting cocks
+0105.944129,4,- - - - อื่น ๆ,- - - - Other
+0105.944171,4,- - - - เฉพาะสำหรับทำพันธุ์,- - - - For breeding fighting cocks
+0105.944199,4,- - - - อื่น ๆ,- - - - Other
+0105.94.49,4,- - - - อื่น ๆ,Other
+0105.944901,4,- - - - เฉพาะสำหรับทำพันธุ์,- - - - For pure-bred breeding fighting cocks
+0105.944929,4,- - - - อื่น ๆ,- - - - Other
+0105.944971,4,- - - - เฉพาะสำหรับทำพันธุ์,- - - - For breeding fighting cocks
+0105.944999,4,- - - - อื่น ๆ,- - - - Other
+ ,3,- - - อื่น ๆ,Other :
+0105.94.91,4,- - - - น้ำหนักไม่เกิน 2 กิโลกรัม,Weighing not more than 2 kg
+0105.94.99,4,- - - - อื่น ๆ,Other
+0105.99,2,- - อื่น ๆ,Other :
+0105.99.10,3,- - - เป็ดสำหรับทำพันธุ์,Breeding ducks
+0105.99.20,3,- - - เป็ดอื่น ๆ,Other ducks
+0105.99.30,3,- - - ห่าน ไก่งวง และไก่ต๊อก สำหรับทำพันธุ์,Breeding geese  turkeys and guinea fowls
+0105.99.40,3,- - - ห่าน ไก่งวง และไก่ต๊อก อื่น ๆ,Other geese  turkeys and guinea fowls
+01.06,0,สัตว์มีชีวิตอื่น ๆ,Other live animals.
+ ,1,- สัตว์เลี้ยงลูกด้วยนม,Mammals :
+0106.11.00,2,- - ไพรเมต,Primates
+0106.110001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.110002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.110029,2,- - อื่น ๆ,- - Other
+0106.110071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.110072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.110099,2,- - อื่น ๆ,- - Other
+0106.12,2,- - วาฬ โลมาชนิดดอลฟินและชนิดพอร์พัส (สัตว์เลี้ยงลูก ด้วยนมในอันดับเซตาเซีย) แมนาทีและพะยูน (สัตว์เลี้ยง ลูกด้วยนมในอันดับไซเรเนีย) แมวน้ำ สิงโตทะเล และ ช้างน้ำ (สัตว์เลี้ยงลูกด้วยนมในอันดับย่อยพินนิพีเดีย),Whales  dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals  sea lions and walruses (mammals of the suborder Pinnipedia) :
+0106.12.10,3,- - - วาฬ โลมาชนิดดอลฟินและชนิดพอร์พัส (สัตว์เลี้ยงลูก ด้วยนมในอันดับเซตาเซีย) แมนาทีและพะยูน (สัตว์เลี้ยงลูกด้วยนมในอันดับไซเรเนีย),Whales  dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia)
+0106.121001,3,- - - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่       ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.121002,3,- - - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า      หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่      เปิดให้ประชาชนดูได้เป็นการประจำ,- - - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.121029,3,- - - อื่น ๆ,- - - Other
+0106.121071,3,- - - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้าสำหรับทำพันธุ์,- - - For draught  consumption of meat milk or eggs Imported for breeding
+0106.121072,3,- - - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ      แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.121099,3,- - - อื่น ๆ,- - - Other
+0106.12.20,3,- - - แมวน้ำ สิงโตทะเล และช้างน้ำ (สัตว์เลี้ยงลูกด้วยนมใน อันดับย่อยพินนิพีเดีย),Seals  sea lions and walruses (mammals of the suborder Pinnipedia)
+0106.122001,3,- - - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่       ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.122002,3,- - - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า      หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่      เปิดให้ประชาชนดูได้เป็นการประจำ,- - - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.122029,3,- - - อื่น ๆ,- - - Other
+0106.122071,3,- - - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้าสำหรับทำพันธุ์,- - - For draught  consumption of meat milk or eggs Imported for breeding
+0106.122072,3,- - - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ      แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.122099,3,- - - อื่น ๆ,- - - Other
+0106.13.00,2,- - อูฐและสัตว์จำพวกอูฐอื่น ๆ (คาเมลิดี),Camels and other camelids (Camelidae)
+0106.130001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.130002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.130029,2,- - อื่น ๆ,- - Other
+0106.130071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้าสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.130072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.130099,2,- - อื่น ๆ,- - Other
+0106.14.00,2,- - กระต่ายและกระต่ายป่า,Rabbits and hares
+0106.140001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.140002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.140029,2,- - อื่น ๆ,- - Other
+0106.140071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้าสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.140072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.140099,2,- - อื่น ๆ,- - Other
+0106.19.00,2,- - อื่น ๆ,Other
+0106.190001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.190002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public    character
+0106.190003,2,- - เฉพาะสุนัขและแมวที่ผู้เดินทางเข้ามา    ในราชอาณาจักรเป็นการชั่วคราวเป็นผู้นำเข้า     และจะต้องส่งกลับออกไปภายในหกเดือนนับแต่    วันนำเข้า ทั้งนี้ผู้นำเข้าจะต้องทำสัญญาและประกัน    ทัณฑ์บนไว้ต่อกรมศุลกากรว่าจะส่งกลับออกไป    ภายในระยะเวลาที่กำหนด,- - For dogs and cats  imported by any person temporarily    visiting Thailand to be re-exported within 6 months     from the date of importation. The importer may be     required to make a contract with and to give security     by bond to the Customs Department that they will be     re - exported within fixed period
+0106.190029,2,- - อื่น ๆ,- - Other
+0106.190071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้าสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.190072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.190099,2,- - อื่น ๆ,- - Other
+0106.20.00,1,- สัตว์เลื้อยคลาน (รวมถึงงูและสัตว์จำพวกเต่า),Reptiles (including snakes and turtles)
+0106.200001,1,- เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่   ซึ่งนำเข้ามาสำหรับทำพันธุ์,- For draught  consumption of meat  milk or eggs    imported for breeding
+0106.200002,1,- เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า  หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่  เปิดให้ประชาชนดูได้เป็นการประจำ,- For imported by public institutes  not conducted for   profit and intended for perpetual exhibition of a public   character
+0106.200029,1,- อื่น ๆ,- Other
+0106.200089,1,- เฉพาะ Fresh-water tortoises,-
+0106.200071,1,- เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้าสำหรับทำพันธุ์,- For draught  consumption of meat milk or eggs Imported for breeding
+0106.200072,1,- เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ  แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.200073,1,- อื่น ๆ เว้นแต่เต่าและตะพาบน้ำ,- Other
+ ,1,- นก,Birds :
+0106.31.00,2,- - นกล่าเหยื่อ,Birds of prey
+0106.310001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.310002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public    character
+0106.310029,2,- - อื่น ๆ,- - Other
+0106.310071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.310072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.310099,2,- - อื่น ๆ,- - Other
+0106.32.00,2,- - นกในกลุ่มนกแก้วทุกชนิด (รวมถึงนกจำพวก นกแก้ว นกแขกเต้า นกมาคอว์ และนกกระตั้ว),Psittaciformes (including parrots  parakeets  macaws and cockatoos)
+0106.320001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.320002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of     a public character
+0106.320029,2,- - อื่น ๆ,- - Other
+0106.320071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.320072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.320099,2,- - อื่น ๆ,- - Other
+0106.33.00,2,- - นกกระจอกเทศ นกอีมู (ดรอไมอัสโนแวฮอลแลนดิอี),Ostriches; emus (Dromaius novaehollandiae)
+0106.330001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.330002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.330029,2,- - อื่น ๆ,- - Other
+0106.330071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.330072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.330099,2,- - อื่น ๆ,- - Other
+0106.39.00,2,- - อื่น ๆ,Other
+0106.390001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.390002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.390029,2,- - อื่น ๆ,- - Other
+0106.390071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่  ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.390072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.390099,2,- - อื่น ๆ,- - Other
+ ,1,- แมลง,Insects :
+0106.41.00,2,- - แมลงจำพวกผึ้ง,Bees
+0106.410001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.410002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.410029,2,- - อื่น ๆ,- - Other
+0106.410071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่ ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.410072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.410099,2,- - อื่น ๆ,- - Other
+0106.49.00,2,- - อื่น ๆ,Other
+0106.490001,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่     ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat  milk or eggs      imported for breeding
+0106.490002,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า    หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่    เปิดให้ประชาชนดูได้เป็นการประจำ,- - For imported by public institutes  not conducted for     profit and intended for perpetual exhibition of a public     character
+0106.490029,2,- - อื่น ๆ,- - Other
+0106.490071,2,- - เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่ ซึ่งนำเข้ามาสำหรับทำพันธุ์,- - For draught  consumption of meat milk or eggs Imported for breeding
+0106.490072,2,- - เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ    แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- - Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.490099,2,- - อื่น ๆ,- - Other
+0106.90.00,1,- อื่น ๆ,Other
+0106.900001,1,- เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่   ซึ่งนำเข้ามาสำหรับทำพันธุ์,- For draught  consumption of meat  milk or eggs  imported  for breeding
+0106.900002,1,- เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้า  หากำไร นำเข้ามาเพื่อแสดงในลักษณะที่  เปิดให้ประชาชนดูได้เป็นการประจำ,- For imported by public institutes  not conducted for   profit and intended for perpetual exhibition of a public   character
+0106.900029,1,- อื่น ๆ,- Other
+0106.900071,1,- เฉพาะที่ใช้งาน ใช้บริโภคเนื้อ นม ไข่ ซึ่งนำเข้ามาสำหรับทำพันธุ์,- For draught  consumption of meat milk or eggs Imported for breeding
+0106.900072,1,- เฉพาะที่องค์การสาธารณะซึ่งไม่ได้ดำเนินการค้าหากำไร นำเข้ามาเพื่อ  แสดงในลักษณะที่เปิดให้ประชาชนดูได้เป็นการประจำ,- Imported by public institutes  not conducted for profit and intended For perpetual exhibition of a public character
+0106.900099,1,- อื่น ๆ,- Other
+02.01,0,เนื้อสัตว์จำพวกโคกระบือ สดหรือแช่เย็น,Meat of bovine animals  fresh or chilled.
+0201.10.00,1,- ทั้งตัวและครึ่งตัว,Carcasses and half-carcasses
+0201.20.00,1,- ส่วนตัดแบบอื่นที่มีกระดูก,Other cuts with bone in
+0201.30.00,1,- ไม่มีกระดูก,Boneless
+02.02,0,เนื้อสัตว์จำพวกโคกระบือ แช่เย็นจนแข็ง,Meat of bovine animals  frozen.
+0202.10.00,1,- ทั้งตัวและครึ่งตัว,Carcasses and half-carcasses
+0202.20.00,1,- ส่วนตัดแบบอื่นที่มีกระดูก,Other cuts with bone in
+0202.30.00,1,- ไม่มีกระดูก,Boneless
+02.03,0,เนื้อสุกร สด แช่เย็น หรือแช่เย็นจนแข็ง,Meat of swine  fresh  chilled or frozen.
+ ,1,- สดหรือแช่เย็น,Fresh or chilled :
+0203.11.00,2,- - ทั้งตัวและครึ่งตัว,Carcasses and half-carcasses
+0203.12.00,2,- - ขาหลัง ขาหน้า และส่วนตัดของขาดังกล่าว ที่มีกระดูก,Hams  shoulders and cuts thereof  with bone in
+0203.19.00,2,- - อื่น ๆ,Other
+ ,1,- แช่เย็นจนแข็ง,Frozen :
+0203.21.00,2,- - ทั้งตัวและครึ่งตัว,Carcasses and half-carcasses
+0203.22.00,2,- - ขาหลัง ขาหน้า และส่วนตัดของขาดังกล่าว ที่มีกระดูก,Hams  shoulders and cuts thereof  with bone in
+0203.29.00,2,- - อื่น ๆ,Other
+02.04,0,เนื้อแกะหรือเนื้อแพะ สด แช่เย็น หรือแช่เย็นจนแข็ง,Meat of sheep or goats  fresh  chilled or frozen.
+0204.10.00,1,- ลูกแกะทั้งตัวและครึ่งตัว สดหรือแช่เย็น,Carcasses and half-carcasses of lamb  fresh or chilled
+ ,1,- เนื้อแกะอื่น ๆ สดหรือแช่เย็น,Other meat of sheep  fresh or chilled :
+0204.21.00,2,- - ทั้งตัวและครึ่งตัว,Carcasses and half-carcasses
+0204.22.00,2,- - ส่วนตัดแบบอื่นที่มีกระดูก,Other cuts with bone in
+0204.23.00,2,- - ไม่มีกระดูก,Boneless
+0204.30.00,1,- ลูกแกะทั้งตัวและครึ่งตัว แช่เย็นจนแข็ง,Carcasses and half-carcasses of lamb  frozen
+ ,1,- เนื้อแกะอื่น ๆ แช่เย็นจนแข็ง,Other meat of sheep  frozen :
+0204.41.00,2,- - ทั้งตัวและครึ่งตัว,Carcasses and half-carcasses
+0204.42.00,2,- - ส่วนตัดแบบอื่นที่มีกระดูก,Other cuts with bone in
+0204.43.00,2,- - ไม่มีกระดูก,Boneless
+0204.50.00,1,- เนื้อแพะ,Meat of goats
+0205.00.00,0,เนื้อม้า เนื้อลา หรือเนื้อล่อ สด แช่เย็น หรือแช่เย็นจนแข็ง,Meat of horses  asses  mules or hinnies  fresh  chilled or frozen.
+02.06,0,ส่วนอื่นที่บริโภคได้ของสัตว์จำพวกโคกระบือ สุกร แกะ แพะ ม้า ลา หรือล่อ สด แช่เย็น หรือแช่เย็นจนแข็ง,Edible offal of bovine animals  swine  sheep  goats  horses  asses  mules or hinnies  fresh  chilled or frozen.
+0206.10.00,1,- ของสัตว์จำพวกโคกระบือ สดหรือแช่เย็น,Of bovine animals  fresh or chilled
+0206.100050,1,- ของสัตว์จำพวกโคกระบือ สดหรือแช่เย็น,-
+ ,1,- ของสัตว์จำพวกโคกระบือ แช่เย็นจนแข็ง,Of bovine animals  frozen :
+0206.21.00,2,- - ลิ้น,Tongues
+0206.210050,2,- - ลิ้น,- -
+0206.22.00,2,- - ตับ,Livers
+0206.220050,2,- - ตับ,- -
+0206.29.00,2,- - อื่น ๆ,Other
+0206.30.00,1,- ของสุกร สดหรือแช่เย็น,Of swine  fresh or chilled
+ ,1,- ของสุกร แช่เย็นจนแข็ง,Of swine  frozen :
+0206.41.00,2,- - ตับ,Livers
+0206.49.00,2,- - อื่น ๆ,Other
+0206.80.00,1,- อื่น ๆ สดหรือแช่เย็น,Other  fresh or chilled
+0206.90.00,1,- อื่น ๆ แช่เย็นจนแข็ง,Other  frozen
+02.07,0,เนื้อและส่วนอื่นที่บริโภคได้ของสัตว์ปีกเลี้ยงตามประเภท 01.05 สด แช่เย็น หรือแช่เย็นจนแข็ง,Meat and edible offal  of the poultry of heading 01.05  fresh  chilled or frozen.
+ ,1,- ของไก่ชนิดแกลลัสโดเมสติกัส,Of fowls of the species Gallus domesticus :
+0207.11.00,2,- - ทั้งตัว สดหรือแช่เย็น,Not cut in pieces  fresh or chilled
+0207.12.00,2,- - ทั้งตัว แช่เย็นจนแข็ง,Not cut in pieces  frozen
+0207.13.00,2,- - ชิ้นเนื้อและส่วนอื่น สดหรือแช่เย็น,Cuts and offal  fresh or chilled
+0207.130071,2,- - เฉพาะส่วนอื่นที่บริโภคได้ รวมทั้งตับ สดหรือแช่เย็น,- - For edible offal including livers  fresh or chilled
+0207.14,2,- - ชิ้นเนื้อและส่วนอื่น แช่เย็นจนแข็ง,Cuts and offal  frozen :
+0207.14.10,3,- - - ปีก,Wings
+0207.14.20,3,- - - โคนขา,Thighs
+0207.14.30,3,- - - ตับ,Livers
+0207.143050,3,- - - ตับ,- - -
+ ,3,- - - อื่น ๆ,Other :
+0207.14.91,4,- - - - เนื้อที่บดแยกเอากระดูกออกด้วยกรรมวิธีเชิงกล,Mechanically deboned or separated meat
+0207.149150,4,- - - - เนื้อที่บดแยกเอากระดูกออก ด้วยกรรมวิธีเชิงกล,- - - -
+0207.149171,4,- - - - เฉพาะชิ้นเนื้อและตับ แช่เย็นจนแข็ง,- - - - For cut and livers  forzen
+0207.149172,4,- - - - เฉพาะส่วนอื่นที่บริโภคได้ นอกจากตับ แช่เย็นจนแข็ง,- - - - For edible offal except livers frozen
+0207.14.99,4,- - - - อื่น ๆ,Other
+0207.149989,4,- - - - อื่น ๆ เว้นแต่ ชิ้นเนื้อ,- - - -
+0207.149971,4,- - - - เฉพาะชิ้นเนื้อและตับ แช่เย็นจนแข็ง,- - - - For cut and livers  forzen
+0207.149972,4,- - - - เฉพาะส่วนอื่นที่บริโภคได้ นอกจากตับ แช่เย็นจนแข็ง,- - - - For edible offal except livers frozen
+ ,1,- ของไก่งวง,Of turkeys :
+0207.24.00,2,- - ทั้งตัว สดหรือแช่เย็น,Not cut in pieces  fresh or chilled
+0207.25.00,2,- - ทั้งตัว แช่เย็นจนแข็ง,Not cut in pieces  frozen
+0207.26.00,2,- - ชิ้นเนื้อและส่วนอื่น สดหรือแช่เย็น,Cuts and offal  fresh or chilled
+0207.260071,2,- - เฉพาะชิ้นเนื้อ สดหรือแช่เย็น,- - For cut  fresh or chilled
+0207.260072,2,- - เฉพาะส่วนอื่นที่บริโภคได้ รวมทั้งตับ สดหรือแช่เย็น,- - For edible offal including livers  fresh or chilled
+0207.27,2,- - ชิ้นเนื้อและส่วนอื่น แช่เย็นจนแข็ง,Cuts and offal  frozen :
+0207.27.10,3,- - - ตับ,Livers
+ ,3,- - - อื่น ๆ,Other :
+0207.27.91,4,- - - - เนื้อที่บดแยกเอากระดูกออกด้วยกรรมวิธีเชิงกล,Mechanically deboned or separated meat
+0207.27.99,4,- - - - อื่น ๆ,Other
+ ,1,- ของเป็ด,Of ducks :
+0207.41.00,2,- - ทั้งตัว สดหรือแช่เย็น,Not cut in pieces  fresh or chilled
+0207.42.00,2,- - ทั้งตัว แช่เย็นจนแข็ง,Not cut in pieces  frozen
+0207.43.00,2,- - ตับชนิดที่มีไขมันมาก สดหรือแช่เย็น,Fatty livers  fresh or chilled
+0207.44.00,2,- - อื่น ๆ สดหรือแช่เย็น,Other  fresh or chilled
+0207.440071,2,- - เฉพาะชิ้นเนื้อ สดหรือแช่เย็น,- - For cut  fresh or chilled
+0207.440072,2,- - เฉพาะส่วนอื่นที่บริโภคได้ รวมทั้งตับ สดหรือแช่เย็น,- - For edible offal including livers  fresh or chilled
+0207.45,2,- - อื่น ๆ แช่เย็นจนแข็ง,Other  frozen :
+0207.45.10,3,- - - ตับชนิดที่มีไขมันมาก,Fatty livers
+0207.45.90,3,- - - อื่น ๆ,Other
+0207.459071,3,- - - เฉพาะตับ แช่เย็นจนแข็ง,- - - For cut and offal including livers  frozen
+0207.459072,3,- - - เฉพาะชิ้นเนื้อและส่วนอื่นนอกเหนือจากตับ แช่เย็นจนแข็ง,- - - For cut and offal except livers  frozen
+ ,1,- ของห่าน,Of geese :
+0207.51.00,2,- - ทั้งตัว สดหรือแช่เย็น,Not cut in pieces  fresh or chilled
+0207.52.00,2,- - ทั้งตัว แช่เย็นจนแข็ง,Not cut in pieces  frozen
+0207.53.00,2,- - ตับชนิดที่มีไขมันมาก สดหรือแช่เย็น,Fatty livers  fresh or chilled
+0207.54.00,2,- - อื่น ๆ สดหรือแช่เย็น,Other  fresh or chilled
+0207.540071,2,- - เฉพาะชิ้นเนื้อ สดหรือแช่เย็น,- - For cut  fresh or chilled
+0207.540072,2,- - เฉพาะส่วนอื่นที่บริโภคได้ รวมทั้งตับ สดหรือแช่เย็น,- - For edible offal including livers  fresh or chilled
+0207.55,2,- - อื่น ๆ แช่เย็นจนแข็ง,Other  frozen :
+0207.55.10,3,- - - ตับชนิดที่มีไขมันมาก,Fatty livers
+0207.55.90,3,- - - อื่น ๆ,Other
+0207.559071,3,- - - เฉพาะตับ แช่เย็นจนแข็ง,- - - For cut and offal including livers  frozen
+0207.559072,3,- - - เฉพาะชิ้นเนื้อและส่วนอื่นนอกเหนือจากตับ แช่เย็นจนแข็ง,- - - For cut and offal  frozen
+0207.60,1,- ของไก่ต๊อก,Of guinea fowls :
+0207.60.10,2,- - ทั้งตัว สดหรือแช่เย็น,Not cut in pieces  fresh or chilled
+0207.60.20,2,- - ทั้งตัว แช่เย็นจนแข็ง,Not cut in pieces  frozen
+0207.60.30,2,- - ชิ้นเนื้อและส่วนอื่น สดหรือแช่เย็น,Cuts and offal  fresh or chilled
+0207.603071,2,- - เฉพาะชิ้นเนื้อ สดหรือแช่เย็น,- - For cut  fresh or chilled
+0207.603072,2,- - เฉพาะส่วนอื่นที่บริโภคได้ รวมทั้งตับ สดหรือแช่เย็น,- - For edible offal including livers  fresh or chilled
+0207.60.40,2,- - ชิ้นเนื้อและส่วนอื่น แช่เย็นจนแข็ง,Cuts and offal  frozen
+0207.604071,2,- - เฉพาะตับ แช่เย็นจนแข็ง,- - For cut and offal including livers  frozen
+0207.604072,2,- - เฉพาะชิ้นเนื้อและส่วนอื่นนอกเหนือจากตับ แช่เย็นจนแข็ง,- - For cut and offal  frozen
+02.08,0,เนื้อและส่วนอื่นที่บริโภคได้ของสัตว์อื่น ๆ สด แช่เย็น หรือแช่เย็นจนแข็ง,Other meat and edible meat offal  fresh  chilled or frozen.
+0208.10.00,1,- ของกระต่ายหรือของกระต่ายป่า,Of rabbits or hares
+0208.30.00,1,- ของไพรเมต,Of primates
+0208.40,1,- ของวาฬ โลมาชนิดดอลฟินและชนิดพอร์พัส (สัตว์เลี้ยงลูกด้วยนมในอันดับเซตาเซีย) ของแมนาทีและพะยูน (สัตว์เลี้ยงลูกด้วยนมในอันดับไซเรเนีย) ของแมวน้ำ สิงโตทะเล และช้างน้ำ (สัตว์เลี้ยงลูกด้วยนมในอันดับย่อยพินนิพีเดีย),Of whales  dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals  sea lions and walruses (mammals of the suborder Pinnipedia) :
+0208.40.10,2,- - ของวาฬ โลมาชนิดดอลฟินและชนิดพอร์พัส (สัตว์เลี้ยงลูกด้วยนมในอันดับเซตาเซีย) ของแมนาทีและ พะยูน (สัตว์เลี้ยงลูกด้วยนมในอันดับไซเรเนีย),Of whales  dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia)
+0208.40.90,2,- - อื่น ๆ,Other
+0208.50.00,1,- ของสัตว์เลื้อยคลาน (รวมถึงงูและสัตว์จำพวกเต่า),Of reptiles (including snakes and turtles)
+0208.60.00,1,- ของอูฐและของสัตว์จำพวกอูฐอื่น ๆ (คาเมลิดี),Of camels and other camelids (Camelidae)
+0208.90,1,- อื่น ๆ,Other :
+0208.90.10,2,- - ขากบ,Frogs' legs
+0208.90.90,2,- - อื่น ๆ,Other
+02.09,0,มันหมูไม่มีเนื้อติดและมันสัตว์ปีก ยังไม่เจียวหรือสกัดโดยวิธีอื่น สด แช่เย็น แช่เย็นจนแข็ง ใส่เกลือ แช่น้ำเกลือ แห้ง หรือรมควัน,Pig fat  free of lean meat  and poultry fat  not rendered or otherwise extracted  fresh  chilled  frozen  salted  in brine  dried or smoked.
+0209.10.00,1,- มันหมู,Of pigs
+0209.90.00,1,- อื่น ๆ,Other
+02.10,0,เนื้อและส่วนอื่นของสัตว์ที่บริโภคได้ ใส่เกลือ แช่น้ำเกลือ แห้ง หรือรมควัน รวมทั้งเนื้อหรือส่วนอื่นของสัตว์ที่ป่นซึ่งบริโภคได้,Meat and edible meat offal  salted  in brine  dried or smoked; edible flours and meals of meat or meat offal.
+0210.11.00,2,- - ขาหลัง ขาหน้า และส่วนตัดของขาดังกล่าว ที่มีกระดูก,Hams  shoulders and cuts thereof  with bone in
+,2,- เนื้อสุกร,- Meat of swine :
+ ,1,- เนื้อสุกร,Meat of swine :
+0210.12.00,2,- - เนื้อส่วนท้องและส่วนตัดของเนื้อดังกล่าว,Bellies (streaky) and cuts thereof
+0210.19,2,- - อื่น ๆ,Other :
+0210.19.30,3,- - - เนื้อเบคอน ขาหลังไม่มีกระดูก,Bacon; boneless hams
+0210.19.90,3,- - - อื่น ๆ,Other
+0210.20.00,1,- เนื้อสัตว์จำพวกโคกระบือ,Meat of bovine animals
+0210.200089,1,- เฉพาะแห้งหรือรมควัน,-
+ ,1,- อื่น ๆ รวมถึงเนื้อหรือส่วนอื่นของสัตว์ที่ป่นซึ่งบริโภคได้,Other  including edible flours and meals of meat or meat offal :
+0210.91.00,2,- - ของไพรเมต,Of primates
+0210.92,2,- - ของวาฬ โลมาชนิดดอลฟินและชนิดพอร์พัส (สัตว์เลี้ยงลูกด้วยนมในอันดับเซตาเซีย) ของแมนาทีและพะยูน (สัตว์เลี้ยงลูกด้วยนมในอันดับไซเรเนีย) ของแมวน้ำ สิงโตทะเล และช้างน้ำ (สัตว์เลี้ยงลูกด้วยนมในอันดับย่อยพินนิพีเดีย),Of whales  dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia); of seals  sea lions and walruses (mammals of the suborder Pinnipedia) :
+0210.92.10,3,- - - ของวาฬ โลมาชนิดดอลฟินและชนิดพอร์พัส (สัตว์เลี้ยงลูกด้วยนมในอันดับเซตาเซีย) ของแมนาที และพะยูน (สัตว์เลี้ยงลูกด้วยนมในอันดับไซเรเนีย),Of whales  dolphins and porpoises (mammals of the order Cetacea); of manatees and dugongs (mammals of the order Sirenia)
+0210.92.90,3,- - - อื่น ๆ,Other
+0210.93.00,2,- - ของสัตว์เลื้อยคลาน (รวมถึงงูและสัตว์จำพวกเต่า),Of reptiles (including snakes and turtles)
+0210.99,2,- - อื่น ๆ,Other :
+0210.99.10,3,- - - เนื้อไก่ตัดขนาดเท่าลูกเต๋า แช่แข็งแห้ง (ฟรีซไดรด์),Freeze-dried diced chicken
+0210.99.20,3,- - - หนังหมูแห้ง,Dried pork skin
+0210.992050,3,- - - หนังหมูแห้ง,- - -
+0210.99.90,3,- - - อื่น ๆ,Other
+0210.999089,3,- - - เฉพาะของสุกร,- - -
+03.01,0,ปลามีชีวิต,Live fish.
+ ,1,- ปลาเลี้ยงสวยงาม,Ornamental fish :
+0301.11,2,- - ปลาน้ำจืด,Freshwater :
+0301.11.10,3,- - - ลูกปลา,Fry
+0301.111088,3,- - - - เฉพาะปลาเขตร้อน  (ทรอปิคอลฟิช) เว้นแต่          Fancy carp,- - - -
+0301.111089,3,- - - - อื่น ๆ เว้นแต่ Fancy carp,- - - -
+ ,3,- - - อื่น ๆ,Other :
+0301.11.91,4,- - - - ปลาคาร์ป (ไซพรินัสคาร์ปิโอ),Koi carp (Cyprinus carpio)
+0301.119188,4,- - - - เฉพาะปลาเขตร้อน (ทรอปิคอลฟิช) เว้นแต่ Fancy carp,- - - -
+0301.119189,4,- - - - อื่น ๆ เว้นแต่ Fancy carp,- - - -
+0301.11.92,4,- - - - ปลาทอง (คารัสเซียสออราทัส),Goldfish (Carassius auratus)
+0301.119288,4,- - - - เฉพาะปลาเขตร้อน (ทรอปิคอลฟิช) เว้นแต่ Fancy carp,- - - -
+0301.119289,4,- - - - อื่น ๆ เว้นแต่ Fancy carp,- - - -
+0301.11.93,4,- - - - ปลากัดไทย (เบตาสเพลนเดนส์),Siamese fighting fish (Beta splendens)
+0301.11.95,4,- - - - ปลาอะโรวานา (สเคอโรพากีสฟอร์โมซัส),Arowanas (Scleropages formosus)
+0301.11.99,4,- - - - อื่น ๆ,Other
+0301.119988,4,- - - - เฉพาะปลาเขตร้อน  (ทรอปิคอลฟิช) เว้นแต่ ปลาออสการ์         (เอสโทโนทัสโอเซลลาทัส) และ Fancy carp,- - - -
+0301.119989,4,- - - - อื่น ๆ เว้นแต่ Fancy carp,- - - -
+0301.19,2,- - อื่น ๆ,Other :
+0301.19.10,3,- - - ลูกปลา,Fry
+0301.191088,3,- - - เฉพาะปลาเขตร้อน (ทรอปิคอลฟิช) เว้นแต่ Fancy carp,- - -
+0301.191089,3,- - - อื่น ๆ,- - -
+0301.19.90,3,- - - อื่น ๆ,Other
+0301.199088,3,- - - - เฉพาะปลาบังไกคาร์ดินัล (พิเทราโพกอนคอเดอร์นิ) ปลานโปเลียนราสส์         (คีอิลินัสอันดูลาทัส) และปลาเขตร้อน (ทรอปิคอลฟิช),- - - -
+0301.199089,3,- - - - อื่น ๆ,- - - -
+ ,1,- ปลามีชีวิตอื่น ๆ,Other live fish :
+0301.91.00,2,- - ปลาเทราต์ (แซลโมทรุตตา ออนโครินคัสมายคิส ออนโครินคัสคลาร์กิ ออนโครินคัสอะกัวโบนิตา ออนโครินคัสกิลี ออนโครินคัสอาปาเช่ และออนโครินคัสครายโซแกสเตอร์),Trout (Salmo trutta  Oncorhynchus mykiss  Oncorhynchus clarki  Oncorhynchus aguabonita  Oncorhynchus gilae  Oncorhynchus apache and Oncorhynchus chrysogaster)
+0301.92.00,2,- - ปลาไหล (ชนิดแองกูลลา),Eels (Anguilla spp.)
+0301.920089,2,- - เฉพาะ glass eel,- -
+0301.93,2,- - ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา),Carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.) :
+ ,3,- - - ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส,Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus :
+0301.93.21,4,- - - - สำหรับทำพันธุ์ นอกจากลูกปลา,Breeding  other than fry
+0301.93.22,4,- - - - ลูกปลา,Fry
+0301.93.29,4,- - - - อื่น ๆ,Other
+ ,3,- - - แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา,Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp. :
+0301.93.31,4,- - - - สำหรับทำพันธุ์ นอกจากลูกปลา,Breeding  other than fry
+0301.93.32,4,- - - - ลูกปลา,Fry
+0301.93.39,4,- - - - อื่น ๆ,Other
+0301.94.00,2,- - ปลาแอตแลนติกบลูฟินทูนาและปลาแปซิฟิกบลูฟินทูนา (ทูนนัสทินนัส ทูนนัสออเรียนทะลิส),Atlantic and Pacific bluefin tunas (Thunnus thynnus  Thunnus orientalis)
+0301.95.00,2,- - ปลาเซาต์เทิร์นบลูฟินทูนา (ทูนนัสแมคโคยิไอ),Southern bluefin tunas (Thunnus maccoyii)
+0301.99,2,- - อื่น ๆ,Other :
+ ,3,- - - ลูกปลานวลจันทร์ทะเลและลูกปลากรุพเพอร์,Milkfish and Grouper  fry :
+0301.99.11,4,- - - - สำหรับทำพันธุ์,Breeding
+0301.99.19,4,- - - - อื่น ๆ,Other
+ ,3,- - - ลูกปลาอื่น ๆ,Other fish fry :
+0301.99.22,4,- - - - ปลาคาร์ปอื่น ๆ สำหรับทำพันธุ์,Other carp  breeding
+0301.992289,4,- - - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel         และ Hagfish,- - - -
+0301.99.23,4,- - - - ปลาคาร์ปอื่น ๆ,Other carp
+0301.992389,4,- - - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel         และ Hagfish,- - - -
+0301.99.24,4,- - - - อื่น ๆ สำหรับทำพันธุ์,Other  breeding
+0301.992489,4,- - - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel         และ Hagfish,- - - -
+0301.99.29,4,- - - - อื่น ๆ,Other
+0301.992989,4,- - - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel         และ Hagfish,- - - -
+ ,3,- - - ปลานวลจันทร์และปลากรุพเพอร์ อื่น ๆ นอกจากลูกปลา,Milkfish and grouper  other than fry :
+0301.99.31,4,- - - - ปลานวลจันทร์สำหรับทำพันธุ์,Milkfish  breeding
+0301.99.32,4,- - - - ปลานวลจันทร์ อื่น ๆ,Milkfish  other
+0301.993289,4,- - - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel         และ Hagfish,- - - -
+0301.99.33,4,- - - - ปลาเลเพิร์ดคอรัลกรุพเพอร์ (เพลคโทรโพมัส เลพาร์ดัส),Leopard coral grouper (Plectropomus leopardus)
+0301.99.34,4,- - - - ปลาบราวน์มาร์เบิลกรุพเพอร์ (เอพิเนเฟลัส ฟัสโคกัสทาตัส),Brown-marbled grouper (Epinephelus fuscoguttatus)
+0301.99.35,4,- - - - ปลาฮัมแบ็คกรุพเพอร์ (ครอมิเลปเตส อัลติวิลิส),Humpback grouper (Cromileptes altivelis)
+0301.99.36,4,- - - - ปลากรุพเพอร์อื่น ๆ,Other grouper
+ ,3,- - - อื่น ๆ ปลาน้ำจืด,Other  freshwater fish :
+0301.99.41,4,- - - - ปลาทิละเพียส (ชนิดโอริโอโครมิส),Tilapias (Oreochromis spp.)
+0301.99.42,4,- - - - ปลาคาร์ปอื่น ๆ สำหรับทำพันธุ์,Other carp  for breeding
+0301.99.49,4,- - - - อื่น ๆ,Other
+0301.994989,4,- - - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel         และ Hagfish,- - - -
+0301.99.50,3,- - - อื่น ๆ ปลาทะเล,Other  marine fish
+0301.995089,3,- - - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel         และ Hagfish,- - - -
+0301.99.90,3,- - - อื่น ๆ,Other
+0301.999089,3,- - - เฉพาะ Yellow tail, Conger eel, Sharp toothed eel และ Hagfish,- - -
+03.02,0,ปลา สดหรือแช่เย็น ไม่รวมถึงเนื้อปลาแบบฟิลเลและเนื้อปลาแบบอื่นตามประเภท 03.04,Fish  fresh or chilled  excluding fish fillets and other fish meat of heading 03.04.
+ ,1,- ปลาในวงศ์แซลมอน ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0302.91 ถึง 0302.99,Salmonidae  excluding edible fish offal of subheadings 0302.91 to 0302.99 :
+0302.11.00,2,- - ปลาเทราต์ (แซลโมทรุตตา ออนโครินคัสมายคิส ออนโครินคัสคลาร์กิ ออนโครินคัสอะกัวโบนิตา ออนโครินคัสกิลี ออนโครินคัสอาปาเช่ และ ออนโครินคัสครายโซแกสเตอร์),Trout (Salmo trutta  Oncorhynchus mykiss  Oncorhynchus clarki  Oncorhynchus aguabonita  Oncorhynchus gilae  Oncorhynchus apache and Oncorhynchus chrysogaster)
+0302.13.00,2,- - ปลาแซลมอนแปซิฟิก (ออนโครินคัสเนอรก้า ออนโครินคัสกอบูสก้า ออนโครินคัสคีต้า ออนโครินคัสซาวิสก้า ออนโครินคัสคีสซุ ออนโครินคัสมาซูโอ๊ะ และออนโครินคัสโรดูรัส),Pacific salmon (Oncorhynchus nerka  Oncorhynchus gorbuscha  Oncorhynchus keta  Oncorhynchus tschawytscha  Oncorhynchus kisutch  Oncorhynchus masou and Oncorhynchus rhodurus)
+0302.14.00,2,- - ปลาแซลมอนแอตแลนติก (แซลโมซาลาร์) และ ปลาแซลมอนดานูบ (ฮูโกฮูโก),Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)
+0302.19.00,2,- - อื่น ๆ,Other
+ ,1,- ปลาลิ้นหมา (พลูโรเนกติดี โบทิดี ไซโนกลอสสิดี โซลิดี สคอฟทาลมิดี และซิทาริดี) ไม่รวมถึงส่วนอื่นของปลา ที่บริโภคได้ตามประเภทย่อย 0302.91 ถึง 0302.99,Flat fish (Pleuronectidae  Bothidae  Cynoglossidae  Soleidae  Scophthalmidae and Citharidae)  excluding edible fish offal of subheadings 0302.91 to 0302.99 :
+0302.21.00,2,- - ปลาลิ้นหมาพวกจักรผาน (เรนฮาร์ดเชียสฮิปโปกลอสซอยเดส ฮิปโปกลอสซัสฮิปโปกลอสซัส ฮิปโปกลอสซัสสตีโนเลพิส),Halibut (Reinhardtius hippoglossoides  Hippoglossus hippoglossus  Hippoglossus stenolepis)
+0302.22.00,2,- - ปลาเพลซ (พลูโรเนกเทสพลาเทสซา),Plaice (Pleuronectes platessa)
+0302.220050,2,- - ปลาเพลซ (พลูโรเนกเทสพลาเทสซา),- -
+0302.23.00,2,- - ปลาโซล (ชนิดโซเลีย),Sole (Solea spp.)
+0302.24.00,2,- - ปลาเทอบัท (เซตตาแมกซิมา),Turbots (Psetta maxima)
+0302.240050,2,- - ปลาเทอบัท (เซตตาแมกซิมา),- -
+0302.29.00,2,- - อื่น ๆ,Other
+0302.290050,2,- - อื่น ๆ,- -
+ ,1,- ปลาทูนา (ของตระกูลทูนนัส) ปลาสคิปแจ็ค (ปลาโอท้องแถบ) (แคตสุโวนัส เพลามิส) ไม่รวมถึง ส่วนอื่นของปลาที่บริโภคได้ตามประเภทย่อย 0302.91 ถึง 0302.99,Tunas (of the genus Thunnus)  skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)  excluding edible fish offal of subheadings 0302.91 to 0302.99 :
+0302.31.00,2,- - ปลาแอลบาคอร์หรือปลาทูนาครีบยาว (ทูนนัสอะลาลังกา),Albacore or longfinned tunas (Thunnus alalunga)
+0302.310050,2,- - ปลาแอลบาคอร์หรือปลาทูนาครีบยาว (ทูนนัสอะลาลังกา),- -
+0302.32.00,2,- - ปลาทูนาครีบเหลือง (ทูนนัสอัลบาคาเรส),Yellowfin tunas (Thunnus albacares)
+0302.320050,2,- - ปลาทูนาครีบเหลือง (ทูนนัสอัลบาคาเรส),- -
+0302.33.00,2,- - ปลาสคิปแจ็ค (ปลาโอท้องแถบ) (แคตสุโวนัส เพลามิส),Skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)
+0302.34.00,2,- - ปลาบิกอายทูนา (ทูนนัสโอเบซัส),Bigeye tunas (Thunnus obesus)
+0302.35.00,2,- - ปลาแอตแลนติกบลูฟินทูนาและปลาแปซิฟิกบลูฟินทูนา (ทูนนัสทินนัส ทูนนัสออเรียนทะลิส),Atlantic and Pacific bluefin tunas (Thunnus thynnus  Thunnus orientalis)
+0302.350089,2,- - เฉพาะปลาแปซิฟิกบลูฟินทูนา (ทูนนัสออเรียนทะลิส),- -
+0302.36.00,2,- - ปลาเซาต์เทิร์นบลูฟินทูนา (ทูนนัสแมคโคยิไอ),Southern bluefin tunas (Thunnus maccoyii)
+0302.39.00,2,- - อื่น ๆ,Other
+0302.390050,2,- - อื่น ๆ,- -
+ ,1,- ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาซิไอ) ปลาแอนโชวี (ชนิดเองกรัวลิส) ปลาซาร์ดีน (ซาร์ดินาพิลคาร์ดัส ชนิดซาร์ดินอป) ปลาซาร์ดิเนลล่า (ชนิดซาร์ดิเนลล่า) ปลาบริสลิ่งหรือปลาสแปรต (สแปรตทัสสแปรตทัส) ปลาแมคเคอเรล (สคอมเบอร์สคอมบรัส สคอมเบอร์ออสตราลาซิกัส สคอมเบอร์จาโพนิกัส) ปลาอินเดียนแมคเคอเรล (ชนิดราสต์รีลลิเกอร์) ปลาเซียร์ฟิช (ชนิดสคอมเบอร์โรโมรัส) ปลาแจคแมคเคอเรล และปลาฮอร์สแมคเคอเรล (ชนิดทราชูลัส) ปลาแจค ปลาครีวอลเลส (ชนิดคารักซ์) ปลาโคเบีย (ราชิเซนทรอนคานาดัม) ปลาจะละเม็ดขาว (ชนิดแพมพัส) ปลาแปซิฟิกซอริ (โคโลลาบิส ไซรา) ปลาสแคด (ชนิดดิแคปทิรัส) ปลาแคพเพริน (แมลโลทัสวิลโลซัส) ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส) ปลาคาวะคาวะ (ยูทินนัสแอฟฟินิส) ปลาโบนิโทส (ชนิดซาร์ดา) ปลามาร์ลิน ปลาเซลล์ฟิช ปลาสเปียร์ฟิช (อิสทิโอพอริเด) ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0302.91 ถึง 0302.99,Herrings (Clupea harengus  Clupea pallasii)  anchovies (Engraulis spp.)  sardines (Sardina pilchardus  Sardinops spp.)  sardinella (Sardinella spp.)  brisling or sprats (Sprattus sprattus)  mackerel (Scomber scombrus  Scomber australasicus  Scomber japonicus)  Indian mackerels (Rastrelliger spp.)  seerfishes (Scomberomorus spp.)  jack and horse mackerel (Trachurus spp.)  jacks  crevalles (Caranx spp.)  cobia (Rachycentron canadum)  silver pomfrets (Pampus spp.)  Pacific saury (Cololabis saira)  scads (Decapterus spp.)  capelin (Mallotus villosus)  swordfish (Xiphias gladius)  Kawakawa (Euthynnus affinis)  bonitos (Sarda spp.)  marlins  sailfishes  spearfish (Istiophoridae)  excluding edible fish offal of subheadings 0302.91 to 0302.99 :
+0302.41.00,2,- - ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาซิไอ),Herrings (Clupea harengus  Clupea pallasii)
+0302.42.00,2,- - ปลาแอนโชวี (ชนิดเองกรัวลิส),Anchovies (Engraulis spp.)
+0302.43.00,2,- - ปลาซาร์ดีน (ซาร์ดินาพิลคาร์ดัส ชนิดซาร์ดินอป) ปลาซาร์ดิเนลล่า (ชนิดซาร์ดิเนลล่า) ปลาบริสลิ่งหรือ ปลาสแปรต (สแปรตทัสสแปรตทัส),Sardines (Sardina pilchardus  Sardinops spp.)  sardinella (Sardinella spp.)  brisling or sprats (Sprattus sprattus)
+0302.44.00,2,- - ปลาแมคเคอเรล (สคอมเบอร์สคอมบรัส สคอมเบอร์ออสตราลาซิกัส สคอมเบอร์จาโพนิกัส),Mackerel (Scomber scombrus  Scomber australasicus  Scomber japonicus)
+0302.45.00,2,- - ปลาแจคแมคเคอเรลและปลาฮอร์สแมคเคอเรล (ชนิดทราชูลัส),Jack and horse mackerel (Trachurus spp.)
+0302.46.00,2,- - ปลาโคเบีย (ราชิเซนทรอนคานาดัม),Cobia (Rachycentron canadum)
+0302.47.00,2,- - ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส),Swordfish (Xiphias gladius)
+0302.49.00,2,- - อื่น ๆ,Other
+ ,1,- ปลาในวงศ์เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ตามประเภทย่อย 0302.91 ถึง 0302.99,Fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae  excluding edible fish offal of subheadings 0302.91 to 0302.99 :
+0302.51.00,2,- - ปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),Cod (Gadus morhua  Gadus ogac  Gadus macrocephalus)
+0302.510050,2,- - ปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),- -
+0302.52.00,2,- - ปลาแฮดด็อก (เมลาโนแกรมมัสอีกลีฟินัส),Haddock (Melanogrammus aeglefinus)
+0302.53.00,2,- - ปลาโคล (พอลลาชิอัสไวเรนส์),Coalfish (Pollachius virens)
+0302.54.00,2,- - ปลาเฮก (ชนิดเมอร์ลักเซียส ชนิดยูโรไฟซีส),Hake (Merluccius spp.  Urophycis spp.)
+0302.55.00,2,- - ปลาอลาสกาพอลล็อค (เทรากาชาลโคแกรมมา),Alaska Pollock (Theragra chalcogramma)
+0302.56.00,2,- - ปลาบลูไวทิง (ไมโครมีซิสทิอัสพอทัสซัว ไมโครมีซิสทิอัสออสทราลิส),Blue whitings (Micromesistius poutassou  Micromesistius australis)
+0302.59.00,2,- - อื่น ๆ,Other
+ ,1,- ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา) ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0302.91 ถึง 0302.99,Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)  excluding edible fish offal of subheadings 0302.91 to 0302.99 :
+0302.71.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส),Tilapias (Oreochromis spp.)
+0302.72,2,- - ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส),Catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.) :
+0302.72.10,3,- - - ปลาแคทฟิชหางเหลือง (แปงกาเซียสแปงกาเซียส),Yellowtail catfish (Pangasius pangasius)
+0302.72.90,3,- - - อื่น ๆ,Other
+0302.73.00,2,- - ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา),Carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)
+0302.74.00,2,- - ปลาไหล (ชนิดแองกูลลา),Eels (Anguilla spp.)
+0302.79.00,2,- - อื่น ๆ,Other
+ ,1,- ปลาอื่น ๆ ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0302.91 ถึง 0302.99,Other fish  excluding edible fish offal of subheadings 0302.91 to 0302.99 :
+0302.81.00,2,- - ปลาฉลามหนูและปลาฉลามอื่น ๆ,Dogfish and other sharks
+0302.82.00,2,- - ปลากระเบน (ราจิดี),Rays and skates (Rajidae)
+0302.83.00,2,- - ปลาทูธฟิช (ชนิดดิสโซสติชัส),Toothfish (Dissostichus spp.)
+0302.84.00,2,- - ปลากะพงทะเล (ชนิดไดเซนทราคัส),Seabass (Dicentrarchus spp.)
+0302.85.00,2,- - ปลาซีบรีม (สปาริดี),Seabream (Sparidae)
+0302.89,2,- - อื่น ๆ,Other :
+ ,3,- - - ปลาทะเล,Marine fish :
+0302.89.11,4,- - - - ปลากรุพเพอร์,Grouper
+0302.89.12,4,- - - - ปลาดอกหมากครีบยาว (เพนทาพรันลองกิมานัส),Longfin mojarra (Pentaprion longimanus)
+0302.89.13,4,- - - - ปลาบลันท์โนสลิซาร์ดฟิช (ทราชิโนซีฟาลัสมายออปส์),Bluntnose lizardfish (Trachinocephalus myops)
+0302.89.14,4,- - - - ปลาซาวาลายแฮร์เทลส์ (เลปทูราแคนทัสซาวาลา) ปลาเบลังเกอร์ครอกเกอร์ (จอห์นิอัสเบลังเจอริอิ) ปลารีฟส์ครอกเกอร์ (คริโซเชอร์ออรีอัส) และ ปลาบิกอายส์ครอกเกอร์ (เพนนาเฮียเอนี),Savalai hairtails (Lepturacanthus savala)  Belanger?s croakers (Johnius belangerii)  Reeve?s croakers (Chrysochir aureus) and bigeye croakers (Pennahia anea)
+0302.89.15,4,- - - - ปลาอินเดียนเทรดฟินส์ (พอลินีมัสอินดิคัส),Indian threadfins (Polynemus indicus)
+0302.89.16,4,- - - - ปลาทอร์ปิโดสแคด (เมกาลัสปิสคอร์ไดลา) ปลาสปอตซิคเคิลฟิช (ดรีเพนพังทาทา) และ ปลาเกรทบาร์ราคูดัส (สฟิเรนาบาร์ราคูดา),Torpedo scads (Megalaspis cordyla)  spotted sicklefish (Drepane punctata) and great barracudas (Sphyraena barracuda)
+0302.89.17,4,- - - - ปลาจะละเม็ดดำ (พาราสโตรมาทัสไนเจอร์),Black pomfrets (Parastromatus niger)
+0302.89.18,4,- - - - ปลากะพงแดง (ลัตจานัสอาร์เจนติมาคูลาตัส),Mangrove red snappers (Lutjanus argentimaculatus)
+0302.89.19,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0302.89.22,4,- - - - ปลาตะเพียน (พันทิอัสโชลา),Swamp barb (Puntius chola)
+0302.89.23,4,- - - - ปลาซิลเวอร์กรันท์ (พามาดาซิสอาร์เจนทีอัส),Silver grunts (Pomadasys argenteus)
+0302.89.27,4,- - - - ปลาตะลุมพุก (ทีนัวโลซาอิลิชา),Hilsa shad (Tenualosa ilisha)
+0302.89.28,4,- - - - ปลาเค้าดำ (วัลลาโกอัตทู) และปลากดหัวเสียม (สปิราทาซีงาลา),Wallago (Wallago attu) and giant river-catfish (Sperata seenghala)
+0302.89.29,4,- - - - อื่น ๆ,Other
+ ,1,- ตับ ไข่ มิลท์ ครีบปลา หัวปลา หางปลา กระเพาะปลา และส่วนอื่นของปลาที่บริโภคได้,Livers  roes  milt  fish fins  heads  tails  maws and other edible fish offal :
+0302.91.00,2,- - ตับ ไข่และมิลท์,Livers  roes and milt
+0302.92.00,2,- - ครีบปลาฉลาม (หูฉลาม),Shark fins
+0302.99.00,2,- - อื่น ๆ,Other
+0302.990001,2,- - เฉพาะส่วนของปลาตามประเภทย่อย     0302.44.00 0302.71.00 0302.72.10     0302.72.90 0302.73.00 0302.79.00     0302.84.00 0302.89.22 หรือ 0302.89.29,- - other edibleof fish offal of subheading    0302.44.00 0302.71.00 0302.72.10     0302.72.90 0302.73.00 0302.79.00     0302.84.00 0302.89.22 หรือ 0302.89.29
+0302.990029,2,- - อื่น ๆ,- - Other
+0302.990040,2,- - เฉพาะส่วนของปลาตามประเภทย่อย 0302.22.00    0302.53.00 และ 0302.81.00,- -
+0302.990041,2,- - เฉพาะส่วนของปลาตามประเภทย่อย 0302.44.00      0302.71.00 0302.72.10 0302.72.90 0302.73.00     0302.79.00 0302.84.00 0302.89.22 และ     0302.89.29,- -
+0302.990049,2,- - อื่น ๆ,- -
+0302.990031,2,- - เฉพาะส่วนของปลาตามประเภทพิกัดย่อยที่ 0302.11.00 0302.13.00           0302.14.00 0302.19.00 0302.21.00 0302.22.00 0302.23.00     0302.24.00 0302.29.00 0302.31.00 0302.32.00 0302.33.00      0302.34.00 0302.35.000302.36.00 0302.39.00 0302.41.00      0302.43.00 0302.51.00 0302.52.00 0302.53.00 0302.74.00      0302.81.00,- - Of fish of subheading 0302.13.00    0302.14.00 0302.19.00 0302.21.00 0302.23.00    0302.24.00 0302.29.00 0302.31.00 0302.32.00     0302.33.00 0302.34.00 0302.35.00 0302.36.00    0302.39.00 0302.41.00 0302.43.00 0302.51.00    0302.52.00 or 0302.74.00
+0302.990032,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0302.22.00    0302.53.00 และ 0302.81.00,- -
+0302.990077,2,- - เฉพาะส่วนของปลาตามประเภทย่อย  0302.11.00     0302.13.00 0302.14.00 0302.19.00 0302.21.00    0302.22.00 0302.23.00 0302.24.00 0302.29.00    0302.31.00 0302.32.00 0302.33.00 0302.34.00     0302.35.00 0302.36.00 0302.39.00 0302.41.00     0302.43.00 0302.51.00 0302.52.00 0302.53.00       0302.74.00 และ 0302.81.00,- - Of fish of subheadings 0302.11.00    0302.13.00 0302.14.00 0302.19.00 0302.21.00    0302.22.00 0302.23.00 0302.24.00 0302.29.00    0302.31.00 0302.32.00 0302.33.00 0302.34.00     0302.35.00 0302.36.00 0302.39.00 0302.41.00     0302.43.00 0302.51.00 0302.52.00 0302.53.00       0302.74.00 and 0302.81.00
+0302.990081,2,- - เฉพาะส่วนของปลาตามประเภทย่อย 0302.11.00         0302.13.00 0302.14.00 0302.19.00 0302.21.00    0302.22.00 0302.23.00  0302.24.00 0302.29.00    0302.31.00 0302.32.00 0302.33.00 0302.34.00    0302.35.00 0302.36.00 0302.39.00 0302.41.00    0302.43.00 0302.51.00 0302.52.00 0302.53.00    0302.74.00 และ 0302.81.00,- - For part of fish of subheading 0302.11.00 0302.13.00 0302.14.00 0302.19.00 0302.21.00 0302.22.00 0302.23.00  0302.24.00 0302.29.00 0302.31.00 0302.32.00 0302.33.00 0302.34.00 0302.35.00 0302.36.00 0302.39.00 0302.41.00 0302.43.00 0302.51.00 0302.52.00 0302.53.00 0302.74.00 and 0302.81.00
+0302.990051,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0302.11.00,- -
+0302.990052,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0302.13.00,     0302.14.00, 0302.19.00, 0302.21.00, 0302.23.00,     0302.24.00, 0302.29.00, 0302.31.00, 0302.32.00,     0302.33.00, 0302.34.00, 0302.35.00, 0302.36.00,     0302.39.00, 0302.41.00, 0302.43.00, 0302.51.00,     0302.52.00, 0302.74.00,- -
+0302.990053,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0302.22.00,     0302.53.00, 0302.81.00, 0302.92.00,- -
+0302.990054,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0302.42.00,     0302.45.00, 0302.46.00, 0302.47.00, 0302.49.00,     0302.54.00, 0302.55.00, 0302.56.00, 0302.59.00,     0302.82.00, 0302.83.00, 0302.85.00, 0302.89.11,     0302.89.12, 0302.89.13, 0302.89.14, 0302.89.16,     0302.89.17, 0302.89.18, 0302.89.19, 0302.89.26,     0302.89.27, 0302.89.28,- -
+0302.990064,2,- - อื่น ๆ,- - Other
+0302.990067,2,- - อื่น ๆ,Other
+0302.990071,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0302.22.00  0302.53.00      และ 0302.81.00,- - Of subheading 0302.22.00 0302.53.00 and 0302.81.00
+0302.990099,2,- - อื่น ๆ,- - Other
+03.03,0,ปลา แช่เย็นจนแข็ง ไม่รวมถึงเนื้อปลาแบบฟิลเลและเนื้อปลาแบบอื่นตามประเภท 03.04,Fish  frozen  excluding fish fillets and other fish meat of heading 03.04.
+ ,1,- ปลาในวงศ์แซลมอน ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0303.91 ถึง 0303.99,Salmonidae  excluding edible fish offal of subheadings 0303.91 to 0303.99 :
+0303.11.00,2,- - ปลาซอคอายแซลมอน (เรดแซลมอน) (ออนโครินคัสเนอรก้า),Sockeye salmon (red salmon) (Oncorhynchus nerka)
+0303.12.00,2,- - ปลาแซลมอนแปซิฟิกอื่น ๆ (ออนโครินคัสกอบูสก้า ออนโครินคัสคีต้า ออนโครินคัสซาวิสก้า ออนโครินคัสคีสซุ ออนโครินคัสมาซูโอ๊ะ และออนโครินคัสโรดูรัส),Other Pacific salmon (Oncorhynchus gorbuscha  Oncorhynchus keta  Oncorhynchus tschawytscha  Oncorhynchus kisutch  Oncorhynchus masou and Oncorhynchus rhodurus)
+0303.13.00,2,- - ปลาแซลมอนแอตแลนติก (แซลโมซาลาร์) และ ปลาแซลมอนดานูบ (ฮูโกฮูโก),Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)
+0303.14.00,2,- - ปลาเทราต์ (แซลโมทรุตตา ออนโครินคัสมายคิส ออนโครินคัสคลาร์กิ ออนโครินคัสอะกัวโบนิตา ออนโครินคัสกิลี ออนโครินคัสอาปาเช่ และ ออนโครินคัสครายโซแกสเตอร์),Trout (Salmo trutta  Oncorhynchus mykiss  Oncorhynchus clarki  Oncorhynchus aguabonita  Oncorhynchus gilae  Oncorhynchus apache and Oncorhynchus chrysogaster)
+0303.19.00,2,- - อื่น ๆ,Other
+ ,1,- ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ซ (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา) ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0303.91 ถึง 0303.99,Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)  excluding edible fish offal of subheadings 0303.91 to 0303.99 :
+0303.23.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส),Tilapias (Oreochromis spp.)
+0303.24.00,2,- - ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส),Catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)
+0303.25.00,2,- - ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา),Carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)
+0303.26.00,2,- - ปลาไหล (ชนิดแองกูลลา),Eels (Anguilla spp.)
+0303.29.00,2,- - อื่น ๆ,Other
+ ,1,- ปลาลิ้นหมา (พลูโรเนกติดี โบทิดี ไซโนกลอสสิดี โซลิดี สคอฟทาลมิดี และซิทาริดี) ไม่รวมถึงส่วนอื่นของปลา ที่บริโภคได้ตามประเภทย่อย 0303.91 ถึง 0303.99,Flat fish (Pleuronectidae  Bothidae  Cynoglossidae  Soleidae  Scophthalmidae and Citharidae)  excluding edible fish offal of subheadings 0303.91 to 0303.99 :
+0303.31.00,2,- - ปลาลิ้นหมาพวกจักรผาน (เรนฮาร์ดเชียสฮิปโปกลอสซอยเดส ฮิปโปกลอสซัสฮิปโปกลอสซัส ฮิปโปกลอสซัสสตีโนเลพิส),Halibut (Reinhardtius hippoglossoides  Hippoglossus hippoglossus  Hippoglossus stenolepis)
+0303.310050,2,- - ปลาลิ้นหมาพวกจักรผาน (เรนฮาร์ดเชียสฮิปโปกลอสซอยเดส     ฮิปโปกลอสซัสฮิปโปกลอสซัส ฮิปโปกลอสซัสสตีโนเลพิส),- -
+0303.32.00,2,- - ปลาเพลซ (พลูโรเนกเทสพลาเทสซา),Plaice (Pleuronectes platessa)
+0303.320050,2,- - ปลาเพลซ (พลูโรเนกเทสพลาเทสซา),- -
+0303.33.00,2,- - ปลาโซล (ชนิดโซเลีย),Sole (Solea spp.)
+0303.34.00,2,- - ปลาเทอบัท (เซตตาแมกซิมา),Turbots (Psetta maxima)
+0303.340050,2,- - ปลาเทอบัท (เซตตาแมกซิมา),- -
+0303.39.00,2,- - อื่น ๆ,Other
+0303.390050,2,- - อื่น ๆ,- -
+ ,1,- ปลาทูนา (ของตระกูลทูนนัส) ปลาสคิปแจ็ค (ปลาโอท้องแถบ) (แคตสุโวนัส เพลามิส) ไม่รวมถึง ส่วนอื่นของปลาที่บริโภคได้ตามประเภทย่อย 0303.91 ถึง 0303.99,Tunas (of the genus Thunnus)  skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)  excluding edible fish offal of subheadings 0303.91 to 0303.99 :
+0303.41.00,2,- - ปลาแอลบาคอร์หรือปลาทูนาครีบยาว (ทูนนัสอะลาลังกา),Albacore or longfinned tunas (Thunnus alalunga)
+0303.42.00,2,- - ปลาทูนาครีบเหลือง (ทูนนัสอัลบาคาเรส),Yellowfin tunas (Thunnus albacares)
+0303.420050,2,- - ปลาทูนาครีบเหลือง (ทูนนัสอัลบาคาเรส),- -
+0303.43.00,2,- - ปลาสคิปแจ็ค (ปลาโอท้องแถบ) (แคตสุโวนัส เพลามิส),Skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)
+0303.430050,2,- - ปลาสคิปแจ็ค (ปลาโอท้องแถบ) (แคตสุโวนัส เพลามิส),- -
+0303.44.00,2,- - ปลาบิกอายทูนา (ทูนนัสโอเบซัส),Bigeye tunas (Thunnus obesus)
+0303.440050,2,- - ปลาบิกอายทูนา (ทูนนัสโอเบซัส),- -
+0303.45,2,- - ปลาแอตแลนติกบลูฟินทูนาและปลาแปซิฟิกบลูฟินทูนา (ทูนนัสทินนัส ทูนนัสออเรียนทะลิส),Atlantic and Pacific bluefin tunas (Thunnus thynnus  Thunnus orientalis) :
+0303.45.10,3,- - - ปลาแอตแลนติกบลูฟินทูนา (ทูนนัสทินนัส),Atlantic bluefin tunas (Thunnus thynnus)
+0303.45.90,3,- - - ปลาแปซิฟิกบลูฟินทูนา (ทูนนัสออเรียนทะลิส),Pacific bluefin tunas (Thunnus orientalis)
+0303.459050,3,- - - ปลาแปซิฟิกบลูฟินทูนา (ทูนนัสออเรียนทะลิส),- - -
+0303.46.00,2,- - ปลาเซาต์เทิร์นบลูฟินทูนา (ทูนนัสแมคโคยิไอ),Southern bluefin tunas (Thunnus maccoyii)
+0303.49,2,- - อื่น ๆ,Other :
+0303.49.10,3,- - - ปลาโอดำ (ทูนนัส ทองกอล),Longtail tuna (Thunnus tonggol)
+0303.491050,3,- - - ปลาโอดำ (ทูนนัส ทองกอล),- - -
+0303.49.90,3,- - - อื่น ๆ,Other
+0303.499050,3,- - - อื่น ๆ,- - -
+ ,1,- ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาซิไอ) ปลาแอนโชวี (ชนิดเองกรัวลิส) ปลาซาร์ดีน (ซาร์ดินาพิลคาร์ดัส ชนิดซาร์ดินอป) ปลาซาร์ดิเนลล่า (ชนิดซาร์ดิเนลล่า) ปลาบริสลิ่งหรือปลาสแปรต (สแปรตทัสสแปรตทัส) ปลาแมคเคอเรล (สคอมเบอร์สคอมบรัส สคอมเบอร์ออสตราลาซิกัส สคอมเบอร์จาโพนิกัส) ปลาอินเดียนแมคเคอเรล (ชนิดราสต์รีลลิเกอร์) ปลาเซียร์ฟิช (ชนิดสคอมเบอร์โรโมรัส) ปลาแจคแมคเคอเรล และ ปลาฮอร์สแมคเคอเรล (ชนิดทราชูลัส) ปลาแจค ปลาครีวอลเลส (ชนิดคารักซ์) ปลาโคเบีย (ราชิเซนทรอนคานาดัม) ปลาจะละเม็ดขาว (ชนิดแพมพัส) ปลาแปซิฟิกซอริ (โคโลลาบิสไซรา) ปลาสแคด (ชนิดดิแคปทิรัส) ปลาแคพเพริน (แมลโลทัสวิลโลซัส) ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส) ปลาคาวะคาวะ (ยูทินนัสแอฟฟินิส) ปลาโบนิโทส (ชนิดซาร์ดา) ปลามาร์ลิน ปลาเซลล์ฟิช ปลาสเปียร์ฟิช (อิสทิโอพอริเด) ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0303.91 ถึง 0303.99,Herrings (Clupea harengus  Clupea pallasii)  anchovies (Engraulis spp.)  sardines (Sardina pilchardus  Sardinops spp.)  sardinella (Sardinella spp.)  brisling or sprats (Sprattus sprattus)  mackerel (Scomber scombrus  Scomber australasicus  Scomber japonicus)  Indian mackerels (Rastrelliger spp.)  seerfishes (Scomberomorus spp.)  jack and horse mackerel (Trachurus spp.)  jacks  crevalles (Caranx spp.)  cobia (Rachycentron canadum)  silver pomfrets (Pampus spp.)  Pacific saury (Cololabis saira)  scads (Decapterus spp.)  capelin (Mallotus villosus)  swordfish (Xiphias gladius)  Kawakawa (Euthynnus affinis)  bonitos (Sarda spp.)  marlins  sailfishes  spearfish (Istiophoridae)  excluding edible fish offal of subheadings 0303.91 to 0303.99 :
+0303.51.00,2,- - ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาซิไอ),Herrings (Clupea harengus  Clupea pallasii)
+0303.510050,2,- - ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาซิไอ),- -
+0303.53.00,2,- - ปลาซาร์ดีน (ซาร์ดินาพิลคาร์ดัส ชนิดซาร์ดินอป) ปลาซาร์ดิเนลล่า (ชนิดซาร์ดิเนลล่า) ปลาบริสลิ่งหรือ ปลาสแปรต (สแปรตทัสสแปรตทัส),Sardines (Sardina pilchardus  Sardinops spp.)  sardinella (Sardinella spp.)  brisling or sprats (Sprattus sprattus)
+0303.530050,2,- - ปลาซาร์ดีน (ซาร์ดินาพิลคาร์ดัส ชนิดซาร์ดินอป) ปลาซาร์ดิเนลล่า     (ชนิดซาร์ดิเนลล่า) ปลาบริสลิ่งหรือปลาสแปรต (สแปรตทัสสแปรตทัส),- -
+0303.54,2,- - ปลาแมคเคอเรล (สคอมเบอร์สคอมบรัส สคอมเบอร์ออสตราลาซิกัส สคอมเบอร์จาโพนิกัส),Mackerel (Scomber scombrus  Scomber australasicus  Scomber japonicus) :
+0303.54.10,3,- - - ปลาแมคเคอเรล (สคอมเบอร์สคอมบรัส สคอมเบอร์ออสตราลาซิกัส),Mackerel (Scomber scombrus  Scomber australasicus)
+0303.54.20,3,- - - ปลาแปซิฟิกแมคเคอเรล (สคอมเบอร์จาโพนิกัส),Pacific mackerel (Scomber japonicus)
+0303.55.00,2,- - ปลาแจคแมคเคอเรลและปลาฮอร์สแมคเคอเรล (ชนิดทราชูลัส),Jack and horse mackerel (Trachurus spp.)
+0303.56.00,2,- - ปลาโคเบีย (ราชิเซนทรอนคานาดัม),Cobia (Rachycentron canadum)
+0303.57.00,2,- - ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส),Swordfish (Xiphias gladius)
+0303.59,2,- - อื่น ๆ,Other :
+0303.59.10,3,- - - ปลาอินเดียนแมคเคอเรล (ราสต์รีลลิเกอร์กานาเกอทา) และปลาไอส์แลนด์แมคเคอเรล (ราสต์รีลลิเกอร์ฟาฟนิ),Indian mackerels (Rastrelliger kanagurta); Island mackerels (Rastrelliger faughni)
+0303.59.20,3,- - - ปลาจะละเม็ดขาว (ชนิดแพมพัส),Silver pomfrets (Pampus spp.)
+0303.59.90,3,- - - อื่น ๆ,Other
+ ,1,- ปลาในวงศ์เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ตามประเภทย่อย 0303.91 ถึง 0303.99,Fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae  excluding edible fish offal of subheadings 0303.91 to 0303.99 :
+0303.63.00,2,- - ปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),Cod (Gadus morhua  Gadus ogac  Gadus macrocephalus)
+0303.630050,2,- - ปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),- -
+0303.64.00,2,- - ปลาแฮดด็อก (เมลาโนแกรมมัสอีกลีฟินัส),Haddock (Melanogrammus aeglefinus)
+0303.65.00,2,- - ปลาโคล (พอลลาชิอัสไวเรนส์),Coalfish (Pollachius virens)
+0303.66.00,2,- - ปลาเฮก (ชนิดเมอร์ลักเซียส ชนิดยูโรไฟซีส),Hake (Merluccius spp.  Urophycis spp.)
+0303.67.00,2,- - ปลาอลาสกาพอลล็อค (เทรากาชาลโคแกรมมา),Alaska Pollock (Theragra chalcogramma)
+0303.68.00,2,- - ปลาบลูไวทิง (ไมโครมีซิสทิอัสพอทัสซัว ไมโครมีซิสทิอัสออสทราลิส),Blue whitings (Micromesistius poutassou  Micromesistius australis)
+0303.69.00,2,- - อื่น ๆ,Other
+ ,1,- ปลาอื่น ๆ ไม่รวมถึงส่วนอื่นของปลาที่บริโภคได้ ตามประเภทย่อย 0303.91 ถึง 0303.99,Other fish  excluding edible fish offal of subheadings 0303.91 to 0303.99 :
+0303.81.00,2,- - ปลาฉลามหนูและปลาฉลามอื่น ๆ,Dogfish and other sharks
+0303.810050,2,- - ปลาฉลามหนูและปลาฉลามอื่น ๆ,- -
+0303.82.00,2,- - ปลากระเบน (ราจิดี),Rays and skates (Rajidae)
+0303.83.00,2,- - ปลาทูธฟิช (ชนิดดิสโซสติชัส),Toothfish (Dissostichus spp.)
+0303.84.00,2,- - ปลากะพงทะเล (ชนิดไดเซนทราคัส),Seabass (Dicentrarchus spp.)
+0303.89,2,- - อื่น ๆ,Other :
+ ,3,- - - ปลาทะเล,Marine fish :
+0303.89.11,4,- - - - ปลากรุพเพอร์,Grouper
+0303.89.13,4,- - - - ปลาบลันท์โนสลิซาร์ดฟิช (ทราชิโนซีฟาลัสมายออปส์),Bluntnose lizardfish (Trachinocephalus myops)
+0303.89.14,4,- - - - ปลาซาวาลายแฮร์เทลส์ (เลปทูราแคนทัสซาวาลา) ปลาเบลังเกอร์ครอกเกอร์ (จอห์นิอัสเบลังเจอริอิ) ปลารีฟส์ครอกเกอร์ (คริโซเชอร์ออรีอัส) และ ปลาบิกอายส์ครอกเกอร์ (เพนนาเฮียเอนี),Savalai hairtails (Lepturacanthus savala)  Belanger?s croakers (Johnius belangerii)  Reeve?s croakers (Chrysochir aureus) and bigeye croakers (Pennahia anea)
+0303.89.15,4,- - - - ปลาอินเดียนเทรดฟินส์ (พอลินีมัสอินดิคัส),Indian threadfins (Polynemus indicus)
+0303.89.16,4,- - - - ปลาทอร์ปิโดสแคด (เมกาลัสปิสคอร์ไดลา) ปลาสปอตซิคเคิลฟิช (ดรีเพนพังทาทา) และ ปลาเกรทบาร์ราคูดัส (สฟิเรนาบาร์ราคูดา),Torpedo scads (Megalaspis cordyla)  spotted sicklefish (Drepane punctata) and great barracudas (Sphyraena barracuda)
+0303.89.17,4,- - - - ปลาจะละเม็ดดำ (พาราสโตรมาทัสไนเจอร์),Black pomfrets (Parastromatus niger)
+0303.89.18,4,- - - - ปลากะพงแดง (ลัตจานัสอาร์เจนติมาคูลาตัส),Mangrove red snappers (Lutjanus argentimaculatus)
+0303.89.19,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0303.89.22,4,- - - - ปลาตะเพียน (พันทิอัสโชลา),Swamp barb (Puntius chola)
+0303.89.23,4,- - - - ปลานวลจันทร์ (ชานอส ชานอส),Milkfish (Chanos chanos)
+0303.89.24,4,- - - - ปลาซิลเวอร์กรันท์ (พามาดาซิสอาร์เจนทีอัส),Silver grunts (Pomadasys argenteus)
+0303.89.27,4,- - - - ปลาตะลุมพุก (ทีนัวโลซาอิลิชา),Hilsa shad (Tenualosa ilisha)
+0303.89.28,4,- - - - ปลาเค้าดำ (วัลลาโกอัตทู) และปลากดหัวเสียม (สปิราทาซีงาลา),Wallago (Wallago attu) and giant river-catfish (Sperata seenghala)
+0303.89.29,4,- - - - อื่น ๆ,Other
+ ,1,- ตับ ไข่ มิลท์ ครีบปลา หัวปลา หางปลา กระเพาะปลา และส่วนอื่นของปลาที่บริโภคได้,Livers  roes  milt  fish fins  heads  tails  maws and other edible fish offal :
+0303.91.00,2,- - ตับ ไข่และมิลท์,Livers  roes and milt
+0303.92.00,2,- - ครีบปลาฉลาม (หูฉลาม),Shark fins
+0303.920050,2,- - ครีบปลาฉลาม (หูฉลาม),- -
+0303.99.00,2,- - อื่น ๆ,Other
+0303.990001,2,- - เฉพาะส่วนของปลาตามประเภทย่อย     0303.23.00 0303.24.00 0303.25.00     0303.54.10 0303.54.20 0303.84.00     0303.89.22  0303.89.23 หรือ 0303.89.29,- - other edibleof fish offal of subheading    0303.23.00 0303.24.00 0303.25.00     0303.54.10 0303.54.20 0303.84.00     0303.89.22  0303.89.23 หรือ 0303.89.29
+0303.990029,2,- - อื่น ๆ,- - Other
+0303.990040,2,- - เฉพาะส่วนของปลาตามประเภทย่อย 0303.23.00    0303.24.00 0303.25.00 0303.54.10 0303.54.20     0303.89.22 และ 0303.89.29,- -
+0303.990041,2,- - เฉพาะส่วนของปลาตามประเภทย่อย 0303.32.00 และ    0303.66.00,- -
+0303.990049,2,- - อื่น ๆ,- -
+0303.990031,2,- - - - เฉพาะส่วนของปลาตามประเภทพิกัดย่อยที่ 0303.11.00 0303.12.00      0303.13.00 0303.14.00 0303.19.00 0303.26.00 0303.31.00      0303.32.00 0303.33.00 0303.34.00 0303.39.00 0303.41.00      0303.42.00 0303.43.00 0303.44.00 0303.45.10 0303.45.90      0303.46.00 0303.49.10  0303.49.90 0303.51.00 0303.53.00      0303.63.00 0303.64.00 0303.65.00 0303.66.00 0303.81.00      0303.84.00,- - Of fish of subheading 0303.11.00    0303.12.00 0303.13.00 0303.14.00 0303.19.00    0303.26.00 0303.31.00 0303.33.00 0303.34.00    0303.39.00 0303.41.00 0303.42.00 0303.43.00    0303.44.00 0303.45.10 0303.45.90 0303.46.00    0303.49.10 0303.49.90 0303.51.00 0303.53.00     0303.63.00 0303.64.00 0303.65.00 0303.81.00     or 0303.84.00
+0303.990032,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0303.32.00     และ  0303.66.00,- - Of fish of subheading 0303.32.00 or    0303.66.00
+0303.990077,2,- - เฉพาะส่วนของปลาตามประเภทย่อย      0303.11.00  0303.12.00  0303.13.00     0303.14.00  0303.19.00  0303.26.00  0303.31.00  0303.32.00  0303.33.00    0303.34.00  0303.39.00  0303.41.00  0303.42.00  0303.43.00  0303.44.00      0303.45.10  0303.45.90  0303.46.00  0303.49.10  0303.49.90  0303.51.00    0303.53.00  0303.63.00  0303.64.00  0303.65.00  0303.66.00  0303.81.00    และ 0303.84.00,- - '- - Of fish of subheadings  0303.11.00  0303.12.00  0303.13.00     0303.14.00  0303.19.00  0303.26.00  0303.31.00  0303.32.00  0303.33.00    0303.34.00  0303.39.00  0303.41.00  0303.42.00  0303.43.00  0303.44.00      0303.45.10  0303.45.90  0303.46.00  0303.49.10  0303.49.90  0303.51.00    0303.53.00  0303.63.00  0303.64.00  0303.65.00  0303.66.00  0303.81.00    and 0303.84.00
+0303.990081,2,- - เฉพาะส่วนของปลาตามประเภทย่อย 0303.11.00    0303.12.00 0303.13.00 0303.14.00 0303.19.00    0303.26.00 0303.31.00 0303.32.00 0303.33.00    0303.34.00 0303.39.00 0303.41.00 0303.42.00    0303.43.00 0303.44.00 0303.45.10 0303.45.90    0303.46.00 0303.49.10 0303.49.90 0303.51.00    0303.53.00 0303.63.00 0303.64.00 0303.65.00    0303.66.00 0303.81.00 และ 0303.84.00,- - For part of fish of subheading 0303.11.00 0303.12.00 0303.13.00 0303.14.00 0303.19.00  0303.26.00 0303.31.00 0303.32.00 0303.33.00 0303.34.00 0303.39.00 0303.41.00 0303.42.00 0303.43.00 0303.44.00 0303.45.10 0303.45.90 0303.46.00 0303.49.10 0303.49.90 0303.51.00 0303.53.00 0303.63.00 0303.64.00 0303.65.00 0303.66.00 0303.81.00 and 0303.84.00
+0303.990089,2,- - เฉพาะส่วนของปลาตามประเภทย่อย 0303.31.00 0303.32.00     0303.34.00 0303.39.00 0303.42.00 0303.43.00 0303.44.00     0303.45.90 0303.49.10 0303.49.90 0303.51.00 0303.53.00       0303.63.00 และ 0303.81.00,- -
+0303.990051,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0303.11.00, 0303.12.00,     0303.13.00, 0303.14.00, 0303.19.00, 0303.26.00,     0303.31.00, 0303.33.00, 0303.34.00, 0303.39.00,     0303.41.00, 0303.42.00, 0303.43.00, 0303.44.00,     0303.45.10, 0303.45.90, 0303.46.00, 0303.49.00,     0303.51.00, 0303.53.00, 0303.63.00, 0303.64.00,     0303.65.00, 0303.81.00, 0303.84.00, 0303.92.00,- -
+0303.990052,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0303.29.00,     0303.55.00, 0303.56.00, 0303.57.00, 0303.59.10,     0303.59.20, 0303.59.90, 0303.67.00, 0303.68.00,     0303.69.00, 0303.82.00, 0303.83.00, 0303.89.11,     0303.89.12, 0303.89.13, 0303.89.14, 0303.89.16,     0303.89.17, 0303.89.18, 0303.89.19,  0303.89.26,     0303.89.27, 0303.89.28,- -
+0303.990053,2,- - เฉพาะส่วนของปลาตามประเภทย่อยที่ 0303.32.00, 0303.66.00,- -
+03.04,0,เนื้อปลาแบบฟิลเล และเนื้อปลาแบบอื่น (จะบดหรือไม่ก็ตาม) สด แช่เย็น หรือแช่เย็นจนแข็ง,Fish fillets and other fish meat (whether or not minced)  fresh  chilled or frozen.
+ ,1,- เนื้อปลาแบบฟิลเล สด หรือแช่เย็น ของปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Fresh or chilled fillets of tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.) :
+0304.31.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส),Tilapias (Oreochromis spp.)
+0304.32.00,2,- - ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส),Catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)
+0304.33.00,2,- - ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส),Nile Perch (Lates niloticus)
+0304.39.00,2,- - อื่น ๆ,Other
+ ,1,- เนื้อปลาแบบฟิลเลของปลาอื่น ๆ สด หรือแช่เย็น,Fresh or chilled fillets of other fish :
+0304.41.00,2,- - ปลาแซลมอนแปซิฟิก (ออนโครินคัสเนอรก้า ออนโครินคัสกอบูสก้า ออนโครินคัสคีต้า ออนโครินคัสซาวิสก้า ออนโครินคัสคีสซุ ออนโครินคัสมาซูโอ๊ะ และออนโครินคัสโรดูรัส) ปลาแซลมอนแอตแลนติก (แซลโมซาลาร์) และ ปลาแซลมอนดานูบ (ฮูโกฮูโก),Pacific salmon (Oncorhynchus nerka  Oncorhynchus gorbuscha  Oncorhynchus keta  Oncorhynchus tschawytscha  Oncorhynchus kisutch  Oncorhynchus masou and Oncorhynchus rhodurus)  Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)
+0304.42.00,2,- - ปลาเทราต์ (แซลโมทรุตตา ออนโครินคัสมายคิส ออนโครินคัสคลาร์กิ ออนโครินคัสอะกัวโบนิตา ออนโครินคัสกิลี ออนโครินคัสอาปาเช่ และ ออนโครินคัสครายโซแกสเตอร์),Trout (Salmo trutta  Oncorhynchus mykiss  Oncorhynchus clarki  Oncorhynchus aguabonita  Oncorhynchus gilae  Oncorhynchus apache and Oncorhynchus chrysogaster)
+0304.43.00,2,- - ปลาลิ้นหมา (พลูโรเนกติดี โบทิดี ไซโนกลอสสิดี โซลิดี สคอฟทาลมิดี และซิทาริดี),Flat fish (Pleuronectidae  Bothidae  Cynoglossidae  Soleidae  Scophthalmidae and Citharidae)
+0304.44.00,2,- - ปลาในวงศ์เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี,Fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae
+0304.45.00,2,- - ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส),Swordfish (Xiphias gladius)
+0304.46.00,2,- - ปลาทูธฟิช (ชนิดดิสโซสติชัส),Toothfish (Dissostichus spp.)
+0304.47.00,2,- - ปลาฉลามหนูและปลาฉลามอื่น ๆ,Dogfish and other sharks
+0304.48.00,2,- - ปลากระเบน (ราจิดี),Rays and skates (Rajidae)
+0304.49.00,2,- - อื่น ๆ,Other
+ ,1,- อื่น ๆ สดหรือแช่เย็น,Other  fresh or chilled :
+0304.51.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)
+0304.52.00,2,- - ปลาในวงศ์แซลมอน,Salmonidae
+0304.53.00,2,- - ปลาในวงศ์เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี,Fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae
+0304.54.00,2,- - ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส),Swordfish (Xiphias gladius)
+0304.55.00,2,- - ปลาทูธฟิช (ชนิดดิสโซสติชัส),Toothfish (Dissostichus spp.)
+0304.56.00,2,- - ปลาฉลามหนูและปลาฉลามอื่น ๆ,Dogfish and other sharks
+0304.57.00,2,- - ปลากระเบน (ราจิดี),Rays and skates (Rajidae)
+0304.59.00,2,- - อื่น ๆ,Other
+ ,1,- เนื้อปลาแบบฟิลเลแช่เย็นจนแข็ง ของปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Frozen fillets of tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.) :
+0304.61.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส),Tilapias (Oreochromis spp.)
+0304.62.00,2,- - ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส),Catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)
+0304.63.00,2,- - ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส),Nile Perch (Lates niloticus)
+0304.69.00,2,- - อื่น ๆ,Other
+0304.690055,2,- - อื่น ๆ ไม่รวมถึง ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส     ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส     ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส) ปลาไหล     (ชนิดแองกูลลา) และปลาเสนคเฮด (ชนิดชานนา),- -
+ ,1,- เนื้อปลาแบบฟิลเลแช่เย็นจนแข็ง ของปลาในวงศ์ เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี,Frozen fillets of fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae :
+0304.71.00,2,- - ปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),Cod (Gadus morhua  Gadus ogac  Gadus macrocephalus)
+0304.72.00,2,- - ปลาแฮดด็อก (เมลาโนแกรมมัสอีกลีฟินัส),Haddock (Melanogrammus aeglefinus)
+0304.73.00,2,- - ปลาโคล (พอลลาชิอัสไวเรนส์),Coalfish (Pollachius virens)
+0304.74.00,2,- - ปลาเฮก (ชนิดเมอร์ลักเซียส ชนิดยูโรไฟซีส),Hake (Merluccius spp.  Urophycis spp.)
+0304.75.00,2,- - ปลาอลาสกาพอลล็อค (เทรากาชาลโคแกรมมา),Alaska Pollock (Theragra chalcogramma)
+0304.79.00,2,- - อื่น ๆ,Other
+ ,1,- เนื้อปลาแบบฟิลเลของปลาอื่น ๆ แช่เย็นจนแข็ง,Frozen fillets of other fish :
+0304.81.00,2,- - ปลาแซลมอนแปซิฟิก (ออนโครินคัสเนอรก้า ออนโครินคัสกอบูสก้า ออนโครินคัสคีต้า ออนโครินคัสซาวิสก้า ออนโครินคัสคีสซุ ออนโครินคัสมาซูโอ๊ะ และออนโครินคัสโรดูรัส) ปลาแซลมอนแอตแลนติก (แซลโมซาลาร์) และ ปลาแซลมอนดานูบ (ฮูโกฮูโก),Pacific salmon (Oncorhynchus nerka  Oncorhynchus gorbuscha  Oncorhynchus keta  Oncorhynchus tschawytscha  Oncorhynchus kisutch  Oncorhynchus masou and Oncorhynchus rhodurus)  Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)
+0304.82.00,2,- - ปลาเทราต์ (แซลโมทรุตตา ออนโครินคัสมายคิส ออนโครินคัสคลาร์กิ ออนโครินคัสอะกัวโบนิตา ออนโครินคัสกิลี ออนโครินคัสอาปาเช่ และ ออนโครินคัสครายโซแกสเตอร์),Trout (Salmo trutta  Oncorhynchus mykiss  Oncorhynchus clarki  Oncorhynchus aguabonita  Oncorhynchus gilae  Oncorhynchus apache and Oncorhynchus chrysogaster)
+0304.83.00,2,- - ปลาลิ้นหมา (พลูโรเนกติดี โบทิดี ไซโนกลอสสิดี โซลิดี สคอฟทาลมิดี และซิทาริดี),Flat fish (Pleuronectidae  Bothidae  Cynoglossidae  Soleidae  Scophthalmidae and Citharidae)
+0304.84.00,2,- - ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส),Swordfish (Xiphias gladius)
+0304.85.00,2,- - ปลาทูธฟิช (ชนิดดิสโซสติชัส),Toothfish (Dissostichus spp.)
+0304.86.00,2,- - ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาซิไอ),Herrings (Clupea harengus  Clupea pallasii)
+0304.87.00,2,- - ปลาทูนา (ของตระกูลทูนนัส) ปลาสคิปแจ็ค (ปลาโอท้องแถบ) (แคตสุโวนัส เพลามิส),Tunas (of the genus Thunnus)  skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)
+0304.88.00,2,- - ปลาฉลามหนู ปลาฉลามอื่น ๆ และปลากระเบน (ราจิดี),Dogfish  other sharks  rays and skates (Rajidae)
+0304.89,2,- - อื่น ๆ,Other :
+0304.89.10,3,- - - มาฮิ มาฮิ (โคริฟีนา ฮิพพูรัส),Mahi-mahi (Coryphaena hippurus)
+0304.89.90,3,- - - อื่น ๆ,Other
+ ,1,- อื่น ๆ แช่เย็นจนแข็ง,Other  frozen :
+0304.91.00,2,- - ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส),Swordfish (Xiphias gladius)
+0304.92.00,2,- - ปลาทูธฟิช (ชนิดดิสโซสติชัส),Toothfish (Dissostichus spp.)
+0304.93.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)
+0304.94.00,2,- - ปลาอลาสกาพอลล็อค (เทรากาชาลโคแกรมมา),Alaska Pollock (Theragra chalcogramma)
+0304.95.00,2,- - ปลาในวงศ์เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี นอกจากปลาอลาสกาพอลล็อค (เทรากาชาลโคแกรมมา),Fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae  other than Alaska Pollock (Theragra chalcogramma)
+0304.96.00,2,- - ปลาฉลามหนู และปลาฉลามอื่น ๆ,Dogfish and other sharks
+0304.97.00,2,- - ปลากระเบน (ราจิดี),Rays and skates (Rajidae)
+0304.99,2,- - อื่น ๆ,Other :
+0304.99.10,3,- - - ซูริมิ (เนื้อปลาบด),Surimi (minced fish meat)
+0304.99.90,3,- - - อื่น ๆ,Other
+03.05,0,ปลา แห้ง ใส่เกลือหรือแช่น้ำเกลือ ปลารมควันจะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,Fish  dried  salted or in brine; smoked fish  whether or not cooked before or during the smoking process.
+0305.20,1,- ตับ ไข่และมิลท์ของปลา แห้ง รมควัน ใส่เกลือ หรือ แช่น้ำเกลือ,Livers  roes and milt of fish  dried  smoked  salted or in brine :
+0305.20.10,2,- - ของปลาน้ำจืด แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Of freshwater fish  dried  salted or in brine
+0305.201089,2,- - เฉพาะไข่ แห้ง,- -
+0305.20.90,2,- - อื่น ๆ,Other
+0305.209089,2,- - เฉพาะไข่ แห้ง,- -
+ ,1,- เนื้อปลาแบบฟิลเล แห้ง ใส่เกลือหรือแช่น้ำเกลือ แต่ไม่รมควัน,Fish fillets  dried  salted or in brine  but not smoked :
+0305.31.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)
+0305.32.00,2,- - ปลาในวงศ์เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี,Fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae
+0305.39,2,- - อื่น ๆ,Other :
+0305.39.10,3,- - - ปลากระทุงเหว (ซีเนนโทดอนแคนซิลา) ปลาแพะลายเหลือง (ยูพีนีอัสวิตทาทัส) ปลาตะคอง (ยูลัวเมนทาลิส),Freshwater garfish (Xenentodon cancila)  yellowstriped goatfish (Upeneus vittatus) and long-rakered trevally (Ulua mentalis)
+0305.39.20,3,- - - ปลาซาวาลายแฮร์เทลส์ (เลปทูราแคนทัสซาวาลา) ปลาเบลังเกอร์ครอกเกอร์ (จอห์นิอัสเบลังเจอริอิ) ปลารีฟส์ครอกเกอร์ (คริโซเชอร์ออรีอัส) และ ปลาบิกอายส์ครอกเกอร์ (เพนนาเฮียเอนี),Savalai hairtails (Lepturacanthus savala)  Belanger?s croakers (Johnius belangerii)  Reeve?s croakers (Chrysochir aureus) and Bigeye croakers (Pennahia anea)
+ ,3,- - - อื่น ๆ,Other :
+0305.39.91,4,- - - - ของปลาน้ำจืด,Of freshwater fish
+0305.39.92,4,- - - - ของปลาทะเล,Of marine fish
+0305.39.99,4,- - - - อื่น ๆ,Other
+ ,1,- ปลารมควัน รวมถึงเนื้อปลาแบบฟิลเลรมควัน นอกจาก ส่วนอื่นของปลาที่บริโภคได้,Smoked fish  including fillets  other than edible fish offal :
+0305.41.00,2,- - ปลาแซลมอนแปซิฟิก (ออนโครินคัสเนอรก้า ออนโครินคัสกอบูสก้า ออนโครินคัสคีต้า ออนโครินคัสซาวิสก้า ออนโครินคัสคีสซุ ออนโครินคัสมาซูโอ๊ะ และออนโครินคัสโรดูรัส) ปลาแซลมอนแอตแลนติก (แซลโมซาลาร์) และ ปลาแซลมอนดานูบ (ฮูโกฮูโก),Pacific salmon (Oncorhynchus nerka  Oncorhynchus gorbuscha  Oncorhynchus keta  Oncorhynchus tschawytscha  Oncorhynchus kisutch  Oncorhynchus masou and Oncorhynchus rhodurus)  Atlantic salmon (Salmo salar) and Danube salmon (Hucho hucho)
+0305.42.00,2,- - ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาสซิไอ),Herrings (Clupea harengus  Clupea pallasii)
+0305.43.00,2,- - ปลาเทราต์ (แซลโมทรุตตา ออนโครินคัสมายคิส ออนโครินคัสคลาร์กิ ออนโครินคัสอะกัวโบนิตา ออนโครินคัสกิลี ออนโครินคัสอาปาเช่ และ ออนโครินคัสครายโซแกสเตอร์),Trout (Salmo trutta  Oncorhynchus mykiss  Oncorhynchus clarki  Oncorhynchus aguabonita  Oncorhynchus gilae  Oncorhynchus apache and Oncorhynchus chrysogaster)
+0305.44.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)
+0305.49,2,- - อื่น ๆ,Other :
+0305.49.10,3,- - - ปลาสคิปแจ็ค (ปลาโอท้องแถบ) (แคตสุโวนัส เพลามิส),Skipjack tuna (stripe-bellied bonito) (Katsuwonus pelamis)
+0305.49.90,3,- - - อื่น ๆ,Other
+ ,1,- ปลาแห้ง นอกจากส่วนอื่นของปลาที่บริโภคได้ จะใส่เกลือ หรือไม่ก็ตาม แต่ไม่รมควัน,Dried fish  other than edible fish offal  whether or not salted but not smoked :
+0305.51.00,2,- - ปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),Cod (Gadus morhua  Gadus ogac  Gadus macrocephalus)
+0305.52.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)
+0305.53.00,2,- - ปลาในวงศ์เบรกมาเซโรทิดี ยูคลิชไทอิดี กาดิดี มาครัวริดี เมลาโนนิดี เมอร์ลักเซียดี โมริดี และมูเรียโนลพิดิดี นอกจากปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),Fish of the families Bregmacerotidae  Euclichthyidae  Gadidae  Macrouridae  Melanonidae  Merlucciidae  Moridae and Muraenolepididae  other than cod (Gadus morhua  Gadus ogac  Gadus macrocephalus)
+0305.54.00,2,- - ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาซิไอ) ปลาแอนโชวี (ชนิดเองกรัวลิส) ปลาซาร์ดีน (ซาร์ดินาพิลคาร์ดัส ชนิดซาร์ดินอป) ปลาซาร์ดิเนลล่า (ชนิดซาร์ดิเนลล่า) ปลาบริสลิ่งหรือปลาสแปรต (สแปรตทัสสแปรตทัส) ปลาแมคเคอเรล (สคอมเบอร์สคอมบรัส สคอมเบอร์ออสตราลาซิกัส สคอมเบอร์จาโพนิกัส) ปลาอินเดียนแมคเคอเรล (ชนิดราสต์รีลลิเกอร์) ปลาเซียร์ฟิช (ชนิดสคอมเบอร์โรโมรัส) ปลาแจคแมคเคอเรล และ ปลาฮอร์สแมคเคอเรล (ชนิดทราชูลัส) ปลาแจค ปลาครีวอลเลส (ชนิดคารักซ์) ปลาโคเบีย (ราชิเซนทรอนคานาดัม) ปลาจะละเม็ดขาว (ชนิดแพมพัส) ปลาแปซิฟิกซอริ (โคโลลาบิสไซรา) ปลาสแคด (ชนิดดิแคปทิรัส) ปลาแคพเพริน (แมลโลทัสวิลโลซัส) ปลาซอร์ดฟิช (ซิเฟียสกลาดิอัส) ปลาคาวะคาวะ (ยูทินนัสแอฟฟินิส) ปลาโบนิโทส (ชนิดซาร์ดา) ปลามาร์ลิน ปลาเซลล์ฟิช ปลาสเปียร์ฟิช (อิสทิโอพอริเด),Herrings (Clupea harengus  Clupea pallasii)  anchovies (Engraulis spp.)  sardines (Sardina pilchardus  Sardinops spp.)  sardinella (Sardinella spp.)  brisling or sprats (Sprattus sprattus)  mackerel (Scomber scombrus  Scomber australasicus  Scomber japonicus)  Indian mackerels (Rastrelliger spp.)  seerfishes (Scomberomorus spp.)  jack and horse mackerel (Trachurus spp.)  jacks  crevalles (Caranx spp.)  cobia (Rachycentron canadum)  silver pomfrets (Pampus spp.)  Pacific saury (Cololabis saira)  scads (Decapterus spp.)  capelin (Mallotus villosus)  swordfish (Xiphias gladius)  Kawakawa (Euthynnus affinis)  bonitos (Sarda spp.)  marlins  sailfishes  spearfish (Istiophoridae)
+0305.59,2,- - อื่น ๆ,Other :
+ ,3,- - - ปลาทะเล,Marine fish :
+0305.59.21,4,- - - - ปลาแอนโชวี (ชนิดสโตลฟอรัส ชนิดโคอิเลีย ชนิดเซทิพินนา ชนิดไลโคทริสสา ชนิดทริสสา และ ชนิดเอนคราซิโชลินา),Anchovies (Stolephorus spp.  Coilia spp.  Setipinna spp.  Lycothrissa spp.  Thryssa spp. and Encrasicholina spp.)
+0305.59.29,4,- - - - อื่น ๆ,Other
+0305.59.90,3,- - - อื่น ๆ,Other
+ ,1,- ปลาใส่เกลือแต่ไม่แห้งหรือไม่รมควัน และปลาแช่น้ำเกลือ นอกจากส่วนอื่นของปลาที่บริโภคได้,Fish  salted but not dried or smoked and fish in brine  other than edible fish offal :
+0305.61.00,2,- - ปลาเฮอร์ริง (คลูเพียฮาเรนกัส คลูเพียแพลลาสซิไอ),Herrings (Clupea harengus  Clupea pallasii)
+0305.62.00,2,- - ปลาค็อด (กาดัสมอร์ฮัว กาดัสโอแกก กาดัสมาโครเซฟาลัส),Cod (Gadus morhua  Gadus ogac  Gadus macrocephalus)
+0305.63.00,2,- - ปลาแอนโชวี (ชนิดเองกรัวลิส),Anchovies (Engraulis spp.)
+0305.630089,2,- - เฉพาะ Salt fermented anchovy,- -
+0305.64.00,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา) ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),Tilapias (Oreochromis spp.)  catfish (Pangasius spp.  Silurus spp.  Clarias spp.  Ictalurus spp.)  carp (Cyprinus spp.  Carassius spp.  Ctenopharyngodon idellus  Hypophthalmichthys spp.  Cirrhinus spp.  Mylopharyngodon piceus  Catla catla  Labeo spp.  Osteochilus hasselti  Leptobarbus hoeveni  Megalobrama spp.)  eels (Anguilla spp.)  Nile perch (Lates niloticus) and snakeheads (Channa spp.)
+0305.640050,2,- - ปลาทิละเพียส (ชนิดโอริโอโครมิส) ปลาแคทฟิช     (ชนิดแปงกาเซียส ชนิดซิลูรัส ชนิดคลาเรียส     ชนิดอิคทาลูรัส) ปลาคาร์ป (ชนิดไซพรินัส     ชนิดคารัสเซียส ซีโนฟาริงโกดอนอิเดลลัส     ชนิดไฮโปพทาลมิชทิส ชนิดเซอร์ไรนัส     ไมโลฟาริงโกดอนไพเซียส แคตลาแคตลา     ชนิดลาเบียว ออสทีโอชิลัสฮาสเซลติ     เลปโทบาบัสโฮอิเวนิ ชนิดเมกาโลบรามา)     ปลาไหล (ชนิดแองกูลลา) ปลาไนล์เพิร์ช     (ลาทีสไนโรทิคัส) และปลาเสนคเฮด (ชนิดชานนา),- -
+0305.69,2,- - อื่น ๆ,Other :
+0305.69.10,3,- - - ปลาทะเล,Marine fish
+0305.691089,3,- - - ปลาทะเล อื่น ๆ เว้นแต่ Salmon, Trout, Hair tail, Sardines,      Mackerel, Horse mackerel, Saury (including horn fish),- - -
+0305.69.90,3,- - - อื่น ๆ,Other
+0305.699050,3,- - - อื่น ๆ,- - -
+ ,1,- ครีบปลา หัวปลา หางปลา กระเพาะปลา และส่วนอื่นของ ปลาที่บริโภคได้,Fish fins  heads  tails  maws and other edible fish offal :
+0305.71,2,- - ครีบปลาฉลาม (หูฉลาม),Shark fins :
+0305.71.10,3,- - - แห้งหรือรมควัน,Dried or smoked
+0305.711001,3,- - - เฉพาะครีบปลาฉลาม (หูฉลาม) แห้ง      จะใส่เกลือหรือไม่ก็ตาม แต่ไม่รมควัน,- - - For shark fins  dried  whether or not salted but not smoked
+0305.711029,3,- - - อื่น ๆ,- - - Other
+0305.711089,3,- - เฉพาะใส่เกลือหรือแช่น้ำเกลือ,- -
+0305.711071,3,- - - เฉพาะครีบปลาฉลาม (หูฉลาม) แห้ง จะใส่เกลือหรือไม่ก็ตาม แต่ไม่รมควัน,- - -
+0305.711099,3,- - - อื่น ๆ,- - -
+0305.71.90,3,- - - อื่น ๆ,Other
+0305.719089,3,- - เฉพาะใส่เกลือหรือแช่น้ำเกลือ,- -
+0305.72,2,- - หัวปลา หางปลา และกระเพาะปลา,Fish heads  tails and maws :
+ ,3,- - - กระเพาะปลา,Fish maws :
+0305.72.11,4,- - - - ของปลาค็อด,Of cod
+0305.72.19,4,- - - - ของปลาอื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0305.72.91,4,- - - - ของปลาค็อด,Of cod
+0305.72.99,4,- - - - ของปลาอื่น ๆ,Other
+0305.79,2,- - อื่น ๆ,Other :
+0305.79.10,3,- - - ของปลาค็อด,Of cod
+0305.79.90,3,- - - ของปลาอื่น ๆ,Other
+03.06,0,สัตว์น้ำจำพวกครัสตาเซียจะเอาเปลือกออกหรือไม่ก็ตาม มีชีวิต สด แช่เย็น แช่เย็นจนแข็ง แห้ง ใส่เกลือหรือแช่น้ำเกลือ สัตว์น้ำจำพวกครัสตาเซียรมควัน จะเอาเปลือกออกหรือไม่ก็ตาม จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม สัตว์น้ำจำพวกครัสตาเซียที่ยังไม่เอาเปลือกออก ซึ่งทำให้สุกโดยการนึ่งหรือต้ม จะแช่เย็น แช่เย็นจนแข็ง แห้ง ใส่เกลือหรือแช่น้ำเกลือ หรือไม่ก็ตาม,Crustaceans  whether in shell or not  live  fresh  chilled  frozen  dried  salted or in brine; smoked crustaceans  whether in shell or not  whether or not cooked before or during the smoking process; crustaceans  in shell  cooked by steaming or by boiling in water  whether or not chilled  frozen  dried  salted or in brine.
+ ,1,- แช่เย็นจนแข็ง,Frozen :
+0306.11,2,- - ร็อกลอบสเตอร์และกุ้งหัวโขนอื่น ๆ (ชนิดพาลินูรัส ชนิดพานูลิรัส ชนิดจาซัส),Rock lobster and other sea crawfish (Palinurus spp.  Panulirus spp.  Jasus spp.) :
+0306.11.10,3,- - - รมควัน,Smoked
+0306.11.90,3,- - - อื่น ๆ,Other
+0306.12,2,- - ลอบสเตอร์ (ชนิดโฮมารัส),Lobsters (Homarus spp.) :
+0306.12.10,3,- - - รมควัน,Smoked
+0306.12.90,3,- - - อื่น ๆ,Other
+0306.14,2,- - ปู,Crabs :
+ ,3,- - - รมควัน,Smoked :
+0306.14.11,4,- - - - ปูกระดองนิ่ม,Soft shell crabs
+0306.14.19,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0306.14.91,4,- - - - สวิมมิ่งแครบ (ปูในวงศ์พอทูนิแด),Swimming crabs (crabs of the family Portunidae)
+0306.149151,4,- - - - เฉพาะปูกระดองนิ่ม,- - - -
+0306.149155,4,- - - - อื่น ๆ,- - - -
+0306.14.92,4,- - - - คิงแครบ (ปูในวงศ์ลิโทดิแด),King crabs (crabs of the family Lithodidae)
+0306.149251,4,- - - - เฉพาะปูกระดองนิ่ม,- - - -
+0306.149255,4,- - - - อื่น ๆ,- - - -
+0306.14.93,4,- - - - สโนว์แครบ (ปูในวงศ์โอริโกนิแด),Snow crabs (crabs of the family Origoniidae)
+0306.149351,4,- - - - เฉพาะปูกระดองนิ่ม,- - - -
+0306.149355,4,- - - - อื่น ๆ,- - - -
+0306.14.99,4,- - - - อื่น ๆ,Other
+0306.149951,4,- - - - เฉพาะปูกระดองนิ่ม,- - - -
+0306.149955,4,- - - - อื่น ๆ,- - - -
+0306.15.00,2,- - นอร์เวย์ลอบสเตอร์ (เนฟรอบนอร์วีจิคัส),Norway lobsters (Nephrops norvegicus)
+0306.150001,2,- - เฉพาะรมควัน,- - For smoked
+0306.150029,2,- - อื่น ๆ,- - Other
+0306.150071,2,- - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- -
+0306.150099,2,- - อื่น ๆ,- -
+0306.16.00,2,- - กุ้งน้ำเย็น (ชนิดแพนดาลัส แครงกอนแครงกอน),Cold-water shrimps and prawns (Pandalus spp.  Crangon crangon)
+0306.160001,2,- - เฉพาะรมควัน,- - For smoked
+0306.160029,2,- - อื่น ๆ,- - Other
+0306.160065,2,- - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควันหรือ    ในขณะรมควัน หรือไม่ก็ตาม,- - For other  except smoked  whether or not cooked before or during the smoking process
+0306.160071,2,- - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- -
+0306.160099,2,- - อื่น ๆ,- -
+0306.17,2,- - กุ้งอื่น ๆ,Other shrimps and prawns :
+ ,3,- - - กุ้งกุลาดำ (พิเนอัสโมโนดอน),Giant tiger prawns (Penaeus monodon) :
+0306.17.11,4,- - - - ไม่มีหัว,Headless
+0306.171101,4,- - - - เฉพาะรมควัน,- - - - For smoked
+0306.171129,4,- - - - อื่น ๆ,- - - - Other
+0306.171165,4,- - - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควัน        หรือในขณะรมควันหรือไม่ก็ตาม,- - - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.171171,4,- - - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - - -
+0306.171199,4,- - - - อื่น ๆ,- - - -
+0306.17.19,4,- - - - อื่น ๆ,Other
+0306.171901,4,- - - - เฉพาะรมควัน,- - - - For smoked
+0306.171929,4,- - - - อื่น ๆ,- - - - Other
+0306.171965,4,- - - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควัน        หรือในขณะรมควัน หรือไม่ก็ตาม,- - - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.171971,4,- - - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - - -
+0306.171999,4,- - - - อื่น ๆ,- - - -
+ ,3,- - - กุ้งขาว (ลิโทพิเนซัสวันนาไม),Whiteleg shrimps (Litopenaeus vannamei) :
+0306.17.21,4,- - - - ไม่มีหัว มีหาง,Headless  with tail
+0306.172101,4,- - - - เฉพาะรมควัน,- - - - For smoked
+0306.172129,4,- - - - อื่น ๆ,- - - - Other
+0306.172165,4,- - - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควัน        หรือในขณะรมควัน หรือไม่ก็ตาม,- - - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.172171,4,- - - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - - -
+0306.172199,4,- - - - อื่น ๆ,- - - -
+0306.17.22,4,- - - - ไม่มีหัว ไม่มีหาง,Headless  without tail
+0306.172201,4,- - - - เฉพาะรมควัน,- - - - For smoked
+0306.172229,4,- - - - อื่น ๆ,- - - - Other
+0306.172265,4,- - - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควัน        หรือในขณะรมควัน หรือไม่ก็ตาม,- - - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.172271,4,- - - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - - -
+0306.172299,4,- - - - อื่น ๆ,- - - -
+0306.17.29,4,- - - - อื่น ๆ,Other
+0306.172901,4,- - - - เฉพาะรมควัน,- - - - For smoked
+0306.172929,4,- - - - อื่น ๆ,- - - - Other
+0306.172965,4,- - - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควัน        หรือในขณะรมควัน หรือไม่ก็ตาม,- - - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.172971,4,- - - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - - -
+0306.172999,4,- - - - อื่น ๆ,- - - -
+0306.17.30,3,- - - กุ้งก้ามกราม (มาโครบราเชียมโรเซนเบอร์กิไอ),Giant river prawns (Macrobrachium rosenbergii)
+0306.173001,3,- - - เฉพาะรมควัน,- - - For smoked
+0306.173029,3,- - - อื่น ๆ,- - - Other
+0306.173065,3,- - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควันหรือ      ในขณะรมควัน หรือไม่ก็ตาม,- - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.173071,3,- - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - -
+0306.173099,3,- - - อื่น ๆ,- - -
+0306.17.90,3,- - - อื่น ๆ,Other
+0306.179001,3,- - - เฉพาะรมควัน,- - - For smoked
+0306.179029,3,- - - อื่น ๆ,- - - Other
+0306.179065,3,- - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควันหรือ      ในขณะรมควัน หรือไม่ก็ตาม,- - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.179071,3,- - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - -
+0306.179099,3,- - - อื่น ๆ,- - -
+0306.19.00,2,- - อื่น ๆ,Other
+0306.190001,2,- - เฉพาะรมควัน,- - For smoked
+0306.190029,2,- - อื่น ๆ,- - Other
+0306.190071,2,- - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- -
+0306.190099,2,- - อื่น ๆ,- -
+ ,1,- มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0306.31,2,- - ร็อกลอบสเตอร์และกุ้งหัวโขนอื่น ๆ (ชนิดพาลินูรัส ชนิดพานูลิรัส ชนิดจาซัส),Rock lobster and other sea crawfish (Palinurus spp.  Panulirus spp.  Jasus spp.) :
+0306.31.10,3,- - - สำหรับทำพันธุ์,Breeding
+0306.31.20,3,- - - อื่น ๆ มีชีวิต,Other  live
+0306.31.30,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0306.32,2,- - ลอบสเตอร์ (ชนิดโฮมารัส),Lobsters (Homarus spp.) :
+0306.32.10,3,- - - สำหรับทำพันธุ์,Breeding
+0306.32.20,3,- - - อื่น ๆ มีชีวิต,Other  live
+0306.32.30,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0306.33,2,- - ปู,Crabs :
+ ,3,- - - บลูแครบ (ในวงศ์แคลลิเนคทีส) และสโนว์แครบ (ปูในวงศ์โอริโกนิแด),Blue crabs (Callinectes spp.) and Snow crabs (crabs of the family Oregoniidae) :
+0306.33.11,4,- - - - มีชีวิต,Live
+0306.331189,4,- - ปูอื่น ๆ เว้นแต่ Blue crab และ Snow crab,- -
+0306.33.12,4,- - - - สดหรือแช่เย็น,Fresh or chilled
+0306.331289,4,- - ปูอื่น ๆ เว้นแต่ Blue crab และ Snow crab,- -
+ ,3,- - - อื่น ๆ,Other :
+0306.33.91,4,- - - - มีชีวิต,Live
+0306.339189,4,- - ปูอื่น ๆ เว้นแต่ Blue crab และ Snow crab,- -
+0306.33.92,4,- - - - สดหรือแช่เย็น,Fresh or chilled
+0306.339289,4,- - ปูอื่น ๆ เว้นแต่ Blue crab และ Snow crab,- -
+0306.34.00,2,- - นอร์เวย์ลอบสเตอร์ (เนฟรอบนอร์วีจิคัส),Norway lobsters (Nephrops norvegicus)
+0306.340001,2,- - เฉพาะรมควัน,- - For smoked
+0306.340029,2,- - อื่น ๆ,- - Other
+0306.340071,2,- - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- -
+0306.340099,2,- - อื่น ๆ,- -
+0306.35,2,- - กุ้งน้ำเย็น (ชนิดแพนดาลัส แครงกอนแครงกอน),Cold-water shrimps and prawns (Pandalus spp.  Crangon crangon) :
+0306.35.10,3,- - - สำหรับทำพันธุ์,Breeding
+0306.35.20,3,- - - อื่น ๆ มีชีวิต,Other  live
+0306.35.30,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0306.36,2,- - กุ้งอื่น ๆ,Other shrimps and prawns :
+ ,3,- - - สำหรับทำพันธุ์,Breeding :
+0306.36.11,4,- - - - กุ้งกุลาดำ (พิเนอัสโมโนดอน),Giant tiger prawns (Penaeus monodon)
+0306.36.12,4,- - - - กุ้งขาว (ลิโทพิเนซัสวันนาไม),Whiteleg shrimps (Litopenaeus vannamei)
+0306.36.13,4,- - - - กุ้งก้ามกราม (มาโครบราเชียมโรเซนเบอร์กิไอ),Giant river prawns (Macrobrachium rosenbergii)
+0306.36.19,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ มีชีวิต,Other  live :
+0306.36.21,4,- - - - กุ้งกุลาดำ (พิเนอัสโมโนดอน),Giant tiger prawns (Penaeus monodon)
+0306.36.22,4,- - - - กุ้งขาว (ลิโทพิเนซัสวันนาไม),Whiteleg shrimps (Litopenaeus vannamei)
+0306.36.23,4,- - - - กุ้งก้ามกราม (มาโครบราเชียมโรเซนเบอร์กิไอ),Giant river prawns (Macrobrachium rosenbergii)
+0306.36.29,4,- - - - อื่น ๆ,Other
+ ,3,- - - สดหรือแช่เย็น,Fresh or chilled :
+0306.36.31,4,- - - - กุ้งกุลาดำ (พิเนอัสโมโนดอน),Giant tiger prawns (Penaeus monodon)
+0306.36.32,4,- - - - กุ้งขาว (ลิโทพิเนซัสวันนาไม),Whiteleg shrimps (Litopenaeus vannamei)
+0306.36.33,4,- - - - กุ้งก้ามกราม (มาโครบราเชียมโรเซนเบอร์กิไอ),Giant river prawns (Macrobrachium rosenbergii)
+0306.36.39,4,- - - - อื่น ๆ,Other
+0306.39,2,- - อื่น ๆ,Other :
+0306.39.10,3,- - - มีชีวิต,Live
+0306.39.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+ ,1,- อื่น ๆ,Other :
+0306.91,2,- - ร็อกลอบสเตอร์และกุ้งหัวโขนอื่น ๆ (ชนิดพาลินูรัส ชนิดพานูลิรัส ชนิดจาซัส),Rock lobster and other sea crawfish (Palinurus spp.  Panulirus spp.  Jasus spp.) :
+ ,3,- - - บรรจุภาชนะที่อากาศผ่านเข้าออกไม่ได้เพื่อการขายปลีก,In airtight containers for retail sale :
+0306.91.21,4,- - - - รมควัน,Smoked
+0306.91.29,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0306.91.31,4,- - - - รมควัน,Smoked
+0306.91.39,4,- - - - อื่น ๆ,Other
+0306.92,2,- - ลอบสเตอร์ (ชนิดโฮมารัส),Lobsters (Homarus spp.) :
+ ,3,- - - บรรจุภาชนะที่อากาศผ่านเข้าออกไม่ได้เพื่อการขายปลีก,In airtight containers for retail sale :
+0306.92.21,4,- - - - รมควัน,Smoked
+0306.92.29,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0306.92.31,4,- - - - รมควัน,Smoked
+0306.92.39,4,- - - - อื่น ๆ,Other
+0306.93,2,- - ปู,Crabs :
+ ,3,- - - บรรจุภาชนะที่อากาศผ่านเข้าออกไม่ได้เพื่อการขายปลีก,In airtight containers for retail sale :
+0306.93.21,4,- - - - รมควัน,Smoked
+0306.93.29,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0306.93.31,4,- - - - รมควัน,Smoked
+0306.93.39,4,- - - - อื่น ๆ,Other
+0306.94,2,- - นอร์เวย์ลอบสเตอร์ (เนฟรอบนอร์วีจิคัส),Norway lobsters (Nephrops norvegicus) :
+ ,3,- - - บรรจุภาชนะที่อากาศผ่านเข้าออกไม่ได้เพื่อการขายปลีก,In airtight containers for retail sale :
+0306.94.21,4,- - - - รมควัน,Smoked
+0306.94.29,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0306.94.31,4,- - - - รมควัน,Smoked
+0306.94.39,4,- - - - อื่น ๆ,Other
+0306.95,2,- - กุ้ง,Shrimps and prawns :
+ ,3,- - - บรรจุภาชนะที่อากาศผ่านเข้าออกไม่ได้เพื่อการขายปลีก,In airtight containers for retail sale :
+0306.95.21,4,- - - - ที่ยังไม่เอาเปลือกออก ซึ่งทำให้สุกโดยการนึ่งหรือต้ม,In shell  cooked by steaming or boiling in water
+0306.95.29,4,- - - - อื่น ๆ,Other
+0306.952901,4,- - - - เฉพาะรมควัน,- - - - For Smoked
+0306.952929,4,- - - - อื่น ๆ,- - - - Other
+0306.952965,4,- - - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควัน        หรือในขณะรมควันหรือไม่ก็ตาม,- - - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.952951,4,- - - - เฉพาะแห้ง,- - - -
+0306.952955,4,- - - - อื่น ๆ,- - - -
+0306.952971,4,- - - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - - -
+0306.952999,4,- - - - อื่น ๆ,- - - -
+0306.95.30,3,- - - อื่น ๆ,Other
+0306.953001,3,- - - เฉพาะรมควัน,- - - For Smoked
+0306.953029,3,- - - อื่น ๆ,- - - Other
+0306.953065,3,- - - - เฉพาะอื่น ๆ นอกจากรมควัน จะทำให้สุกก่อนรมควัน        หรือในขณะรมควันหรือไม่ก็ตาม,- - - - For other  except smoked  whether or not cooked before or during the smoking process
+0306.953051,3,- - - เฉพาะแห้ง,- - -
+0306.953055,3,- - - อื่น ๆ,- - -
+0306.953071,3,- - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - -
+0306.953099,3,- - - อื่น ๆ,- - -
+0306.99,2,- - อื่น ๆ,Other :
+ ,3,- - - บรรจุภาชนะที่อากาศผ่านเข้าออกไม่ได้เพื่อการขายปลีก,In airtight containers for retail sale :
+0306.99.21,4,- - - - รมควัน,Smoked
+0306.99.29,4,- - - - อื่น ๆ,Other
+ ,3,- - - อื่น ๆ,Other :
+0306.99.31,4,- - - - รมควัน,Smoked
+0306.99.39,4,- - - - อื่น ๆ,Other
+03.07,0,สัตว์น้ำจำพวกโมลลุสก์จะเอาเปลือกออกหรือไม่ก็ตาม มีชีวิต สด แช่เย็น แช่เย็นจนแข็ง แห้ง ใส่เกลือหรือแช่น้ำเกลือ สัตว์น้ำจำพวกโมลลุสก์รมควัน จะเอาเปลือกออกหรือไม่ก็ตาม จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,Molluscs  whether in shell or not  live  fresh  chilled  frozen  dried  salted or in brine; smoked molluscs  whether in shell or not  whether or not cooked before or during the smoking process.
+ ,1,- หอยนางรม,Oysters :
+0307.11,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0307.11.10,3,- - - มีชีวิต,Live
+0307.11.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.12.00,2,- - แช่เย็นจนแข็ง,Frozen
+0307.19,2,- - อื่น ๆ,Other :
+0307.19.20,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.19.30,3,- - - รมควัน,Smoked
+ ,1,- หอยเชลล์ และโมลลุสก์อื่น ๆ ในวงศ์เพคทินิแด,Scallops and other molluscs of the family Pectinidae :
+0307.21,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0307.21.10,3,- - - มีชีวิต,Live
+0307.211001,3,- - - เฉพาะหอยเชลล์ตระกูลเพกเตน ตระกูลคลามิส      ตระกูลพลาโคเพกเตน และหอยควีนสแกลลอป,- - - Scallops of the genera Pecten  Chlamys or Placopecten   including queen scallops
+0307.211029,3,- - - อื่นๆ,- - - other
+0307.211050,3,- - - เฉพาะ หอยเชลล์ ตระกูลเพกเตน ตระกูลคลามิส       ตระกูลพลาโคเพกเตน และหอยควีนสแกลลอป,- - -
+0307.21.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.212001,3,- - - เฉพาะหอยเชลล์ตระกูลเพกเตน ตระกูลคลามิส      ตระกูลพลาโคเพกเตน และหอยควีนสแกลลอป,- - - Scallops of the genera Pecten  Chlamys or Placopecten   including queen scallops
+0307.212029,3,- - - อื่นๆ,- - - other
+0307.212050,3,- - - เฉพาะ หอยเชลล์ ตระกูลเพกเตน ตระกูลคลามิส       ตระกูลพลาโคเพกเตน และหอยควีนสแกลลอป,- - -
+0307.22.00,2,- - แช่เย็นจนแข็ง,Frozen
+0307.220001,2,- - เฉพาะหอยเชลล์ตระกูลเพกเตน ตระกูลคลามิส      ตระกูลพลาโคเพกเตน และหอยควีนสแกลลอป,- - Scallops of the genera Pecten  Chlamys or Placopecten   including queen scallops
+0307.220029,2,- - อื่นๆ,- - other
+0307.220089,2,- - เฉพาะอื่น ๆ เว้นแต่หอยเชลล์ ตระกูลเพกเตน ตระกูลคลามิส     ตระกูลพลาโคเพกเตน หอยควีนสแกลลอป Adductors of shell fish     และ Top shells,- -
+0307.29,2,- - อื่น ๆ,Other :
+0307.29.30,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.293001,3,- - - เฉพาะหอยเชลล์ตระกูลเพกเตน ตระกูลคลามิส      ตระกูลพลาโคเพกเตน และหอยควีนสแกลลอป,- - - Scallops of the genera Pecten  Chlamys or Placopecten   including queen scallops
+0307.293029,3,- - - อื่น ๆ,- - - other
+0307.293089,3,- - - เฉพาะใส่เกลือหรือแช่น้ำเกลือ เว้นแต่หอยเชลล์ตระกูลเพกเตน       ตระกูลคลามิส ตระกูลพลาโคเพกเตนและหอยควีนสแกลลอป,- - -
+0307.29.40,3,- - - รมควัน,Smoked
+ ,1,- หอยแมลงภู่ (ชนิดไมติลัส ชนิดเพอร์นา),Mussels (Mytilus spp.  Perna spp.) :
+0307.31,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0307.31.10,3,- - - มีชีวิต,Live
+0307.31.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.32.00,2,- - แช่เย็นจนแข็ง,Frozen
+0307.39,2,- - อื่น ๆ,Other :
+0307.39.30,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.39.40,3,- - - รมควัน,Smoked
+ ,1,- ปลาหมึกกระดองและปลาหมึกกล้วย,Cuttle fish and squid :
+0307.42,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+ ,3,- - - มีชีวิต,Live :
+0307.42.11,4,- - - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส รอสเซียมาโครโซมา ชนิดซีพิโอลา) และ ปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),Cuttle fish (Sepia officinalis  Rossia macrosoma  Sepiola spp.) and squid (Ommastrephes spp.  Loligo spp.  Nototodarus spp.  Sepioteuthis spp.)
+0307.421150,4,- - - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส         รอสเซียมาโครโซมา ชนิดซีพิโอลา)         และปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส         ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),- - - -
+0307.42.19,4,- - - - อื่น ๆ,Other
+ ,3,- - - สดหรือแช่เย็น,Fresh or chilled :
+0307.42.21,4,- - - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส รอสเซียมาโครโซมา ชนิดซีพิโอลา) และ ปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),Cuttle fish (Sepia officinalis  Rossia macrosoma  Sepiola spp.) and squid (Ommastrephes spp.  Loligo spp.  Nototodarus spp.  Sepioteuthis spp.)
+0307.422150,4,- - - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส         รอสเซียมาโครโซมา ชนิดซีพิโอลา)         และปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส         ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),- - - -
+0307.42.29,4,- - - - อื่น ๆ,Other
+0307.43,2,- - แช่เย็นจนแข็ง,Frozen :
+0307.43.10,3,- - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส รอสเซียมาโครโซมา ชนิดซีพิโอลา) และ ปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),Cuttle fish (Sepia officinalis  Rossia macrosoma  Sepiola spp.) and squid (Ommastrephes spp.   Loligo spp.  Nototodarus spp.  Sepioteuthis spp.)
+0307.431089,3,- - - เฉพาะปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส รอสเซียมาโครโซมา      ชนิดซีพิโอลา),- - -
+0307.43.90,3,- - - อื่น ๆ,Other
+0307.439089,3,- - - เฉพาะปลาหมึกกระดองอื่น ๆ,- - -
+0307.49,2,- - อื่น ๆ,Other :
+ ,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine :
+0307.49.21,4,- - - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส รอสเซียมาโครโซมา ชนิดซีพิโอลา) และ ปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),Cuttle fish (Sepia officinalis  Rossia macrosoma  Sepiola spp.) and squid (Ommastrephes spp.  Loligo spp.   Nototodarus spp.  Sepioteuthis spp.)
+0307.492150,4,- - - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส        รอสเซียมาโครโซมา ชนิดซีพิโอลา)         และปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส         ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),- - - -
+0307.49.29,4,- - - - อื่น ๆ,Other
+0307.492950,4,- - - - อื่น ๆ,- - - -
+ ,3,- - - รมควัน,Smoked :
+0307.49.31,4,- - - - ปลาหมึกกระดอง (ซีเพียออฟฟิซินาลิส รอสเซียมาโครโซมา ชนิดซีพิโอลา) และ ปลาหมึกกล้วย (ชนิดออมมาสเตรเฟส ชนิดโลลิโก ชนิดโนโตโตดารัส ชนิดซีพิโอทีอูทิส),Cuttle fish (Sepia officinalis  Rossia macrosoma  Sepiola spp.) and squid (Ommastrephes spp.  Loligo spp.  Nototodarus spp.  Sepioteuthis spp.)
+0307.49.39,4,- - - - อื่น ๆ,Other
+ ,1,- ปลาหมึกยักษ์หรือปลาหมึกสาย (ชนิดอ็อกโตปัส),Octopus (Octopus spp.) :
+0307.51,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0307.51.10,3,- - - มีชีวิต,Live
+0307.51.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.52.00,2,- - แช่เย็นจนแข็ง,Frozen
+0307.59,2,- - อื่น ๆ,Other :
+0307.59.20,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.59.30,3,- - - รมควัน,Smoked
+0307.60,1,- หอยสเนล นอกจากหอยสเนลทะเล,Snails  other than sea snails :
+0307.60.10,2,- - มีชีวิต,Live
+0307.60.20,2,- - สด แช่เย็น หรือแช่เย็นจนแข็ง,Fresh  chilled or frozen
+0307.60.40,2,- - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.60.50,2,- - รมควัน,Smoked
+ ,1,- หอยลาย หอยกาบ และหอยแครง (วงศ์อาร์ซิดี อาร์คทิซิดี คาร์ดีดี โดนาซิดี ไฮอะเทลลิดี แมคทริดี มีโซเดสมาทิดี ไมอิดี ซีมีลิดี โซลเคอร์ทิดี โซลินิดี ทริแดคนิดี และเวเนริดี),Clams  cockles and ark shells (families Arcidae  Arcticidae  Cardiidae  Donacidae  Hiatellidae  Mactridae  Mesodesmatidae  Myidae  Semelidae  Solecurtidae  Solenidae  Tridacnidae and Veneridae) :
+0307.71,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0307.71.10,3,- - - มีชีวิต,Live
+0307.711089,3,- - - เฉพาะ Ark shell และ baby clams,- - -
+0307.71.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.712089,3,- - - เฉพาะ Ark shell และ baby clams,- - -
+0307.72.00,2,- - แช่เย็นจนแข็ง,Frozen
+0307.720089,2,- - เฉพาะแช่เย็นจนแข็ง เว้นแต่ Cockles, Hen clams, Adductors of     shell fish, Top shells, Sea-cucumbers, Sea-squirts,- -
+0307.79,2,- - อื่น ๆ,Other :
+0307.79.30,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.793089,3,- - - เฉพาะใส่เกลือหรือแช่น้ำเกลือ เว้นแต่ Hen clams,- - -
+0307.79.40,3,- - - รมควัน,Smoked
+ ,1,- เป๋าฮื้อ (ชนิดฮาลิโอทิส) และสตรอมบอยด์คองช์ (ชนิดสตรอมบัส),Abalone (Haliotis spp.) and stromboid conchs (Strombus spp.) :
+0307.81,2,- - เป๋าฮื้อ (ชนิดฮาลิโอทิส) มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled abalone (Haliotis spp.) :
+0307.81.10,3,- - - มีชีวิต,Live
+0307.81.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.82,2,- - สตรอมบอยด์คองช์ (ชนิดสตรอมบัส) มีชีวิต สด หรือ แช่เย็น,Live  fresh or chilled stromboid conchs (Strombus spp.) :
+0307.82.10,3,- - - มีชีวิต,Live
+0307.82.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.83.00,2,- - เป๋าฮื้อ (ชนิดฮาลิโอทิส) แช่เย็นจนแข็ง,Frozen abalone (Haliotis spp.)
+0307.830050,2,- - เป๋าฮื้อ (ชนิดฮาลิโอทิส) แช่เย็นจนแข็ง,- -
+0307.84.00,2,- - สตรอมบอยด์คองช์ (ชนิดสตรอมบัส) แช่เย็นจนแข็ง,Frozen stromboid conchs (Strombus spp.)
+0307.840050,2,- - สตรอมบอยด์คองช์ (ชนิดสตรอมบัส) แช่เย็นจนแข็ง,- -
+0307.87,2,- - เป๋าฮื้อ (ชนิดฮาลิโอทิส) อื่น ๆ,Other abalone (Haliotis spp.) :
+0307.87.10,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.871089,3,- - - เฉพาะใส่เกลือหรือแช่น้ำเกลือ เว้นแต่ Hen clams ใส่เกลือหรือ      แช่น้ำเกลือ,- - -
+0307.87.20,3,- - - รมควัน,Smoked
+0307.88,2,- - สตรอมบอยด์คองช์ (ชนิดสตรอมบัส) อื่น ๆ,Other stromboid conchs (Strombus spp.) :
+0307.88.10,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.881089,3,- - - เฉพาะใส่เกลือหรือแช่น้ำเกลือ,- - -
+0307.88.20,3,- - - รมควัน,Smoked
+ ,1,- อื่น ๆ,Other :
+0307.91,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0307.91.10,3,- - - มีชีวิต,Live
+0307.91.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0307.92.00,2,- - แช่เย็นจนแข็ง,Frozen
+0307.920089,2,- - เฉพาะอื่น ๆ เว้นแต่ Adductors of shell fish และ Top shells,- -
+0307.99,2,- - อื่น ๆ,Other :
+0307.99.30,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0307.993089,3,- - - เฉพาะใส่เกลือหรือแช่น้ำเกลือ เว้นแต่ Top shells ใส่เกลือหรือ      แช่น้ำเกลือ,- - -
+0307.99.40,3,- - - รมควัน,Smoked
+03.08,0,สัตว์น้ำที่ไม่มีกระดูกสันหลังนอกจากสัตว์น้ำจำพวกครัสตาเซียและโมลลุสก์ มีชีวิต สด แช่เย็น แช่เย็นจนแข็ง แห้ง ใส่เกลือหรือแช่น้ำเกลือ และสัตว์น้ำที่ไม่มีกระดูกสันหลัง (นอกจากสัตว์น้ำจำพวกครัสตาเซียและโมลลุสก์) รมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,Aquatic invertebrates other than crustaceans and molluscs  live  fresh  chilled  frozen  dried  salted or in brine; smoked aquatic invertebrates other than crustaceans and molluscs  whether or not cooked before or during the smoking process.
+ ,1,- ปลิงทะเล (สติโชพัสจาโปนิคัส โฮโลทูโรอิดี),Sea cucumbers (Stichopus japonicus  Holothuroidea) :
+0308.11,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0308.11.10,3,- - - มีชีวิต,Live
+0308.11.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0308.12.00,2,- - แช่เย็นจนแข็ง,Frozen
+0308.19,2,- - อื่น ๆ,Other :
+0308.19.20,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0308.19.30,3,- - - รมควัน,Smoked
+ ,1,- เม่นทะเล (ชนิดสตรองจิโลเซนโทรทัส พาราเซนโทรทัสลิวิดัส โลซีคินัสอัลบัส เอคไคนัสเอสคูเลนทัส),Sea urchins (Strongylocentrotus spp.  Paracentrotus lividus  Loxechinus albus  Echinus esculentus) :
+0308.21,2,- - มีชีวิต สดหรือแช่เย็น,Live  fresh or chilled :
+0308.21.10,3,- - - มีชีวิต,Live
+0308.21.20,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0308.22.00,2,- - แช่เย็นจนแข็ง,Frozen
+0308.220050,2,- - แช่เย็นจนแข็ง,- -
+0308.29,2,- - อื่น ๆ,Other :
+0308.29.20,3,- - - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0308.29.30,3,- - - รมควัน,Smoked
+0308.30,1,- แมงกะพรุน (ชนิดโรไพมา),Jellyfish (Rhopilema spp.) :
+0308.30.10,2,- - มีชีวิต,Live
+0308.30.20,2,- - สดหรือแช่เย็น,Fresh or chilled
+0308.30.30,2,- - แช่เย็นจนแข็ง,Frozen
+0308.303050,2,- - แช่เย็นจนแข็ง,- -
+0308.30.40,2,- - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0308.30.50,2,- - รมควัน,Smoked
+0308.90,1,- อื่น ๆ,Other :
+0308.90.10,2,- - มีชีวิต,Live
+0308.90.20,2,- - สดหรือแช่เย็น,Fresh or chilled
+0308.90.30,2,- - แช่เย็นจนแข็ง,Frozen
+0308.903089,2,- - เฉพาะแช่เย็นจนแข็ง เว้นแต่ Sea squirts,- -
+0308.90.40,2,- - แห้ง ใส่เกลือหรือแช่น้ำเกลือ,Dried  salted or in brine
+0308.90.50,2,- - รมควัน,Smoked
+03.09,0,ปลา สัตว์น้ำจำพวกครัสตาเซีย สัตว์น้ำจำพวกโมลลุสก์ และสัตว์น้ำที่ไม่มีกระดูกสันหลังอื่น ๆ ที่ป่นและที่ทำเป็นเพลเลตเหมาะสำหรับมนุษย์บริโภค,Flours  meals and pellets of fish  crustaceans  molluscs and other aquatic invertebrates  fit for human consumption.
+0309.10.00,1,- ของจากปลา,Of fish
+0309.90,1,- อื่น ๆ,Other :
+ ,2,- - ของจากสัตว์น้ำจำพวกครัสตาเซีย,Of crustaceans :
+0309.90.11,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0309.90.12,3,- - - แช่เย็นจนแข็ง,Frozen
+0309.901201,3,- - - เฉพาะรมควัน,- - - For Smoked
+0309.901229,3,- - - อื่น ๆ,- - - other
+0309.901271,3,- - - เฉพาะรมควัน จะทำให้สุกก่อนรมควันหรือในขณะรมควันหรือไม่ก็ตาม,- - -
+0309.901299,3,- - - อื่น ๆ,- - -
+0309.90.19,3,- - - อื่น ๆ,Other
+ ,2,- - ของสัตว์น้ำจำพวกโมลลุสก์,Of molluscs :
+0309.90.21,3,- - - สดหรือแช่เย็น,Fresh or chilled
+0309.90.22,3,- - - แช่เย็นจนแข็ง,Frozen
+0309.902289,3,- - เฉพาะอื่น ๆ เว้นแต่ Adductors of shell fish และ Top shells,- -
+0309.90.29,3,- - - อื่น ๆ,Other
+0309.902989,3,- - - เฉพาะใส่เกลือหรือแช่น้ำเกลือเว้นแต่ Top shells และเฉพาะแช่เย็น      จนแข็ง เว้นแต่ Adductors of shell fish, Top shells,- - -
+0309.90.90,2,- - ของสัตว์น้ำที่ไม่มีกระดูกสันหลังอื่น ๆ,Of other aquatic invertebrates

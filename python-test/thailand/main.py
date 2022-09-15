@@ -62,9 +62,9 @@ def get_final_hs_code_detail_tw(keyword):
                 try:
                     _tw_tr_td_list = _tw_tr.find_all("td")
 
-                    _tw_sub_heading = _tw_tr_td_list[1].string.strip(
+                    _tw_sub_heading = _tw_tr_td_list[1].text.strip(
                     ) if _tw_tr_td_list[1] != None else " "
-                    _tw_description = _tw_tr_td_list[2].string.strip(
+                    _tw_description = _tw_tr_td_list[2].text.strip(
                     ) if _tw_tr_td_list[2] != None else " "
                     if f"{exact_keyword}00" != (_tw_sub_heading.replace(".", "") + "00" if len(_tw_sub_heading.replace(".", "")) == 8 else _tw_sub_heading.replace(".", "")):
                         new_hscode = {
