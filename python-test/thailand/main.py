@@ -60,9 +60,9 @@ def get_final_hs_code_detail_tw(keyword):
 
       for tr in _tr_list:
         try:
-          _td_list = tr.find_all("td")
-          sub_heading = _td_list[1].string.strip()
-          description = _td_list[2].string.strip() if _td_list != None else " "
+          _tr_td_list = tr.find_all("td")
+          sub_heading = _tr_td_list[1].string.strip() if _tr_td_list[1] != None else " "
+          description = _tr_td_list[2].string.strip() if _tr_td_list[2] != None else " "
 
           if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
             new_hscode = {
@@ -72,6 +72,7 @@ def get_final_hs_code_detail_tw(keyword):
               }
             new_hscode_list.append(new_hscode)
         except Exception as err:
+          print(err, sub_heading)
           print(err, description)
           continue
 
@@ -123,17 +124,17 @@ def get_final_hs_code_detil_english(keyword):
       _tr_list = _tbody.find_all("tr", reculsive = False)
 
       for tr in _tr_list:
-        _td_list = tr.find_all("td")
+        _tr_td_list = tr.find_all("td")
 
-        sub_heading = _td_list[1].string.strip()
+        sub_heading = _tr_td_list[1].string.strip()
 
-        description = _td_list[2].string.strip()
+        description = _tr_td_list[2].string.strip()
 
-        ad_valorem_rate = "Exempted" if len(_td_list)  == 8 else _td_list[3].text.strip().replace("\r\n","").replace("**","").strip()
-        unit = "Exempted" if len(_td_list)  == 8 else _td_list[4].text.strip().replace("\r\n","").replace("**","")
-        baht = "Exempted" if len(_td_list)  == 8 else _td_list[5].text.strip().replace("\r\n","").replace("**","")
-        start_date = _td_list[-3].string.strip()
-        end_date = _td_list[-2].string.strip()
+        ad_valorem_rate = "Exempted" if len(_tr_td_list)  == 8 else _tr_td_list[3].text.strip().replace("\r\n","").replace("**","").strip()
+        unit = "Exempted" if len(_tr_td_list)  == 8 else _tr_td_list[4].text.strip().replace("\r\n","").replace("**","")
+        baht = "Exempted" if len(_tr_td_list)  == 8 else _tr_td_list[5].text.strip().replace("\r\n","").replace("**","")
+        start_date = _tr_td_list[-3].string.strip()
+        end_date = _tr_td_list[-2].string.strip()
         # 10자리인데 다른경우 리스트에 말아올리는 작업용 코드
         if f"{exact_keyword}00" != (sub_heading.replace(".", "") + "00" if len(sub_heading.replace(".", "")) == 8 else sub_heading.replace(".", "")) :
 
