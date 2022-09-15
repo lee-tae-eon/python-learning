@@ -129,10 +129,8 @@ def get_final_hs_code_detil_english(keyword):
             for tr in _tr_list:
                 _tr_td_list = tr.find_all("td")
 
-                sub_heading = _tr_td_list[1].string.strip()
-
-                description = _tr_td_list[2].string.strip()
-
+                sub_heading = _tr_td_list[1].text.strip()
+                description = _tr_td_list[2].text.strip()
                 ad_valorem_rate = "Exempted" if len(_tr_td_list) == 8 else _tr_td_list[3].text.strip(
                 ).replace("\r\n", "").replace("**", "").strip()
                 unit = "Exempted" if len(_tr_td_list) == 8 else _tr_td_list[4].text.strip(
