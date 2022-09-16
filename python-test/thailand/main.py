@@ -258,12 +258,13 @@ def get_hs_code():
                                 # 10자리 코드 태국어 원문 삽입
                                 tw_desc = list(filter(lambda desc: desc.get(
                                     "hs_code") == new_code["hs_code"], tw_desc_list))[0]["description"]
+                                print(tw_desc)
                                 new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent,
-                                                 "origin": tw_desc, "english": new_code["description"].replace(",", " "), }
+                                                 "origin": tw_desc.replace(","," "), "english": new_code["description"].replace(",", " "), }
                                 results.append(new_code_dict)
                     except Exception as err:
                         print(err, "inside tw_desc_list",
-                              hs_code, "태국 원문 삽입 에러")
+                              hs_code,"태국 원문 삽입 에러")
                         continue
 
             print("----------------------------")
