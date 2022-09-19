@@ -149,6 +149,7 @@ def get_final_hs_code_detil_english(keyword):
                     if sub_heading in exist_code_list:
                         for new_hscode_duple in new_hscode_list:
                             if new_hscode_duple["hs_code"] == sub_heading:
+                                # todo : data structure 변경하기
                                 new_hscode_duple["custom_rate"].append({
                                     "rate_title": str_rate_title,
                                     "rate": ad_valorem_rate,
@@ -158,6 +159,7 @@ def get_final_hs_code_detil_english(keyword):
                                     "end_date": end_date
                                 })
                     else:
+                        # todo : data structure 변경하기
                         new_hscode = {
                             "hs_code": sub_heading,
                             "description": description,
