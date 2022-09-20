@@ -79,7 +79,7 @@ def get_final_hs_code_detail_tw(keyword):
 
         _exact_hscode_list = list(
             {_tw_hscode_list["hs_code"]: _tw_hscode_list for _tw_hscode_list in _tw_new_hscode_list}.values())
-        print(_exact_hscode_list)
+
         return _exact_hscode_list
 
 
@@ -271,6 +271,7 @@ def get_hs_code():
                                 "origin": "", "english": new_code["description"].replace(",", " "), }
                                 results.append(new_code_dict)
                                 continue
+
 
             print("----------------------------")
             print(secion_code)
