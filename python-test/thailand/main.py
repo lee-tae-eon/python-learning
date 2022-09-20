@@ -76,10 +76,10 @@ def get_final_hs_code_detail_tw(keyword):
                     print(err, _tw_tr_td_list[1], keyword, "원문 서브헤딩")
                     print(err, _tw_tr_td_list[2], keyword, "원문 description")
                     continue
-
+        print(_tw_new_hscode_list)
         _exact_hscode_list = list(
             {_tw_hscode_list["hs_code"]: _tw_hscode_list for _tw_hscode_list in _tw_new_hscode_list}.values())
-
+        print(_exact_hscode_list)
         return _exact_hscode_list
 
 
@@ -189,7 +189,7 @@ def get_final_hs_code_detil_english(keyword):
                     }
 
                     rate_dict_list.append(rate_dict)
-
+        print(new_hscode_list)
         return {"new_hscode_list": new_hscode_list, "rate_dict_list": rate_dict_list}
 
 
@@ -213,7 +213,7 @@ def get_hs_code():
     for secion_code in search_list:
         params = {"lang": "t", "taffCode": f"{secion_code}",
                   "docBegnDate": "07/09/2565", "param": "search"}
-    # params = {"lang": "t", "taffCode": "01", "docBegnDate": "07/09/2565", "param": "search"}
+    # params = {"lang": "t", "taffCode": "0402", "docBegnDate": "07/09/2565", "param": "search"}
         response = session.post(base_url, params=params)
         sleep(1.5)
 
@@ -249,7 +249,7 @@ def get_hs_code():
                 results.append(hs_code_dict)
 
                 if len(hs_code.replace(".", "")) >= 8:
-                    err_code = []
+                    err_code = ""
                     try:
                         custom_rate_dict = get_final_hs_code_detil_english(
                             hs_code.replace(".", ""))
@@ -263,18 +263,19 @@ def get_hs_code():
                                     "hs_code") == new_code["hs_code"], tw_desc_list))[0]["description"]
                                 err_code = new_code["hs_code"]
                                 new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent,
-                                                 "origin": tw_desc.replace(","," "), "english": new_code["description"].replace(",", " "), }
+                                                    "origin": tw_desc.replace(","," "), "english": new_code["description"].replace(",", " "), }
                                 results.append(new_code_dict)
                     except Exception as err:
                         print(err, "inside tw_desc_list",
-                              hs_code, err_code,"태국 원문 삽입 에러")
+                                hs_code, err_code,"태국 원문 삽입 에러")
                         continue
 
             print("----------------------------")
             print(secion_code)
             print("----------------------------")
 
-        file = open(f"thiland_{secion_code}.csv", "w")
+        file = open(f"thailand_{secion_code}.csv", "w")
+        # file = open("thailand_0402.csv", "w")
 
         file.write("hscode, indent, origin, english\n")
 
@@ -286,9 +287,19 @@ def get_hs_code():
 
 
 def main():
-    get_hs_code()
-    # get_final_hs_code_detail_tw()
+    # get_hs_code()
+    # custom_rate_dict = get_final_hs_code_detil_english("04022120")
+    tw_desc_list  = get_final_hs_code_detail_tw("04022120")
+    # if len(custom_rate_dict["new_hscode_list"]) >= 1:
+    #     for new_code in custom_rate_dict["new_hscode_list"]:
+    #         # 10자리 코드 태국어 원문 삽입
+    #         tw_desc = list(filter(lambda desc: desc.get(
+    #             "hs_code") == new_code["hs_code"], tw_desc_list))[0]["description"]
+    #         print(tw_desc)
+    #         new_code_dict = {"hs_code": new_code["hs_code"], "indent": "1",
+    #                             "origin": tw_desc.replace(","," "), "english": new_code["description"].replace(",", " "), }
 
 
 if __name__ == "__main__":
     main()
+
