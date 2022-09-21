@@ -122,6 +122,8 @@ def get_final_hs_code_detil_english(keyword):
                 "\r\n", "") if _br == None else _br.next_sibling.replace("\r\n", "")
             str_rate_title = rate_title.split(":")[0].strip(
             ) + ": " + rate_title.split(":")[1].strip()
+            _tariff_sign = rate_title.split(":")[0].strip()
+            _tariff_category = rate_title.split(":")[1].strip()
 
             _tbody = table.find("tbody")
             _tr_list = _tbody.find_all("tr", reculsive=False)
@@ -165,8 +167,8 @@ def get_final_hs_code_detil_english(keyword):
                             "description": description,
                             "custom_rate": [
                                 {
-                                    "rate_title": str_rate_title,
-                                    "rate": ad_valorem_rate,
+                                    "tariff_sign": _tariff_sign,
+                                    "tariff_category": _tariff_category,
                                     "unit": unit,
                                     "baht": baht,
                                     "start_date": start_date,
@@ -178,7 +180,8 @@ def get_final_hs_code_detil_english(keyword):
                 else:
                     # 해당 8자리 keyword에 들어가는 tariff
                     rate_dict = {
-                        "rate_title": str_rate_title,
+                        "tariff_sign": _tariff_sign,
+                        "tariff_category": _tariff_category,
                         "sub_heading": sub_heading,
                         "description": description,
                         "rate": ad_valorem_rate,
@@ -210,8 +213,8 @@ def get_hs_code():
 
     results = []
 
-    for secion_code in search_list:
-        params = {"lang": "t", "taffCode": f"{secion_code}",
+    for section_code in search_list:
+        params = {"lang": "t", "taffCode": f"{section_code}",
                   "docBegnDate": "07/09/2565", "param": "search"}
     # params = {"lang": "t", "taffCode": "0402", "docBegnDate": "07/09/2565", "param": "search"}
         response = session.post(base_url, params=params)
@@ -263,21 +266,20 @@ def get_hs_code():
                                     "hs_code") == new_code["hs_code"], tw_desc_list))[0]["description"]
 
                                 new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent,
-                                                    "origin": tw_desc.replace(","," "), "english": new_code["description"].replace(",", " "), }
+                                                 "origin": tw_desc.replace(",", " "), "english": new_code["description"].replace(",", " "), }
                                 results.append(new_code_dict)
                             except Exception as err:
-                                print(err, "inside tw_desc_list","태국 원문 삽입 에러")
+                                print(err, "inside tw_desc_list", "태국 원문 삽입 에러")
                                 new_code_dict = {"hs_code": new_code["hs_code"], "indent": indent,
-                                "origin": "", "english": new_code["description"].replace(",", " "), }
+                                                 "origin": "", "english": new_code["description"].replace(",", " "), }
                                 results.append(new_code_dict)
                                 continue
 
-
             print("----------------------------")
-            print(secion_code)
+            print(section_code)
             print("----------------------------")
 
-        file = open(f"thailand_{secion_code}.csv", "w")
+        file = open(f"thailand_{section_code}.csv", "w")
 
         file.write("hscode, indent, origin, english\n")
 
@@ -297,4 +299,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
