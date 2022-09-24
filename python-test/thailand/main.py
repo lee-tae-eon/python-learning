@@ -41,7 +41,7 @@ def get_final_hs_code_detail_tw(keyword):
     exact_keyword = keyword.replace(".", "")
 
     response = session.post(base_url, params=params)
-    sleep(700)
+    sleep(1)
 
     if response.status_code != 200:
         print(f"status {response.status_code}")
@@ -103,7 +103,7 @@ def get_final_hs_code_detil_english(keyword):
     }
 
     response = session.post(base_url, params=params)
-    sleep(700)
+    sleep(1)
     if response.status_code != 200:
         print(f"status {response.status_code}")
     else:
@@ -218,7 +218,7 @@ def get_hs_code():
                   "docBegnDate": "07/09/2565", "param": "search"}
     # params = {"lang": "t", "taffCode": "0402", "docBegnDate": "07/09/2565", "param": "search"}
         response = session.post(base_url, params=params)
-        sleep(700)
+        sleep(1)
 
         if response.status_code != 200:
             print(f"status {response.status_code}")
