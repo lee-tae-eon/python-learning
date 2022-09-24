@@ -190,6 +190,18 @@ def get_final_hs_code_detil_english(keyword):
                         "start_date": start_date,
                         "end_date": end_date,
                     }
+                    if _tariff_sign == "99":
+                        standardTariff = {
+                            "tariff_sign": _tariff_sign,
+                            "tariff_category": _tariff_category,
+                            "sub_heading": sub_heading,
+                            "description": description,
+                            "rate": ad_valorem_rate,
+                            "unit": unit,
+                            "baht": baht,
+                            "start_date": start_date,
+                            "end_date": end_date,
+                        }
 
                     rate_dict_list.append(rate_dict)
 
