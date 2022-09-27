@@ -190,6 +190,7 @@ def get_final_hs_code_detil_english(keyword):
                         "start_date": start_date,
                         "end_date": end_date,
                     }
+                    # * standard tariff 걸러내기
                     if _tariff_sign == "99":
                         standardTariff = {
                             "tariff_sign": _tariff_sign,
@@ -202,7 +203,7 @@ def get_final_hs_code_detil_english(keyword):
                             "start_date": start_date,
                             "end_date": end_date,
                         }
-
+                    # * another tariff 걸러내기
                     rate_dict_list.append(rate_dict)
 
         return {"new_hscode_list": new_hscode_list, "rate_dict_list": rate_dict_list}
